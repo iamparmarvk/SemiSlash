@@ -620,9 +620,9 @@ body{
 		}
 
 		.DropDownList{
+			
 			background-color: #E1F1DD;
 			border-radius: 10px;
-			min-width: 700px;
 			box-shadow: 4px 1px 11px 0px rgba(0,0,0,0.75);
 		}
 		.DropDownList ul{
