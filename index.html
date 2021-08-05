@@ -138,10 +138,24 @@
 						$(this).css("transform", "scale(1)");
 						$(this).css("border-radius","0px");
 					});
-					$(".dropdown-toggle").hover(function(){
+					$(".dropdown").hover(function(){
 						$(".dropdown-menu").show(500);
 					}, function(){
 						$(".dropdown-menu").hide(500);
+					});
+
+
+					/* Dropdown Menu Animation*/
+					$(".DigitalMarketingItem").hover(function(){
+						$(".DigitalMarketingInformation").show(500);
+						$(".webDevelopmentInformation").hide(500);
+						$(".DesignInformation").hide(500);
+						$(".TechnologyInformation").hide(500);
+					},function(){
+	$(".DigitalMarketingInformation").show(500);
+						$(".webDevelopmentInformation").hide(500);
+						$(".DesignInformation").hide(500);
+						$(".TechnologyInformation").hide(500);
 					});
 
 				});
@@ -171,11 +185,11 @@
 						<ul class="navbar-nav">
 
 							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" title="What we do" data-toggle="dropdown">What we do</a>
+								<a class="nav-link dropdown-toggle" href="" title="What we do" data-toggle="dropdown">What we do</a>
 								<div class="row dropdown-menu">
 									<div class="col">
 										<div class="row">
-											<div class="col-md-5" >
+											<div class="col-md-5 DigitalMarketingItem">
 												<table>
 													<tr>
 														<td>
@@ -187,7 +201,7 @@
 													</tr>
 												</table>
 											</div>
-											<div class="col d-flex justify-content-end">
+											<div class="col d-flex justify-content-end DigitalMarketingInformation">
 												<table>
 													<tr>
 														<td>
@@ -232,7 +246,7 @@
 
 
 										<div class="row">
-											<div class="col-md-5">
+											<div class="col-md-5 webDevelopmentItem">
 												<table>
 													<tr>
 														<td>
@@ -244,9 +258,50 @@
 													</tr>
 												</table>
 											</div>
+											<div class="col d-flex justify-content-end webDevelopmentInformation">
+												<table>
+													<tr>
+														<td>
+															<a href="#">
+																<h6>Social Media</h6>	
+																<p>Make a social splash</p>
+															</a>
+														</td>
+														<td>
+															<a href="#">
+																<h6>Social Media</h6>	
+																<p>Make a social splash</p>
+															</a>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<a href="#">
+																<h6>Social Media</h6>	
+																<p>Make a social splash</p>
+															</a>
+														</td>
+														<td>
+															<a href="#">
+																<h6>Social Media</h6>	
+																<p>Make a social splash</p>
+															</a>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<a href="#">
+																<h6>Social Media</h6>	
+																<p>Make a social splash</p>
+															</a>
+														</td>
+														
+													</tr>
+												</table>
+											</div>
 										</div>
 										<div class="row">
-											<div class="col-md-5">
+											<div class="col-md-5 DesignItem">
 												<table>
 													<tr>
 														<td>
@@ -258,9 +313,50 @@
 													</tr>
 												</table>
 											</div>
+											<div class="col d-flex justify-content-end DesignInformation">
+												<table>
+													<tr>
+														<td>
+															<a href="#">
+																<h6>Social Media</h6>	
+																<p>Make a social splash</p>
+															</a>
+														</td>
+														<td>
+															<a href="#">
+																<h6>Social Media</h6>	
+																<p>Make a social splash</p>
+															</a>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<a href="#">
+																<h6>Social Media</h6>	
+																<p>Make a social splash</p>
+															</a>
+														</td>
+														<td>
+															<a href="#">
+																<h6>Social Media</h6>	
+																<p>Make a social splash</p>
+															</a>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<a href="#">
+																<h6>Social Media</h6>	
+																<p>Make a social splash</p>
+															</a>
+														</td>
+														
+													</tr>
+												</table>
+											</div>
 										</div>
 										<div class="row">
-											<div class="col-md-5">
+											<div class="col-md-5 TechnologyItem">
 												<table>
 													<tr>
 														<td>
@@ -272,12 +368,53 @@
 													</tr>
 												</table>
 											</div>
+											<div class="col d-flex justify-content-end TechnologyInformation">
+												<table>
+													<tr>
+														<td>
+															<a href="#">
+																<h6>Social Media</h6>	
+																<p>Make a social splash</p>
+															</a>
+														</td>
+														<td>
+															<a href="#">
+																<h6>Social Media</h6>	
+																<p>Make a social splash</p>
+															</a>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<a href="#">
+																<h6>Social Media</h6>	
+																<p>Make a social splash</p>
+															</a>
+														</td>
+														<td>
+															<a href="#">
+																<h6>Social Media</h6>	
+																<p>Make a social splash</p>
+															</a>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<a href="#">
+																<h6>Social Media</h6>	
+																<p>Make a social splash</p>
+															</a>
+														</td>
+														
+													</tr>
+												</table>
+											</div>
 										</div>
 									</div>
 								</div>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#" title="Case Study">Case Study</a>
+								<a class="nav-link" href="about.html" title="Case Study">Case Study</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#" title="Who We are">Who We are</a>
