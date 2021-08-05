@@ -41,7 +41,7 @@
 					$("#DesignIc").addClass("fa fa-angle-down");
 					$("#WebsiteDevelopmentIc").addClass("fa fa-angle-down");
 					$("#TechnologyIc").addClass("fa fa-angle-down");
-					$(".dropdown-menu").show();
+
 					/* This is for Digital Marketing*/
 
 					$("#DigitalMarketing").click(function(){
@@ -144,6 +144,66 @@
 						$(".dropdown-menu").hide(500);
 					});
 
+
+					/*Hide Dropdown Items*/
+
+					$(".DigitalMarketingInformation").show();
+					$(".TechnologyInformation").hide();
+					$(".DesignInformation").hide();
+					$(".WebDevelopmentInformation").hide();
+
+					/* Hover effect for Digital Marketing*/
+					$(".DigitalMarketingItem").hover(function(){
+						$(".DigitalMarketingInformation").show();
+						$(".TechnologyInformation").hide();
+						$(".DesignInformation").hide();
+						$(".WebDevelopmentInformation").hide();					
+					},function(){
+						$(".DigitalMarketingInformation").show();
+						$(".TechnologyInformation").hide();
+						$(".DesignInformation").hide();
+						$(".WebDevelopmentInformation").hide();
+					});
+
+					/* Hover effect for Technology*/
+					$(".TechnologyItem").hover(function(){
+						$(".DigitalMarketingInformation").hide();
+						$(".TechnologyInformation").show();
+						$(".DesignInformation").hide();
+						$(".WebDevelopmentInformation").hide();					
+					},function(){
+						$(".DigitalMarketingInformation").hide();
+						$(".TechnologyInformation").show();
+						$(".DesignInformation").hide();
+						$(".WebDevelopmentInformation").hide();
+					});
+
+					/* Hover effect for Design*/
+					$(".DesignItem").hover(function(){
+						$(".DigitalMarketingInformation").hide();
+						$(".TechnologyInformation").hide();
+						$(".DesignInformation").show();
+						$(".WebDevelopmentInformation").hide();					
+					},function(){
+						$(".DigitalMarketingInformation").hide();
+						$(".TechnologyInformation").hide();
+						$(".DesignInformation").show();
+						$(".WebDevelopmentInformation").hide();
+					});
+
+					/* Hover effect for Webdevelopment*/
+					$(".webDevelopmentItem").hover(function(){
+						$(".DigitalMarketingInformation").hide();
+						$(".TechnologyInformation").hide();
+						$(".DesignInformation").hide();
+						$(".WebDevelopmentInformation").show();					
+					},function(){
+						$(".DigitalMarketingInformation").hide();
+						$(".TechnologyInformation").hide();
+						$(".DesignInformation").hide();
+						$(".WebDevelopmentInformation").show();
+					});
+
 				});
 			</script>
 			
@@ -169,8 +229,187 @@
 					<!-- Navbar links -->
 					<div class="collapse navbar-collapse" id="collapsibleNavbar">
 						<ul class="navbar-nav">
-							<li class="nav-item">
+
+							<li class="nav-item dropdown dropdown-toggle" data-toggle="dropdown"> 	
 								<a class="nav-link" href="" title="What we do">What we do</a>
+								<div class="DropDownList dropdown-menu">
+									<div class="row">
+										<div class="col-md">
+											<ul>
+												<!-- Row For Digital Marketing Item -->
+												<li class="DigitalMarketingItem">
+													<div class="media">
+														<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/menu/digital.svg" class="align-self-center media-img">
+														<div class="media-body align-self-center">
+															<h5>Digital Marketing</h5>
+														</div>
+													</div>
+												</li>
+												<!-- Row for Technology item -->
+												<li class="TechnologyItem">
+													<div class="media">
+														<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/menu/tech.svg" class="align-self-center media-img">
+														<div class="media-body align-self-center">
+															<h5>Technology</h5>
+														</div>
+													</div>
+												</li>
+												<!-- Row for design and creative services Item -->
+												<li class="DesignItem">
+													<div class="media DesignItem">
+														<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/menu/design.svg" class="align-self-center media-img">
+														<div class="media-body align-self-center">
+															<h5>Design & Creative Services</h5>
+														</div>
+													</div>
+												</li>
+												<!-- Row For Web development Item -->
+												<li class="">
+													<div class="media webDevelopmentItem">
+														<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/menu/website.svg" class="align-self-center media-img">
+														<div class="media-body align-self-center">
+															<h5>Website Development</h5>
+														</div>
+													</div>
+												</li>
+											</ul>
+										</div>
+										<div class="col-md">
+
+											<!-- Information for digital marketing -->
+											<table class="DigitalMarketingInformation table table-borderless">
+												<tr>
+													<td>
+														<a href="#">
+															<h6>Social Media</h6>	
+															<p>Make a social splash</p>
+														</a>
+													</td>
+													<td>
+														<a href="#">
+															<h6>Email Marketing</h6>	
+															<p>Build and Nature direct Connection</p>
+														</a>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<a href="#">
+															<h6>SEO Services</h6>	
+															<p>Establish an organic presense</p>
+														</a>
+													</td>
+													<td>
+														<a href="#">
+															<h6>Campaing marketing</h6>	
+															<p>Drive Goals and targets.</p>
+														</a>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<a href="#">
+															<h6>PPC Management</h6>	
+															<p>build targeted visibility</p>
+														</a>
+													</td>
+
+												</tr>
+											</table>
+
+
+											<!-- Information for Technology -->
+											<table class="TechnologyInformation table table-borderless">
+												<tr>
+													<td>
+														<a href="#">
+															<h6>Custom Software Development</h6>	
+														</a>
+													</td>
+													<td>
+														<a href="#">
+															<h6>App Development</h6>	
+														</a>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<a href="#">
+															<h6>Product Development</h6>	
+														</a>
+													</td>
+												</tr>
+											</table>
+
+											<!-- Information for Design and Creative Services -->
+											<table class="DesignInformation table table-borderless">
+												<tr>
+													<td>
+														<a href="#">
+															<h6>Website Design</h6>	
+															<p>Create seamless & engaging designs</p>
+														</a>
+													</td>
+													<td>
+														<a href="#">
+															<h6>Brand Identity and Logo</h6>	
+															<p>Design & create a brand story</p>
+														</a>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<a href="#">
+															<h6>Video Production</h6>	
+															<p>Visual stories that make an impression</p>
+														</a>
+													</td>
+													<td>
+														<a href="#">
+															<h6>Mobile App Design</h6>	
+															<p>Modern, easy-to-use UI / UX</p>
+														</a>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<a href="#">
+															<h6>Marketing Collaterals</h6>	
+															<p>Amplify your message in style</p>
+														</a>
+													</td>
+
+												</tr>
+											</table>
+
+											<!-- Information for  Website development-->
+											<table class="WebDevelopmentInformation table table-borderless">
+												<tr>
+													<td>
+														<a href="#">
+															<h6>Corporate Website Development</h6>	
+															<p>Make a glorious first impression</p>
+														</a>
+													</td>
+													<td>
+														<a href="#">
+															<h6>EEcommerce Development</h6>	
+															<p>Build fast, engaging shopping experiences</p>
+														</a>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<a href="#">
+															<h6>Wordpress Development</h6>	
+															<p>Beautiful & functional websites</p>
+														</a>
+													</td>
+												</tr>
+											</table>
+										</div>
+									</div>
+								</div>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="about.html" title="Case Study">Case Study</a>

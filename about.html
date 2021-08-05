@@ -18,87 +18,145 @@
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<style>
-		body{
-			margin: 0px;
-			padding: 0px;
-		}	
-	</style>
-	<script>
-		$(document).ready(function(){
+	body{
+		margin: 0px;
+		padding: 0px;
+	}	
+	.DropDownList{
+		background-color: #E1F1DD;
+		margin-top: 20px;
+		border-radius: 10px;
+		width: auto;
+		box-shadow: 4px 1px 11px 0px rgba(0,0,0,0.75);
 
-			/*Hide Dropdown Items*/
+	}
+	.DropDownList ul{
+		height: 100%;
+		padding: 10px;
 
+		list-style-type: none;
+	}
+	.DropDownList ul li{
+		margin-top: 10px;
+		padding: 10px;
+		cursor: pointer;
+	}
+	.DropDownList ul li:hover{
+		transition: 0.5s ease-in-out;
+		background-color:white;
+		border-right: 9px solid #0F52BA;
+		border-radius: 10px;
+	}
+	.DropDownList .media img{
+		margin: 5px;
+	}
+	.DropDownList a{
+		text-decoration: none;
+		color: black;
+	}
+	.DropDownList a:hover{
+		transition: 0.5s ease-in-out;
+		color: #0F52BA;
+	}
+	.DropDownList h6{
+		font-weight: bold;
+		font-size: 15px;
+	}
+	.DropDownList p{
+		font-size: 14px;
+	}
+	.DropDownList .table{
+		margin: 30px;
+	}
+</style>
+<script>
+	$(document).ready(function(){
+
+		/*Hide Dropdown Items*/
+
+		$(".DigitalMarketingInformation").show();
+		$(".TechnologyInformation").hide();
+		$(".DesignInformation").hide();
+		$(".WebDevelopmentInformation").hide();
+
+		/* Hover effect for Digital Marketing*/
+		$(".DigitalMarketingItem").hover(function(){
+			$(".DigitalMarketingInformation").show();
+			$(".TechnologyInformation").hide();
+			$(".DesignInformation").hide();
+			$(".WebDevelopmentInformation").hide();					
+		},function(){
 			$(".DigitalMarketingInformation").show();
 			$(".TechnologyInformation").hide();
 			$(".DesignInformation").hide();
 			$(".WebDevelopmentInformation").hide();
-
-			/* Hover effect for Digital Marketing*/
-			$(".DigitalMarketingItem").hover(function(){
-				$(".DigitalMarketingInformation").show();
-				$(".TechnologyInformation").hide();
-				$(".DesignInformation").hide();
-				$(".WebDevelopmentInformation").hide();					
-			},function(){
-				$(".DigitalMarketingInformation").show();
-				$(".TechnologyInformation").hide();
-				$(".DesignInformation").hide();
-				$(".WebDevelopmentInformation").hide();
-			});
-
-			/* Hover effect for Technology*/
-			$(".TechnologyItem").hover(function(){
-				$(".DigitalMarketingInformation").hide();
-				$(".TechnologyInformation").show();
-				$(".DesignInformation").hide();
-				$(".WebDevelopmentInformation").hide();					
-			},function(){
-				$(".DigitalMarketingInformation").show();
-				$(".TechnologyInformation").hide();
-				$(".DesignInformation").hide();
-				$(".WebDevelopmentInformation").hide();
-			});
-
-			/* Hover effect for Design*/
-			$(".DesignItem").hover(function(){
-				$(".DigitalMarketingInformation").hide();
-				$(".TechnologyInformation").hide();
-				$(".DesignInformation").show();
-				$(".WebDevelopmentInformation").hide();					
-			},function(){
-				$(".DigitalMarketingInformation").show();
-				$(".TechnologyInformation").hide();
-				$(".DesignInformation").hide();
-				$(".WebDevelopmentInformation").hide();
-			});
-
-			/* Hover effect for Design*/
-			$(".webDevelopmentItem").hover(function(){
-				$(".DigitalMarketingInformation").hide();
-				$(".TechnologyInformation").hide();
-				$(".DesignInformation").hide();
-				$(".WebDevelopmentInformation").show();					
-			},function(){
-				$(".DigitalMarketingInformation").show();
-				$(".TechnologyInformation").hide();
-				$(".DesignInformation").hide();
-				$(".WebDevelopmentInformation").hide();
-			});
-
 		});
-	</script>
+
+		/* Hover effect for Technology*/
+		$(".TechnologyItem").hover(function(){
+			$(".DigitalMarketingInformation").hide();
+			$(".TechnologyInformation").show();
+			$(".DesignInformation").hide();
+			$(".WebDevelopmentInformation").hide();					
+		},function(){
+			$(".DigitalMarketingInformation").hide();
+			$(".TechnologyInformation").show();
+			$(".DesignInformation").hide();
+			$(".WebDevelopmentInformation").hide();
+		});
+
+		/* Hover effect for Design*/
+		$(".DesignItem").hover(function(){
+			$(".DigitalMarketingInformation").hide();
+			$(".TechnologyInformation").hide();
+			$(".DesignInformation").show();
+			$(".WebDevelopmentInformation").hide();					
+		},function(){
+			$(".DigitalMarketingInformation").hide();
+			$(".TechnologyInformation").hide();
+			$(".DesignInformation").show();
+			$(".WebDevelopmentInformation").hide();
+		});
+
+		/* Hover effect for Webdevelopment*/
+		$(".webDevelopmentItem").hover(function(){
+			$(".DigitalMarketingInformation").hide();
+			$(".TechnologyInformation").hide();
+			$(".DesignInformation").hide();
+			$(".WebDevelopmentInformation").show();					
+		},function(){
+			$(".DigitalMarketingInformation").hide();
+			$(".TechnologyInformation").hide();
+			$(".DesignInformation").hide();
+			$(".WebDevelopmentInformation").show();
+		});
+
+	});
+</script>
 
 </head>
 <body>
-	<div class="container">
+	<div class="dropdown">
+		<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+			Dropdown button
+		</button>
+		<div class="dropdown-menu">
+			<a class="dropdown-item" href="#">Link 1</a>
+			<a class="dropdown-item" href="#">Link 2</a>
+			<a class="dropdown-item-text" href="#">Text Link</a>
+			<span class="dropdown-item-text">Just Text</span>
+		</div>
+	</div>
+
+	<div class="container DropDownList dropdown-menu">
 		<div class="row">
-			<div class="col-md">
+			<div class="col">
 				<ul>
 					<!-- Row For Digital Marketing Item -->
 					<li class="DigitalMarketingItem">
 						<div class="media">
-							<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/menu/digital.svg" class="align-self-center">
-							<div class="media-body">
+							<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/menu/digital.svg" class="align-self-center media-img">
+							<div class="media-body align-self-center">
 								<h5>Digital Marketing</h5>
 							</div>
 						</div>
@@ -106,8 +164,8 @@
 					<!-- Row for Technology item -->
 					<li class="TechnologyItem">
 						<div class="media">
-							<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/menu/tech.svg" class="align-self-center">
-							<div class="media-body">
+							<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/menu/tech.svg" class="align-self-center media-img">
+							<div class="media-body align-self-center">
 								<h5>Technology</h5>
 							</div>
 						</div>
@@ -115,8 +173,8 @@
 					<!-- Row for design and creative services Item -->
 					<li class="DesignItem">
 						<div class="media DesignItem">
-							<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/menu/design.svg" class="align-self-center">
-							<div class="media-body">
+							<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/menu/design.svg" class="align-self-center media-img">
+							<div class="media-body align-self-center">
 								<h5>Design & Creative Services</h5>
 							</div>
 						</div>
@@ -124,18 +182,18 @@
 					<!-- Row For Web development Item -->
 					<li class="">
 						<div class="media webDevelopmentItem">
-							<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/menu/website.svg" class="align-self-center">
-							<div class="media-body">
+							<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/menu/website.svg" class="align-self-center media-img">
+							<div class="media-body align-self-center">
 								<h5>Website Development</h5>
 							</div>
 						</div>
 					</li>
 				</ul>
 			</div>
-			<div class="col-md">
+			<div class="col">
 
 				<!-- Information for digital marketing -->
-				<table class="DigitalMarketingInformation table">
+				<table class="DigitalMarketingInformation table table-borderless">
 					<tr>
 						<td>
 							<a href="#">
@@ -177,7 +235,7 @@
 
 
 				<!-- Information for Technology -->
-				<table class="TechnologyInformation table">
+				<table class="TechnologyInformation table table-borderless">
 					<tr>
 						<td>
 							<a href="#">
@@ -200,7 +258,7 @@
 				</table>
 
 				<!-- Information for Design and Creative Services -->
-				<table class="DesignInformation table">
+				<table class="DesignInformation table table-borderless">
 					<tr>
 						<td>
 							<a href="#">
@@ -241,7 +299,7 @@
 				</table>
 
 				<!-- Information for  Website development-->
-				<table class="WebDevelopmentInformation table">
+				<table class="WebDevelopmentInformation table table-borderless">
 					<tr>
 						<td>
 							<a href="#">
@@ -265,9 +323,10 @@
 						</td>
 					</tr>
 				</table>
-
 			</div>
 		</div>
 	</div>
+
+
 </body>
 </html>
