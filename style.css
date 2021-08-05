@@ -58,7 +58,7 @@ body{
 		transform: translateY(-13px) rotate(-45deg);
 	}
 	.navbar{
-		margin: 15px -13px 15px -13px;
+		margin: 15px -10px 15px -10px;
 	}
 	.navbar .navbar-nav{
 		float: right;
