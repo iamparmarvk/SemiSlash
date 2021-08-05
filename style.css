@@ -617,8 +617,29 @@ body{
 			font-weight: bolder;
 			text-transform: uppercase;
 			letter-spacing: 1px;
-
 		}
+
+		.navbar .dropdown-menu{
+			min-width: 700px;
+		}
+		.navbar .dropdown-menu .dropdown-item{
+			width: 200px;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		.navbar .nav-link{
 			text-decoration: none;
 			color: black;

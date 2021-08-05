@@ -41,6 +41,7 @@
 					$("#DesignIc").addClass("fa fa-angle-down");
 					$("#WebsiteDevelopmentIc").addClass("fa fa-angle-down");
 					$("#TechnologyIc").addClass("fa fa-angle-down");
+					$(".dropdown-menu").show();
 					/* This is for Digital Marketing*/
 
 					$("#DigitalMarketing").click(function(){
@@ -137,6 +138,12 @@
 						$(this).css("transform", "scale(1)");
 						$(this).css("border-radius","0px");
 					});
+					$(".dropdown-toggle").hover(function(){
+						$(".dropdown-menu").show(500);
+					}, function(){
+						$(".dropdown-menu").hide(500);
+					});
+
 				});
 			</script>
 			
@@ -162,8 +169,112 @@
 					<!-- Navbar links -->
 					<div class="collapse navbar-collapse" id="collapsibleNavbar">
 						<ul class="navbar-nav">
-							<li class="nav-item">
-								<a class="nav-link" href="#" title="What we do">What we do</a>
+
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" title="What we do" data-toggle="dropdown">What we do</a>
+								<div class="row dropdown-menu">
+									<div class="col">
+										<div class="row">
+											<div class="col-md-5" >
+												<table>
+													<tr>
+														<td>
+															<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/menu/digital.svg" alt="">		
+														</td>
+														<td>
+															<h6>Digital Marketing</h6>
+														</td>
+													</tr>
+												</table>
+											</div>
+											<div class="col d-flex justify-content-end">
+												<table>
+													<tr>
+														<td>
+															<a href="#">
+																<h6>Social Media</h6>	
+																<p>Make a social splash</p>
+															</a>
+														</td>
+														<td>
+															<a href="#">
+																<h6>Social Media</h6>	
+																<p>Make a social splash</p>
+															</a>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<a href="#">
+																<h6>Social Media</h6>	
+																<p>Make a social splash</p>
+															</a>
+														</td>
+														<td>
+															<a href="#">
+																<h6>Social Media</h6>	
+																<p>Make a social splash</p>
+															</a>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<a href="#">
+																<h6>Social Media</h6>	
+																<p>Make a social splash</p>
+															</a>
+														</td>
+														
+													</tr>
+												</table>
+											</div>
+										</div>
+
+
+										<div class="row">
+											<div class="col-md-5">
+												<table>
+													<tr>
+														<td>
+															<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/menu/website.svg" alt="">	
+														</td>
+														<td>
+															<h6>Website Development</h6>
+														</td>
+													</tr>
+												</table>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-5">
+												<table>
+													<tr>
+														<td>
+															<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/menu/design.svg" alt="">
+														</td>
+														<td>
+															<h6>Design & Creative Services</h6>
+														</td>
+													</tr>
+												</table>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-5">
+												<table>
+													<tr>
+														<td>
+															<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/menu/tech.svg" alt="">
+														</td>
+														<td>
+															<h6>Technology</h6>
+														</td>
+													</tr>
+												</table>
+											</div>
+										</div>
+									</div>
+								</div>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="#" title="Case Study">Case Study</a>
