@@ -104,7 +104,55 @@ body{
 		transition: 0.5s ease-in-out;
 		background-color: #2940D3;
 	}
+	.DropDownList{
+			background-color: #E1F1DD;
+			border-radius: 10px;
+			box-shadow: 4px 1px 11px 0px rgba(0,0,0,0.75);
+		}
+		.DropDownList ul{
+			width: 100%;
+			padding: 10px;
+			list-style-type: none;
+		}
+		.DropDownList ul li{
+			margin-top: 10px;
+			padding: 10px;
+			cursor: pointer;
+		}
+		.DropDownList ul li:hover{
+			transition: 0.5s ease-in-out;
+			background-color:white;
+			border-right: 9px solid #0F52BA;
+			border-radius: 10px;
+		}
+		.DropDownList .media img{
+			margin: 5px;
+		}
+		.DropDownList a{
+			text-decoration: none;
+			color: black;
+		}
+		.DropDownList a:hover{
+			transition: 0.5s ease-in-out;
+			color: #0F52BA;
+		}
+		.navbar .DropDownList h5{
+			font-size: 14px;
+		}
+		.navbar .DropDownList h6{
+			font-weight: bold;
+			font-size: 13px;
+		}
+		.DropDownList p{
+			font-size: 14px;
+		}
+		.DropDownList .table{
+			margin: 30px;
+		}
 
+		.dropdown-menu{
+			width: auto;
+		}	
 
 
 	#FirstSection{
@@ -620,12 +668,12 @@ body{
 		}
 
 		.DropDownList{
-			
 			background-color: #E1F1DD;
 			border-radius: 10px;
 			box-shadow: 4px 1px 11px 0px rgba(0,0,0,0.75);
 		}
 		.DropDownList ul{
+			width: 100%;
 			padding: 10px;
 			list-style-type: none;
 		}
@@ -668,17 +716,6 @@ body{
 		.dropdown-menu{
 			width: auto;
 		}	
-
-
-
-
-
-
-
-
-
-
-
 
 		.navbar .nav-link{
 			text-decoration: none;
