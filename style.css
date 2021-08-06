@@ -131,14 +131,14 @@ body{
 		text-decoration: none;
 		color: black;
 		font-family: 'Ubuntu', sans-serif;
-			font-weight: bolder;
+		font-weight: bolder;
 	}
 	.DropDownList a:hover{
 		transition: 0.5s ease-in-out;
 		color: #0F52BA;
 	}
 	.navbar .DropDownList h5{
-		font-size: 12px;
+		font-size: 10px;
 		font-weight: bolder;
 		font-family: 'Ubuntu', sans-serif;
 	}
