@@ -1146,7 +1146,13 @@ body{
 			transition: 0.5s ease-in-out;
 			color: #2541B2;
 		}
-		
+		.page-footer .Footer-image{
+			padding: 5px;
+			width: 80px;
+			margin-left: 20px;
+			margin-bottom: 5px;
+			transform: scale(2);
+		}
 		.page-footer h6{
 			font-weight: bold;
 			font-family: 'Ubuntu', sans-serif;
