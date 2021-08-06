@@ -151,7 +151,7 @@ body{
 
 	.dropdown-menu{
 		width: auto;
-		visibility: hidden;
+		display: none;
 	}	
 
 
