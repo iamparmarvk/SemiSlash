@@ -147,11 +147,12 @@ body{
 	}
 	.DropDownList .table{
 		margin: 30px;
+		display: none;
 	}
 
 	.dropdown-menu{
 		width: auto;
-		display: none;
+		
 	}	
 
 
