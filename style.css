@@ -111,6 +111,7 @@ body{
 	}
 	.DropDownList ul{
 		padding: 10px;
+		overflow: hidden;
 		list-style-type: none;
 	}
 	.DropDownList ul li{
@@ -120,9 +121,9 @@ body{
 	}
 	.DropDownList ul li:hover{
 		transition: 0.5s ease-in-out;
-		background-color:white;
-		border-right: 9px solid #0F52BA;
-		border-radius: 10px;
+		background-color: #0F52BA;
+		color: white;
+		border-radius: 10px 0px 10px 0px;
 	}
 	.DropDownList .media img{
 		margin: 5px;
@@ -130,6 +131,8 @@ body{
 	.DropDownList a{
 		text-decoration: none;
 		color: black;
+		font-family: 'Ubuntu', sans-serif;
+			font-weight: bolder;
 	}
 	.DropDownList a:hover{
 		transition: 0.5s ease-in-out;
@@ -137,23 +140,9 @@ body{
 	}
 	.navbar .DropDownList h5{
 		font-size: 14px;
+		font-weight: bolder;
+			font-family: 'Ubuntu', sans-serif;
 	}
-	.navbar .DropDownList h6{
-		font-weight: bold;
-		font-size: 13px;
-	}
-	.DropDownList p{
-		font-size: 14px;
-	}
-	.DropDownList .table{
-		margin: 30px;
-		
-	}
-
-	.dropdown-menu{
-		width: auto;
-		
-	}	
 
 
 	#FirstSection{
@@ -674,20 +663,23 @@ body{
 			box-shadow: 4px 1px 11px 0px rgba(0,0,0,0.75);
 		}
 		.DropDownList ul{
-			width: 100%;
-			padding: 10px;
+			padding: 20px;
+			overflow: hidden;
 			list-style-type: none;
 		}
 		.DropDownList ul li{
 			margin-top: 10px;
+			margin-right: 20px;
 			padding: 10px;
 			cursor: pointer;
+
 		}
 		.DropDownList ul li:hover{
+			overflow: hidden;
 			transition: 0.5s ease-in-out;
-			background-color:white;
-			border-right: 9px solid #0F52BA;
-			border-radius: 10px;
+			background-color: #0F52BA;
+			color: white;
+			border-radius: 10px 0px 10px 0px;
 		}
 		.DropDownList .media img{
 			margin: 5px;
@@ -695,6 +687,8 @@ body{
 		.DropDownList a{
 			text-decoration: none;
 			color: black;
+			font-family: 'Ubuntu', sans-serif;
+			font-weight: bolder;
 		}
 		.DropDownList a:hover{
 			transition: 0.5s ease-in-out;
@@ -702,22 +696,9 @@ body{
 		}
 		.navbar .DropDownList h5{
 			font-size: 14px;
+			font-weight: bolder;
+			font-family: 'Ubuntu', sans-serif;
 		}
-		.navbar .DropDownList h6{
-			font-weight: bold;
-			font-size: 13px;
-		}
-		.DropDownList p{
-			font-size: 14px;
-		}
-		.DropDownList .table{
-			margin: 30px;
-		}
-
-		.dropdown-menu{
-			width: auto;
-		}	
-
 		.navbar .nav-link{
 			text-decoration: none;
 			color: black;
