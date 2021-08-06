@@ -145,7 +145,15 @@ body{
 	.DropDownList p{
 		font-size: 14px;
 	}
-	
+	.DropDownList .table{
+		margin: 30px;
+	}
+
+	.dropdown-menu{
+		width: auto;
+		visibility: hidden;
+	}	
+
 
 	#FirstSection{
 		margin-top: 40px;
