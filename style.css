@@ -115,7 +115,6 @@ body{
 		list-style-type: none;
 	}
 	.DropDownList ul li{
-		margin-top: 10px;
 		padding: 10px;
 		cursor: pointer;
 	}
