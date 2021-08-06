@@ -85,6 +85,12 @@ body{
 		color: #2541B2;
 
 	}
+	.navbar-brand img{
+		width: 50px;
+		margin-left: 20px;
+		transform: scale(2);
+
+	}
 	.navbar #GetStartedBtn{
 
 		height: 40px;
@@ -565,6 +571,9 @@ body{
 	}
 	.page-footer .Footer-image{
 		padding: 5px;
+		margin-left: 30px;
+		width: 100px;
+		transform: scale(2);
 		margin-bottom: 5px;
 	}
 	.page-footer h6{
@@ -724,7 +733,12 @@ body{
 			transition: 0.5s ease-in-out;
 			background-color: #2940D3;
 		}
-
+		.navbar-brand img{
+			width: 60px;
+			margin: 0px;
+			transform: scale(2);
+			
+		}
 
 
 		#FirstSection{
@@ -1134,7 +1148,10 @@ body{
 		}
 		.page-footer .Footer-image{
 			padding: 5px;
+			width: 80px;
+			margin-left: 20px;
 			margin-bottom: 5px;
+			transform: scale(2);
 		}
 		.page-footer h6{
 			font-weight: bold;
