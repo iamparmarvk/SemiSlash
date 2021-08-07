@@ -547,109 +547,188 @@ body{
 		color: #2541B2;
 	}
 	#CaseStudiesFirstSec{
-			padding: 20px 10px 20px 10px;
-			min-height: 300px;	
-		}
-		#CaseStudiesFirstSec h6{
-			font-family: 'Ubuntu', sans-serif;
-			text-transform: uppercase;
-			font-weight: bolder;
-			font-size: 13px;
-			color: #6E7C7C;
-		}
+		padding: 20px 10px 20px 10px;
+		min-height: 300px;	
+	}
+	#CaseStudiesFirstSec h6{
+		font-family: 'Ubuntu', sans-serif;
+		text-transform: uppercase;
+		font-weight: bolder;
+		font-size: 13px;
+		color: #6E7C7C;
+	}
 
-		#CaseStudiesFirstSec h1{
-			font-size: 40px;
-			font-weight: 900;
-			font-family: 'Josefin Sans', sans-serif;
-		}
-		#CaseStudiesFirstSec p{
-			font-size: 16px;
-		}
-		#CaseStudiesPagination{
-			padding: 5px 10px 5px 10px;
-			background-color:#EEEEEE ;
-		}
-		#CaseStudiesPagination ul{
-			list-style-type: none;
-			position: relative;
-			top: 7px;
-		}
-		#CaseStudiesPagination ul li{
-			display: inline;
-			font-size: 12px;
-			margin-left: 10px;
-			text-transform: uppercase;
-			font-family: 'Ubuntu', sans-serif;
-			font-weight: 600;
-			color: #6E7C7C;
-		}
-		#CaseStudiesPagination .Entity{
-			font-size: 15px;
-			color: black;
-			font-weight: 600;
-		}
-		#CaseStudiesPagination a{
-			text-decoration: none;
-			color: black;
-		}
-		#CaseStudiesSecondSec{
-			padding: 10px 10px 10px 10px;
-		}
-		#CaseStudiesSecondSec ul{
-			list-style-type: none;
-			position: relative;
-			left: 30px;
-		}
-		#CaseStudiesSecondSec ul li{
-			text-align: center;
-			padding: 10px;		
-			border-width: 3px;
-			border-radius: 20px;
-			cursor: pointer;
-			font-family: 'Josefin Sans', sans-serif;
-		}
+	#CaseStudiesFirstSec h1{
+		font-size: 40px;
+		font-weight: 900;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+	#CaseStudiesFirstSec p{
+		font-size: 16px;
+	}
+	#CaseStudiesPagination{
+		padding: 5px 10px 5px 10px;
+		background-color:#EEEEEE ;
+	}
+	#CaseStudiesPagination ul{
+		list-style-type: none;
+		position: relative;
+		top: 7px;
+	}
+	#CaseStudiesPagination ul li{
+		display: inline;
+		font-size: 12px;
+		margin-left: 10px;
+		text-transform: uppercase;
+		font-family: 'Ubuntu', sans-serif;
+		font-weight: 600;
+		color: #6E7C7C;
+	}
+	#CaseStudiesPagination .Entity{
+		font-size: 15px;
+		color: black;
+		font-weight: 600;
+	}
+	#CaseStudiesPagination a{
+		text-decoration: none;
+		color: black;
+	}
+	#CaseStudiesSecondSec{
+		padding: 10px 10px 10px 10px;
+	}
+	#CaseStudiesSecondSec ul{
+		list-style-type: none;
+		position: relative;
+		left: 30px;
+	}
+	#CaseStudiesSecondSec ul li{
+		text-align: center;
+		padding: 10px;		
+		border-width: 3px;
+		border-radius: 20px;
+		cursor: pointer;
+		font-family: 'Josefin Sans', sans-serif;
+	}
 
 
-		#CaseStudiesSecondSec .card-img-top{
-			width:auto;
-			height: 300px;
-		}
-		#CaseStudiesSecondSec .card{
-			overflow: hidden;
-			border: none;
-		}
-		#CaseStudiesSecondSec .card:hover{
-			transition: 1s ease-in-out;
-			box-shadow: 1px 3px 7px -2px rgba(0,0,0,0.75);
-			-webkit-box-shadow: 1px 3px 7px -2px rgba(0,0,0,0.75);
-			-moz-box-shadow: 1px 3px 7px -2px rgba(0,0,0,0.75);
-			transform: translateY(-10px);
-		}
-		#CaseStudiesSecondSec .card-body{
-			padding: 15px;
-		}
-		#CaseStudiesSecondSec .card-title{
-			font-weight: bold;
-			font-size: 14px;
-			font-family: 'Josefin Sans', sans-serif;
-		}
-		#CaseStudiesSecondSec .card-text{
-			font-weight: bolder;
-			font-size: 12px;
-			font-family: 'Ubuntu', sans-serif;
-			color: #6E7C7C;	
-		}
-		#CaseStudiesSecondSec a{
-			text-decoration: none;
-			color: black;
-		}
-		#CaseStudiesSecondSec .row{
-			margin-top: 30px;
-		}
+	#CaseStudiesSecondSec .card-img-top{
+		width:auto;
+		height: 300px;
+	}
+	#CaseStudiesSecondSec .card{
+		overflow: hidden;
+		border: none;
+	}
+	#CaseStudiesSecondSec .card:hover{
+		transition: 1s ease-in-out;
+		box-shadow: 1px 3px 7px -2px rgba(0,0,0,0.75);
+		-webkit-box-shadow: 1px 3px 7px -2px rgba(0,0,0,0.75);
+		-moz-box-shadow: 1px 3px 7px -2px rgba(0,0,0,0.75);
+		transform: translateY(-10px);
+	}
+	#CaseStudiesSecondSec .card-body{
+		padding: 15px;
+	}
+	#CaseStudiesSecondSec .card-title{
+		font-weight: bold;
+		font-size: 14px;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+	#CaseStudiesSecondSec .card-text{
+		font-weight: bolder;
+		font-size: 12px;
+		font-family: 'Ubuntu', sans-serif;
+		color: #6E7C7C;	
+	}
+	#CaseStudiesSecondSec a{
+		text-decoration: none;
+		color: black;
+	}
+	#CaseStudiesSecondSec .row{
+		margin-top: 30px;
+	}
+	#CaseStudiesThirdSec{
+		padding: 100px 10px 50px 10px;
+	}
+	#CaseStudiesThirdSec .title-shape:after{
+		content: '';
+		position: absolute;
+		display: block;
+		top: 5%;
+		left: -6px;
+		background: url('https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/shape-5.svg');
+		width: 20px;
+		height: 73px;
+
+	}
+	#CaseStudiesThirdSec h1{
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: 600;
+	}
+	#CaseStudiesThirdSec .col{
+		padding: 10px;
+	}
+	#CaseStudiesThirdSec form{
+		margin-top: 20px;
+	}
+	#CaseStudiesThirdSec form input{
+		width: 100%;
+		border: none;
+		outline: none;
+		border-radius: 0px;
+		border-bottom:1px solid;
+		margin-top: 10px;
+		padding: 10px;
+		font-family: 'Ubuntu', sans-serif;
+	}
+	#CaseStudiesThirdSec form textarea{
+		width: 100%;
+		font-family: 'Ubuntu', sans-serif;
+		border: none;
+		outline: none;
+		border-radius: 0px;
+		border-bottom:1px solid;
+		margin-top: 10px;
+		padding: 10px;
+	}
+	#CaseStudiesThirdSec img{
+		width: 300px;
+		position: relative;
+		left: 5%;
+		top: 5%;
+	}
+	#CaseStudiesThirdSec .btn{
+		margin-top: 20px;
+		min-width: 170px;
+		min-height: 45px;
+		padding: 10px;
+		font-family: 'Ubuntu', sans-serif;
+		text-transform: uppercase;
+		font-weight: bolder;
+		letter-spacing: 1px;
+		font-size: 12px;
+		background-color: #0F52BA;
+		border: none;
+		border-radius: 45px;
+		box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+		transition: all 0.3s ease 0s;
+		cursor: pointer;
+		outline: none;
+		color: white;
+	}
+	#CaseStudiesThirdSec .btn:hover{
+		background-color: #2EE59D;
+		box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+		color: #fff;
+		transform: translateY(-7px);	
+	}
+
+
 	.page-footer{
 		padding: 30px 10px 20px 5px;
 	}
+
+
 	.page-footer hr{
 		width: 100%;
 	}
@@ -1323,6 +1402,79 @@ body{
 		#CaseStudiesSecondSec .row{
 			margin-top: 30px;
 		}
+		#CaseStudiesThirdSec{
+			padding: 100px 200px 50px 200px;
+		}
+		#CaseStudiesThirdSec .title-shape:after{
+			content: '';
+			position: absolute;
+			display: block;
+			top: 5%;
+			left: -30px;
+			background: url('https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/shape-5.svg');
+			width: 28px;
+			height: 73px;
+
+		}
+		#CaseStudiesThirdSec h1{
+			font-family: 'Josefin Sans', sans-serif;
+			font-weight: 600;
+		}
+		#CaseStudiesThirdSec .col{
+			padding: 10px;
+		}
+		#CaseStudiesThirdSec form{
+			margin-top: 20px;
+		}
+		#CaseStudiesThirdSec form input{
+			width: 400px;
+			border: none;
+			outline: none;
+			border-radius: 0px;
+			border-bottom:1px solid;
+			margin-top: 10px;
+			padding: 10px;
+			font-family: 'Ubuntu', sans-serif;
+		}
+		#CaseStudiesThirdSec form textarea{
+			width: 400px;
+			font-family: 'Ubuntu', sans-serif;
+			border: none;
+			outline: none;
+			border-radius: 0px;
+			border-bottom:1px solid;
+			margin-top: 10px;
+			padding: 10px;
+		}
+		#CaseStudiesThirdSec img{
+			width: 400px;
+		}
+		#CaseStudiesThirdSec .btn{
+			margin-top: 20px;
+			min-width: 170px;
+			min-height: 45px;
+			padding: 10px;
+			font-family: 'Ubuntu', sans-serif;
+			text-transform: uppercase;
+			font-weight: bolder;
+			letter-spacing: 1px;
+			font-size: 12px;
+			background-color: #0F52BA;
+			border: none;
+			border-radius: 45px;
+			box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+			transition: all 0.3s ease 0s;
+			cursor: pointer;
+			outline: none;
+			color: white;
+		}
+		#CaseStudiesThirdSec .btn:hover{
+			background-color: #2EE59D;
+			box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+			color: #fff;
+			transform: translateY(-7px);	
+		}
+
 		.page-footer{
 			padding: 30px 160px 0px 160px;
 		}
