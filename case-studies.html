@@ -28,9 +28,24 @@
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+	<script>
+		$(document).ready(function(){
+			jQuery('#loading').fadeOut(2000);
+
+			$(".all").click(function(){
+				$("#WebDesign").hide(500);
+				
+			});
+
+		});
+	</script>
 </head>
 <body>
+	<div id="loading">
+
+	</div>
 	<div class="container-fluid">
+
 		<!-- Navigation Bar -->
 		<nav class="navbar navbar-expand-md">
 			<!-- Brand -->
@@ -113,12 +128,119 @@
 
 		<!-- Case Studies first section -->
 		<div class="row" id="CaseStudiesFirstSec">
-			
+			<div class="col">
+				<h6>case Studies</h6>
+				<h1>Good work <br>deserves a place of <br>its own.</h1>
+				<p>We learn from our experiences and make them count to do 🔥 work.</p>
+			</div>	
+		</div>
+		<!-- Case Studies Pagetion -->
+		<div class="row" id="CaseStudiesPagination">
+			<div class="col-md">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li class="Entity">&#8811;</li>
+					<li>case Studies</li>
+				</ul>
+			</div>
 		</div>
 
-
-
-
+		<div class="row" id="CaseStudiesSecondSec">
+			<div class="col">
+				<div class="row">
+					<ul class="list-group list-group-horizontal">
+						<li class="list-group-item all" >All</li>
+						<li class="list-group-item CampaignManagement" >CAMPAIGN MANAGEMENT</li>
+						<li class="list-group-item SocialMedia">Social Media</li>
+						<li class="list-group-item WebDesign">Web Design</li>
+						<li class="list-group-item WebsiteDevelopment">Web development</li>
+					</ul>
+				</div>
+				<div class="row" data-aos="fade-up">
+					<div class="col-md-6" id="WebsiteDevelopment">
+						<a href="#">
+							<div class="card" >
+								<img src="https://www.bonoboz.in/wp-content/uploads/2020/09/2.jpg" alt="Card-image" class="card-img-top">
+								<div class="card-body">
+									<h4 class="card-title">
+										Klearnow
+									</h4>
+									<p class="card-text">
+										Website Development
+									</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 align-self-end" id="SocialMedia">
+						<a href="#">
+							<div class="card" >
+								<img src="https://www.bonoboz.in/wp-content/uploads/2020/09/3.jpg" alt="Card-image" class="card-img-top">
+								<div class="card-body">
+									<h4 class="card-title">
+										Hocco
+									</h4>
+									<p class="card-text">
+										Website Development
+									</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="row" data-aos="fade-up" >
+					<div class="col-md-6" id="WebDesign">
+						<a href="#">
+							<div class="card">
+								<img src="https://www.bonoboz.in/wp-content/uploads/2020/09/2.jpg" alt="Card-image" class="card-img-top">
+								<div class="card-body">
+									<h4 class="card-title">
+										Klearnow
+									</h4>
+									<p class="card-text">
+										Website Development
+									</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 align-self-end" id="CampaignManagement">
+						<a href="#">
+							<div class="card">
+								<img src="https://www.bonoboz.in/wp-content/uploads/2020/09/3.jpg" alt="Card-image" class="card-img-top">
+								<div class="card-body">
+									<h4 class="card-title">
+										Hocco
+									</h4>
+									<p class="card-text">
+										Website Development
+									</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="row" data-aos="fade-up">
+					<div class="col-md-6" id="WebDesign">
+						<a href="#">
+							<div class="card">
+								<img src="https://www.bonoboz.in/wp-content/uploads/2020/09/2.jpg" alt="Card-image" class="card-img-top">
+								<div class="card-body">
+									<h4 class="card-title">
+										Klearnow
+									</h4>
+									<p class="card-text">
+										Website Development
+									</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<!-- Page footer -->
 		<div class=" row page-footer">
 			<div class="col">
 				<div class="row">

@@ -28,11 +28,11 @@ body{
 	background: #6E7C7C; 
 }
 #loading {
-position: fixed;
-width: 100%;
-height: 100vh;
-background: #fff url('images/loader.gif') no-repeat center center;
-z-index: 9999;
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #fff url('images/loader.gif') no-repeat center center;
+	z-index: 9999;
 }
 @media only screen and (max-width: 600px){
 	.hamburger .line{
@@ -1018,9 +1018,7 @@ z-index: 9999;
 			height: 500px;
 		}
 		#SixthSection .card{
-
 			overflow: hidden;
-
 		}
 		#SixthSection .card-body{
 			padding: 15px;
@@ -1122,6 +1120,109 @@ z-index: 9999;
 		#SeventhSection .BlogLink a:hover{
 			transition: 0.5s ease-in-out;
 			color: #2541B2;
+		}
+
+		#CaseStudiesFirstSec{
+			padding: 100px 200px 50px 200px;
+			min-height: 300px;	
+		}
+		#CaseStudiesFirstSec h6{
+			font-family: 'Ubuntu', sans-serif;
+			text-transform: uppercase;
+			font-weight: bolder;
+			font-size: 13px;
+			color: #6E7C7C;
+		}
+
+		#CaseStudiesFirstSec h1{
+			font-size: 70px;
+			font-weight: 900;
+			font-family: 'Josefin Sans', sans-serif;
+		}
+		#CaseStudiesFirstSec p{
+			font-size: 20px;
+		}
+		#CaseStudiesPagination{
+			padding: 5px 200px 5px 140px;
+			background-color:#EEEEEE ;
+		}
+		#CaseStudiesPagination ul{
+			list-style-type: none;
+			position: relative;
+			top: 7px;
+		}
+		#CaseStudiesPagination ul li{
+			display: inline;
+			font-size: 12px;
+			margin-left: 10px;
+			text-transform: uppercase;
+			font-family: 'Ubuntu', sans-serif;
+			font-weight: 600;
+			color: #6E7C7C;
+		}
+		#CaseStudiesPagination .Entity{
+			font-size: 15px;
+			color: black;
+			font-weight: 600;
+		}
+		#CaseStudiesPagination a{
+			text-decoration: none;
+			color: black;
+		}
+		#CaseStudiesSecondSec{
+			padding: 100px 200px 50px 200px;
+		}
+		#CaseStudiesSecondSec li{
+			margin-left: 10px;
+			padding: 5px;
+			border: 2px solid;
+			border-width: 3px;
+			border-radius: 20px;
+		}
+		#CaseStudiesSecondSec a{
+			width: auto;
+			text-decoration: none;
+			color: black;
+			font-size: 13px;
+			font-weight: 700;
+			text-transform: uppercase;
+		}
+
+		#CaseStudiesSecondSec .card-img-top{
+			width:auto;
+			height: 500px;
+		}
+		#CaseStudiesSecondSec .card{
+			overflow: hidden;
+			border: none;
+		}
+		#CaseStudiesSecondSec .card:hover{
+			transition: 1s ease-in-out;
+			box-shadow: 1px 3px 7px -2px rgba(0,0,0,0.75);
+			-webkit-box-shadow: 1px 3px 7px -2px rgba(0,0,0,0.75);
+			-moz-box-shadow: 1px 3px 7px -2px rgba(0,0,0,0.75);
+			transform: translateY(-10px);
+		}
+		#CaseStudiesSecondSec .card-body{
+			padding: 15px;
+		}
+		#CaseStudiesSecondSec .card-title{
+			font-weight: bold;
+			font-size: 14px;
+			font-family: 'Josefin Sans', sans-serif;
+		}
+		#CaseStudiesSecondSec .card-text{
+			font-weight: bolder;
+			font-size: 12px;
+			font-family: 'Ubuntu', sans-serif;
+			color: #6E7C7C;	
+		}
+		#CaseStudiesSecondSec a{
+			text-decoration: none;
+			color: black;
+		}
+		#CaseStudiesSecondSec .row{
+			margin-top: 30px;
 		}
 		.page-footer{
 			padding: 30px 160px 0px 160px;
