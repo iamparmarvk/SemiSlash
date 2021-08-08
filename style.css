@@ -723,6 +723,112 @@ body{
 		transform: translateY(-7px);	
 	}
 
+	#WhoWeAreSectionOne{
+			padding: 20px 10px 20px 10px;
+			min-height: 300px;	
+		}
+		#WhoWeAreSectionOne h6{
+			font-family: 'Ubuntu', sans-serif;
+			text-transform: uppercase;
+			font-weight: bolder;
+			font-size: 13px;
+			color: #6E7C7C;
+		}
+
+		#WhoWeAreSectionOne h1{
+			font-size: 40px;
+			font-weight: 900;
+			font-family: 'Josefin Sans', sans-serif;
+		}
+		#WhoWeAreSectionOne .who-title span{
+			background: url('https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/bottom-vector-line.svg') no-repeat center bottom;
+			padding-bottom: 40px;
+			display: inline-block;
+		}
+		#whoWeArePagination{
+			padding: 5px 10px 5px 10px;
+			background-color:#EEEEEE ;
+		}
+		#whoWeArePagination ul{
+			list-style-type: none;
+			position: relative;
+			top: 7px;
+		}
+		#whoWeArePagination ul li{
+			display: inline;
+			font-size: 12px;
+			margin-left: 10px;
+			text-transform: uppercase;
+			font-family: 'Ubuntu', sans-serif;
+			font-weight: 600;
+			color: #6E7C7C;
+		}
+		#whoWeArePagination .Entity{
+			font-size: 15px;
+			color: black;
+			font-weight: 600;
+		}
+		#whoWeArePagination a{
+			text-decoration: none;
+			color: black;
+		}
+		#WhoWeAreSectiontwo{
+			padding: 10px 5px 10px 5px;
+		}
+		#WhoWeAreSectiontwo .row{
+			margin-top: 30px;
+			padding: 5px;
+		}
+
+		#WhoWeAreSectiontwo .HeadImg{
+			padding: 5px;
+			min-width: 30px;
+			min-height: 30px;
+		}
+		#WhoWeAreSectiontwo h3{
+			font-family: 'Josefin Sans', sans-serif;
+			font-weight: 550;
+			font-size: 20px;
+		}
+		#WhoWeAreSectiontwo p{
+			text-align: justify;
+		}
+
+		#WhoWeAreSectiontwo .ColImg{
+			width:300px;
+			position: relative;
+			left: 7%;
+			border-radius: 10px;
+		}
+		#WhoWeAreSectionThird .ColImg{
+			width:300px;
+			position: relative;
+			border-radius: 10px;
+		}
+
+		#WhoWeAreSectionThird{
+			padding: 30px 5px 10px 5px;
+			background-color:#EEEEEE;
+
+		}	
+		
+
+		#WhoWeAreSectionThird .HeadImg{
+			padding: 5px;
+			min-width: 30px;
+			min-height: 30px;
+		}
+		#WhoWeAreSectionThird h3{
+			font-family: 'Josefin Sans', sans-serif;
+			font-weight: 550;
+			padding: 5px;
+			font-size: 20px;
+		}
+		#WhoWeAreSectionThird p{
+			padding: 5px;
+			margin-top: -10px;
+		}
+
 
 	.page-footer{
 		padding: 30px 10px 20px 5px;
