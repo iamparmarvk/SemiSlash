@@ -830,6 +830,186 @@ body{
 	}
 
 
+	#CareerFirstSection{
+		padding: 10px 5px 10px 5px;
+
+	}
+	#CareerFirstSection h6{
+		font-family: 'Ubuntu', sans-serif;
+		text-transform: uppercase;
+		font-weight: bolder;
+		font-size: 13px;
+		color: #6E7C7C;
+	}
+	#CareerFirstSection p{
+		font-size: 20px;
+	}
+	#CareerFirstSection h1{
+		font-size: 40px;
+		font-weight: 900;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+
+	#CareerPaginsation{
+		padding: 5px 10px 5px 10px;
+		background-color:#EEEEEE ;
+	}
+	#CareerPaginsation ul{
+		list-style-type: none;
+		position: relative;
+		top: 7px;
+	}
+	#CareerPaginsation ul li{
+		display: inline;
+		font-size: 12px;
+		margin-left: 10px;
+		text-transform: uppercase;
+		font-family: 'Ubuntu', sans-serif;
+		font-weight: 600;
+		color: #6E7C7C;
+	}
+	#CareerPaginsation .Entity{
+		font-size: 15px;
+		color: black;
+		font-weight: 600;
+	}
+	#CareerPaginsation a{
+		text-decoration: none;
+		color: black;
+	}
+
+	#CareerSecondSection{
+		padding: 20px 10px 20px 10px;
+	}
+	#CareerSecondSection .FirstImg{
+		height: 500px;
+		width: 350px;
+		text-align: center;
+	}
+	#CareerSecondSection .Iframe{
+		position: relative;
+		margin-top: 10px;
+		width: 350px;
+	}
+	#CareerSecondSection .CareerImgs{
+		width: 350px;
+		height: auto;
+	}
+
+	#CareerThirdSection{
+		padding: 50px 10px 30px 10px;
+	}
+	#CareerThirdSection h1{
+		font-size: 32px;
+		font-weight: 700;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+	#CareerThirdSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#CareerThirdSection p{
+		font-size:16px;
+		margin-top: 20px;
+	}
+	#CareerThirdSection ul{
+		padding: 10px;
+	}
+	#CareerThirdSection ul li{
+		margin-top: 10px;
+		font-size: 16px;
+	}
+
+	#CareerFourthSection{
+		padding: 30px 10px 50px 10px;	
+		background-color:#EEEEEE ;
+	}
+
+	#CareerFourthSection .row{
+		margin-top: 10px;
+	}
+	#CareerFourthSection .col-md{
+		padding-top: 20px;
+	}
+	#CareerFourthSection h1{
+		font-size: 32px;
+		font-weight: 700;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+	#CareerFourthSection h5{
+		font-weight: bolder;
+		font-size: 20px;
+		font-family: 'Josefin Sans', sans-serif;	
+	}
+	#CareerFourthSection p{
+		font-size: 16px;
+	}
+	#CareerFourthSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+
+	#CareerFifthSection{
+		padding: 40px 10px 40px 10px;
+	}
+	#CareerFifthSection .row{
+		margin-top: 10px;
+	}
+	#CareerFifthSection .table{
+		margin-top: 30px;
+	}
+	#CareerFifthSection h1{
+		font-size: 32px;
+		font-weight: 700;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+	#CareerFifthSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#CareerFifthSection button{
+		float: right;
+	}
+	#CareerFifthSection h5{
+		font-size: 16px;
+		font-weight: 700;
+		font-family: 'Josefin Sans', sans-serif;	
+	}
+	#CareerFifthSection p{
+		color:#766161;
+		font-size: 15px;	
+	}
+	#CareerFifthSection button{
+		position: relative;
+		margin-top: 10px;
+		background-color: white;
+		padding: 5px;
+		border-radius: 20px;
+		min-width: 100px;
+		min-height: 35px;
+		outline: none;
+		font-weight: bolder;
+		text-transform: uppercase;
+		border: 1px solid;
+		font-size: 10px;
+		font-family: 'Ubuntu', sans-serif;
+	}
+
+	#CareerFifthSection button:hover{
+		transition: 0.3s ease-in-out;
+		background-color: black;
+		color: white;
+
+	}
+
+
+
+
+
+
 	.page-footer{
 		padding: 30px 10px 20px 5px;
 	}
