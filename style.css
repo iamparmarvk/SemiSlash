@@ -883,16 +883,16 @@ body{
 	}
 	#CareerSecondSection .FirstImg{
 		height: 500px;
-		width: 350px;
+		width: 300px;
 		text-align: center;
 	}
 	#CareerSecondSection .Iframe{
 		position: relative;
 		margin-top: 10px;
-		width: 350px;
+		width: 300px;
 	}
 	#CareerSecondSection .CareerImgs{
-		width: 350px;
+		width: 300px;
 		height: auto;
 	}
 
