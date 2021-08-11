@@ -24,6 +24,95 @@
 
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript">
+		$("document").ready(function(){
+			$("#WebsiteDevelopmentList").hide();
+			$('#DeigitalMarketinList').hide();
+			$("#DesignList").hide();
+			$("#TechnologyList").hide();
+			$("#WebsiteDevelopmentItemIc").addClass('fa fa-plus');
+			$("#DeigitalMarketinItemIc").addClass('fa fa-plus');
+			$("#DesignItemIc").addClass('fa fa-plus');
+			$("#TechnologyItemIc").addClass('fa fa-plus');
+
+			$("#WebsiteDevelopmentItem").css("cursor", "pointer");
+
+			$("#WebsiteDevelopmentItem").click(function(){
+				$("#WebsiteDevelopmentList").show();
+				$('#DeigitalMarketinList').hide(400);
+				$("#DesignList").hide(400);
+				$("#TechnologyList").hide(400);
+
+				$("#WebsiteDevelopmentItemIc").removeClass('fa fa-plus');
+				$("#WebsiteDevelopmentItemIc").addClass('fa fa-minus');
+
+				$("#DeigitalMarketinItemIc").removeClass('fa fa-minus');
+				$("#DeigitalMarketinItemIc").addClass('fa fa-plus');
+
+				$("#DesignItemIc").removeClass('fa fa-minus');
+				$("#DesignItemIc").addClass('fa fa-plus');
+
+				$("#TechnologyItemIc").removeClass('fa fa-minus');
+				$("#TechnologyItemIc").addClass('fa fa-plus');
+			});
+			$("#DeigitalMarketinItem").click(function(){
+				$("#WebsiteDevelopmentList").hide(400);
+				$('#DeigitalMarketinList').show(400);
+				$("#DesignList").hide(400);
+				$("#TechnologyList").hide(400);
+
+				$("#WebsiteDevelopmentItemIc").removeClass('fa fa-minus');
+				$("#WebsiteDevelopmentItemIc").addClass('fa fa-plus');
+
+				$("#DeigitalMarketinItemIc").removeClass('fa fa-plus');
+				$("#DeigitalMarketinItemIc").addClass('fa fa-minus');
+
+				$("#DesignItemIc").removeClass('fa fa-minus');
+				$("#DesignItemIc").addClass('fa fa-plus');
+
+				$("#TechnologyItemIc").removeClass('fa fa-minus');
+				$("#TechnologyItemIc").addClass('fa fa-plus');
+			});
+
+			$("#DesignItem").click(function(){
+				$("#WebsiteDevelopmentList").hide(400);
+				$('#DeigitalMarketinList').hide(400);
+				$("#DesignList").show(400);
+				$("#TechnologyList").hide(400);
+
+				$("#WebsiteDevelopmentItemIc").removeClass('fa fa-minus');
+				$("#WebsiteDevelopmentItemIc").addClass('fa fa-plus');
+
+				$("#DeigitalMarketinItemIc").removeClass('fa fa-minus');
+				$("#DeigitalMarketinItemIc").addClass('fa fa-plus');
+
+				$("#DesignItemIc").removeClass('fa fa-plus');
+				$("#DesignItemIc").addClass('fa fa-minus');
+
+				$("#TechnologyItemIc").removeClass('fa fa-minus');
+				$("#TechnologyItemIc").addClass('fa fa-plus');
+			});
+			$("#TechnologyItem").click(function(){
+				$("#WebsiteDevelopmentList").hide(400);
+				$('#DeigitalMarketinList').hide(400);
+				$("#DesignList").hide(400);
+				$("#TechnologyList").show(400);
+
+				$("#WebsiteDevelopmentItemIc").removeClass('fa fa-minus');
+				$("#WebsiteDevelopmentItemIc").addClass('fa fa-plus');
+
+				$("#DeigitalMarketinItemIc").removeClass('fa fa-minus');
+				$("#DeigitalMarketinItemIc").addClass('fa fa-plus');
+
+				$("#DesignItemIc").removeClass('fa fa-minus');
+				$("#DesignItemIc").addClass('fa fa-plus');
+
+				$("#TechnologyItemIc").removeClass('fa fa-plus');
+				$("#TechnologyItemIc").addClass('fa fa-minus');
+			});
+		});
+	</script>
 </head>
 <body id="ProjectPalnner-body">
 	<div class="container-fluid" id="ProjectPalnner">
@@ -33,7 +122,7 @@
 				<a href="index.html" id="HeadImg"><img src="images/Semicolon.png" title="Logo"></a>
 			</div>
 			<div class="col-md d-flex justify-content-end" id="CancelButton">
-				<a href="#" class="buttonLink"><i class="fa fa-close" aria-hidden="true"></i></a>
+				<a href="index.html" class="buttonLink"><i class="fa fa-close" aria-hidden="true"></i></a>
 			</div>
 		</div>
 		
@@ -92,35 +181,38 @@
 									<!-- Website Development Row -->
 									<div class="row form-group">
 										<div class="col-md">
-											<div class="row">
+											<div class="row Service-Item" id="WebsiteDevelopmentItem">
 												<div class="col-md">
 													<label for="Website Development">
 														<h5>Website Development</h5>
 													</label>
+													<i id="WebsiteDevelopmentItemIc"></i>
 												</div>
 											</div>
-											<div class="row">
-												<div class="col-md">
-													<div class="form-group form-check">
-														<label class="form-check-label">
-															<input class="form-check-input" type="checkbox" value="Email"> Corporate Website Development
-														</label>
+											<div id="WebsiteDevelopmentList">
+												<div class="row">
+													<div class="col-md">
+														<div class="form-group form-check">
+															<label class="form-check-label">
+																<input class="form-check-input" type="checkbox" value="Email"> Corporate Website Development
+															</label>
+														</div>
+													</div>
+													<div class="col-md">
+														<div class="form-group form-check">
+															<label class="form-check-label">
+																<input class="form-check-input" type="checkbox" value="Email"> Corporate Website Development
+															</label>
+														</div>
 													</div>
 												</div>
-												<div class="col-md">
-													<div class="form-group form-check">
-														<label class="form-check-label">
-															<input class="form-check-input" type="checkbox" value="Email"> Corporate Website Development
-														</label>
-													</div>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-md">
-													<div class="form-group form-check">
-														<label class="form-check-label">
-															<input class="form-check-input" type="checkbox" value="Email">Ecommerce Development
-														</label>
+												<div class="row">
+													<div class="col-md">
+														<div class="form-group form-check">
+															<label class="form-check-label">
+																<input class="form-check-input" type="checkbox" value="Email">Ecommerce Development
+															</label>
+														</div>
 													</div>
 												</div>
 											</div>
@@ -130,60 +222,63 @@
 									<!-- Digital Marketing Row -->
 									<div class="row form-group">
 										<div class="col-md">
-											<div class="row">
+											<div class="row Service-Item" id="DeigitalMarketinItem">
 												<div class="col-md">
-													<label for="Website Development">
+													<label for="Digital Marketing">
 														<h5>Digital Marketing</h5>
 													</label>
+													<i id="DeigitalMarketinItemIc"></i>
 												</div>
 											</div>
-											<div class="row">
-												<div class="col-md">
-													<div class="form-group form-check">
-														<label class="form-check-label">
-															<input class="form-check-input" type="checkbox" value="Email"> Social Media
-														</label>
+											<div id="DeigitalMarketinList">
+												<div class="row">
+													<div class="col-md">
+														<div class="form-group form-check">
+															<label class="form-check-label">
+																<input class="form-check-input" type="checkbox" value="Email"> Social Media
+															</label>
+														</div>
+													</div>
+													<div class="col-md">
+														<div class="form-group form-check">
+															<label class="form-check-label">
+																<input class="form-check-input" type="checkbox" value="Email">Campaign Management
+															</label>
+														</div>
 													</div>
 												</div>
-												<div class="col-md">
-													<div class="form-group form-check">
-														<label class="form-check-label">
-															<input class="form-check-input" type="checkbox" value="Email">Campaign Management
-														</label>
+												<div class="row">
+													<div class="col-md">
+														<div class="form-group form-check">
+															<label class="form-check-label">
+																<input class="form-check-input" type="checkbox" value="Email">Email Marketing
+															</label>
+														</div>
+													</div>
+													<div class="col-md">
+														<div class="form-group form-check">
+															<label class="form-check-label">
+																<input class="form-check-input" type="checkbox" value="Email">PPC Management
+															</label>
+														</div>
 													</div>
 												</div>
-											</div>
-											<div class="row">
-												<div class="col-md">
-													<div class="form-group form-check">
-														<label class="form-check-label">
-															<input class="form-check-input" type="checkbox" value="Email">Email Marketing
-														</label>
+												<div class="row">
+													<div class="col-md">
+														<div class="form-group form-check">
+															<label class="form-check-label">
+																<input class="form-check-input" type="checkbox" value="Email">
+																Search Engin Marketing
+															</label>
+														</div>
 													</div>
-												</div>
-												<div class="col-md">
-													<div class="form-group form-check">
-														<label class="form-check-label">
-															<input class="form-check-input" type="checkbox" value="Email">PPC Management
-														</label>
-													</div>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-md">
-													<div class="form-group form-check">
-														<label class="form-check-label">
-															<input class="form-check-input" type="checkbox" value="Email">
-															Search Engin Marketing
-														</label>
-													</div>
-												</div>
-												<div class="col-md">
-													<div class="form-group form-check">
-														<label class="form-check-label">
-															<input class="form-check-input" type="checkbox" value="Email">
-															SEO Services
-														</label>
+													<div class="col-md">
+														<div class="form-group form-check">
+															<label class="form-check-label">
+																<input class="form-check-input" type="checkbox" value="Email">
+																SEO Services
+															</label>
+														</div>
 													</div>
 												</div>
 											</div>
@@ -193,52 +288,55 @@
 									<!--Design & Creative Service Row -->
 									<div class="row form-group">
 										<div class="col-md">
-											<div class="row">
+											<div class="row Service-Item" id="DesignItem">
 												<div class="col-md">
-													<label for="Website Development">
+													<label for="Design adn Creative Services">
 														<h5>Design & Creative Services</h5>
 													</label>
+													<i id="DesignItemIc"></i>
 												</div>
 											</div>
-											<div class="row">
-												<div class="col-md">
-													<div class="form-group form-check">
-														<label class="form-check-label">
-															<input class="form-check-input" type="checkbox" value="Email"> Website Design
-														</label>
+											<div id="DesignList">
+												<div class="row">
+													<div class="col-md">
+														<div class="form-group form-check">
+															<label class="form-check-label">
+																<input class="form-check-input" type="checkbox" value="Email"> Website Design
+															</label>
+														</div>
+													</div>
+													<div class="col-md">
+														<div class="form-group form-check">
+															<label class="form-check-label">
+																<input class="form-check-input" type="checkbox" value="Email">Mobile App Design
+															</label>
+														</div>
 													</div>
 												</div>
-												<div class="col-md">
-													<div class="form-group form-check">
-														<label class="form-check-label">
-															<input class="form-check-input" type="checkbox" value="Email">Mobile App Design
-														</label>
+												<div class="row">
+													<div class="col-md">
+														<div class="form-group form-check">
+															<label class="form-check-label">
+																<input class="form-check-input" type="checkbox" value="Email">Brand Identity and Logo
+															</label>
+														</div>
+													</div>
+													<div class="col-md">
+														<div class="form-group form-check">
+															<label class="form-check-label">
+																<input class="form-check-input" type="checkbox" value="Email">Marketing Collaterals
+															</label>
+														</div>
 													</div>
 												</div>
-											</div>
-											<div class="row">
-												<div class="col-md">
-													<div class="form-group form-check">
-														<label class="form-check-label">
-															<input class="form-check-input" type="checkbox" value="Email">Brand Identity and Logo
-														</label>
-													</div>
-												</div>
-												<div class="col-md">
-													<div class="form-group form-check">
-														<label class="form-check-label">
-															<input class="form-check-input" type="checkbox" value="Email">Marketing Collaterals
-														</label>
-													</div>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-md">
-													<div class="form-group form-check">
-														<label class="form-check-label">
-															<input class="form-check-input" type="checkbox" value="Email">
-															Video Production
-														</label>
+												<div class="row">
+													<div class="col-md">
+														<div class="form-group form-check">
+															<label class="form-check-label">
+																<input class="form-check-input" type="checkbox" value="Email">
+																Video Production
+															</label>
+														</div>
 													</div>
 												</div>
 											</div>
@@ -249,35 +347,38 @@
 									<!--Technology Service Row -->
 									<div class="row form-group">
 										<div class="col-md">
-											<div class="row">
+											<div class="row Service-Item" id="TechnologyItem">
 												<div class="col-md">
-													<label for="Website Development">
+													<label for="Technology">
 														<h5>Technology</h5>
 													</label>
+													<i id="TechnologyItemIc"></i>
 												</div>
 											</div>
-											<div class="row">
-												<div class="col-md">
-													<div class="form-group form-check">
-														<label class="form-check-label">
-															<input class="form-check-input" type="checkbox" value="Email">Custom Software Development
-														</label>
+											<div id="TechnologyList">
+												<div class="row">
+													<div class="col-md">
+														<div class="form-group form-check">
+															<label class="form-check-label">
+																<input class="form-check-input" type="checkbox" value="Email">Custom Software Development
+															</label>
+														</div>
+													</div>
+													<div class="col-md">
+														<div class="form-group form-check">
+															<label class="form-check-label">
+																<input class="form-check-input" type="checkbox" value="Email">App Development
+															</label>
+														</div>
 													</div>
 												</div>
-												<div class="col-md">
-													<div class="form-group form-check">
-														<label class="form-check-label">
-															<input class="form-check-input" type="checkbox" value="Email">App Development
-														</label>
-													</div>
-												</div>
-											</div>
-											<div class="row">
-												<div class="col-md">
-													<div class="form-group form-check">
-														<label class="form-check-label">
-															<input class="form-check-input" type="checkbox" value="Email">Product Development
-														</label>
+												<div class="row">
+													<div class="col-md">
+														<div class="form-group form-check">
+															<label class="form-check-label">
+																<input class="form-check-input" type="checkbox" value="Email">Product Development
+															</label>
+														</div>
 													</div>
 												</div>
 											</div>
@@ -285,7 +386,7 @@
 									</div>
 
 									<!-- Overview Section -->
-									<div class="row">
+									<div class="row Overview-section">
 										<div class="col-md">
 											<label for="Overview"><h5>Overview</h5></label>
 											<p>Describe your project and how you would like us to help.*
@@ -294,7 +395,12 @@
 									</div>
 									<div class="row form-group">
 										<div class="col-md">
-											<textarea id="" cols="70" rows="7" placeholder="Describe here" class="InputText"></textarea>
+											<textarea id="" cols="30" rows="5" placeholder="Describe here" class="InputText"></textarea>
+										</div>
+									</div>
+									<div class="row form-group Submit-Button">
+										<div class="col-md">
+											<button type="submit">Send</button>
 										</div>
 									</div>
 								</div>

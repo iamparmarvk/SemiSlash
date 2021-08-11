@@ -2060,7 +2060,6 @@ body{
 			color: white;
 		}
 		#ProjectPalnner{
-			border: 2px solid;
 			padding: 50px 200px 10px 200px;
 		}
 
@@ -2080,7 +2079,6 @@ body{
 		}
 
 		#ProjectPalnner #ProjectPlannerFirstSection{
-			border: 2px solid;
 			margin-top: 100px;
 			margin-bottom: 20px;
 		}
@@ -2101,7 +2099,6 @@ body{
 			color: #E1E5EA;
 		}
 		#ProjectPlannerSecondSection{
-			border: 2px solid;
 			padding: 20px 0px 20px 0px;
 		}
 		#ProjectPlannerSecondSection .row{
@@ -2131,13 +2128,40 @@ body{
 			color: white;
 		}
 
+		#ProjectPlannerSecondSection i{
+			float: right;
+		}
+		#ProjectPlannerSecondSection h5{
+			cursor: pointer;
+		}
+		#ProjectPlannerSecondSection .Service-Item{
+			border-bottom: 0.5px solid white;
+			padding-bottom: 10px;
+			border-width: thin;
+		}
 
-
-
-
-
-
-
+		#ProjectPalnner .Overview-section{
+			margin-top: 50px;
+		}
+		#ProjectPalnner .Submit-Button button{
+			float: right;
+			min-width: 120px;
+			text-align: center;
+			border: none;
+			outline: none;
+			padding: 10px;
+			border-radius: 50px;
+			font-size: 15px;
+			background-color: #0F52BA;
+			color: white;
+			font-family: 'Ubuntu', sans-serif;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+		}
+		#ProjectPalnner .Submit-Button button:hover{
+			transition: 0.5s ease-in-out;
+			background-color: #001E6C;
+		}	
 
 
 
