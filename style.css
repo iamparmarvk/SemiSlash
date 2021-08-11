@@ -1116,8 +1116,175 @@ body{
 		background-color: #001E6C;
 	}
 
+	#ContactFirstSection{
+		padding: 20px 10px 20px 10px;
+		min-height: 150px;	
+	}
+	#ContactFirstSection h6{
+		font-family: 'Ubuntu', sans-serif;
+		text-transform: uppercase;
+		font-weight: bolder;
+		font-size: 13px;
+		color: #6E7C7C;
+	}
 
+	#ContactFirstSection h1{
+		font-size: 40px;
+		font-weight: 900;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+	#ContactFirstSection p{
+		font-size: 16px;
+	}
+	#ContactPagination{
+		padding: 5px 10px 5px 10px;
+		background-color:#EEEEEE ;
+	}
+	#ContactPagination ul{
+		list-style-type: none;
+		position: relative;
+		top: 7px;
+	}
+	#ContactPagination ul li{
+		display: inline;
+		font-size: 12px;
+		margin-left: 10px;
+		text-transform: uppercase;
+		font-family: 'Ubuntu', sans-serif;
+		font-weight: 600;
+		color: #6E7C7C;
+	}
+	#ContactPagination .Entity{
+		font-size: 15px;
+		color: black;
+		font-weight: 600;
+	}
+	#ContactPagination a{
+		text-decoration: none;
+		color: black;
+	}
+	#ContactSecondSecton{
+		padding: 10px 10px 10px 10px;
+	}
+	
+	#ContactSecondSecton{
+		padding: 60px 10px 30px 10px;
+	}
+	#ContactSecondSecton h5{
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: 700;
+	}
+	#ContactSecondSecton a{
+		text-decoration: none;
+	}
+	#ContactThirdSection{
+		padding: 50px 10px 50px 10px;
+	}
+	#ContactThirdSection .title-shape:after{
+		content: '';
+		position: absolute;
+		display: block;
+		top: 5%;
+		left: -6px;
+		background: url('https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/shape-5.svg');
+		width: 20px;
+		height: 73px;
 
+	}
+	#ContactThirdSection h1{
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: 600;
+		font-size: 32px;
+	}
+	#ContactThirdSection .col{
+		padding: 10px;
+	}
+	#ContactThirdSection form{
+		margin-top: 20px;
+		
+	}
+	#ContactThirdSection form input{
+		width: 100%;
+		border: none;
+		outline: none;
+		border-radius: 0px;
+		border-bottom:1px solid;
+		margin-top: 10px;
+		padding: 10px;
+		font-family: 'Ubuntu', sans-serif;
+	}
+	#ContactThirdSection form textarea{
+		width: 100%;
+		font-family: 'Ubuntu', sans-serif;
+		border: none;
+		outline: none;
+		border-radius: 0px;
+		border-bottom:1px solid;
+		margin-top: 10px;
+		padding: 10px;
+	}
+	#ContactThirdSection img{
+		width: 300px;
+		position: relative;
+		left: 3%;
+		top: 5%;
+	}
+	#ContactThirdSection .btn{
+		margin-top: 20px;
+		min-width: 150px;
+		min-height: 45px;
+		padding: 10px;
+		font-family: 'Ubuntu', sans-serif;
+		text-transform: uppercase;
+		font-weight: bolder;
+		letter-spacing: 1px;
+		font-size: 12px;
+		background-color: #0F52BA;
+		border: none;
+		border-radius: 45px;
+		box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+		transition: all 0.3s ease 0s;
+		cursor: pointer;
+		outline: none;
+		color: white;
+	}
+	#ContactThirdSection .btn:hover{
+		background-color: #2EE59D;
+		box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+		color: #fff;
+		transform: translateY(-7px);	
+	}
+	#ContactFourthSection{
+		padding: 50px 10px 20px 10px;
+		background-color:#EEEEEE ;
+	}
+	#ContactFourthSection h1{
+		font-size: 32px;
+		font-weight: 800;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+	#ContactFourthSection h3{
+		margin-top: 10px;
+		font-weight: 700;
+		font-size: 25px;
+		font-family: 'Josefin Sans', sans-serif;	
+	}
+	#ContactFourthSection p{
+		margin-top: 20px;
+		width: 300px;
+		font-size: 15px;
+	}
+	#ContactMap{
+		background-color:#EEEEEE ;
+		min-height: 200px;
+	}
+	#ContactMap iframe{
+		border-radius: 10px;
+		border: none;
+		width: 100%;
+		margin: 0px;
+		min-height: 250px;
+	}
 
 
 	.page-footer{
@@ -2181,9 +2348,9 @@ body{
 			color: white;
 		}
 		#ProjectPalnner .navbar-brand img{
-		width: 50px;
-		transform: scale(2.0);
-	}
+			width: 50px;
+			transform: scale(2.0);
+		}
 
 		#ProjectPalnner #HeadImg img{
 			width: 60px;
@@ -2284,9 +2451,170 @@ body{
 			transition: 0.5s ease-in-out;
 			background-color: #001E6C;
 		}	
+		#ContactFirstSection{
+			padding: 100px 200px 50px 200px;
+			min-height: 300px;	
+		}
+		#ContactFirstSection h6{
+			font-family: 'Ubuntu', sans-serif;
+			text-transform: uppercase;
+			font-weight: bolder;
+			font-size: 13px;
+			color: #6E7C7C;
+		}
 
+		#ContactFirstSection h1{
+			font-size: 70px;
+			font-weight: 900;
+			font-family: 'Josefin Sans', sans-serif;
+		}
+		#ContactFirstSection p{
+			font-size: 20px;
+		}
+		#ContactFirstSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#ContactPagination{
+			padding: 5px 200px 5px 140px;
+			background-color:#EEEEEE ;
+		}
+		#ContactPagination ul{
+			list-style-type: none;
+			position: relative;
+			top: 7px;
+		}
+		#ContactPagination ul li{
+			display: inline;
+			font-size: 12px;
+			margin-left: 10px;
+			text-transform: uppercase;
+			font-family: 'Ubuntu', sans-serif;
+			font-weight: 600;
+			color: #6E7C7C;
+		}
+		#ContactPagination .Entity{
+			font-size: 15px;
+			color: black;
+			font-weight: 600;
+		}
+		#ContactPagination a{
+			text-decoration: none;
+			color: black;
+		}
+		#ContactSecondSecton{
+			padding: 100px 200px 50px 200px;
+		}
+		#ContactSecondSecton h5{
+			font-family: 'Josefin Sans', sans-serif;
+			font-weight: 700;
+		}
+		#ContactSecondSecton a{
+			text-decoration: none;
+		}
+		#ContactThirdSection{
+			padding: 100px 200px 50px 200px;
+		}
+		#ContactThirdSection .title-shape:after{
+			content: '';
+			position: absolute;
+			display: block;
+			top: 5%;
+			left: -30px;
+			background: url('https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/shape-5.svg');
+			width: 28px;
+			height: 73px;
 
-
+		}
+		#ContactThirdSection h1{
+			font-size: 70px;
+			font-weight: 900;
+			font-family: 'Josefin Sans', sans-serif;
+		}
+		#ContactThirdSection .col{
+			padding: 10px;
+		}
+		#ContactThirdSection form{
+			margin-top: 20px;
+		}
+		#ContactThirdSection form input{
+			width: 400px;
+			border: none;
+			outline: none;
+			border-radius: 0px;
+			border-bottom:1px solid;
+			margin-top: 10px;
+			padding: 10px;
+			font-family: 'Ubuntu', sans-serif;
+		}
+		#ContactThirdSection form textarea{
+			width: 400px;
+			font-family: 'Ubuntu', sans-serif;
+			border: none;
+			outline: none;
+			border-radius: 0px;
+			border-bottom:1px solid;
+			margin-top: 10px;
+			padding: 10px;
+		}
+		#ContactThirdSection img{
+			width: 400px;
+		}
+		#ContactThirdSection .btn{
+			margin-top: 20px;
+			min-width: 170px;
+			min-height: 45px;
+			padding: 10px;
+			font-family: 'Ubuntu', sans-serif;
+			text-transform: uppercase;
+			font-weight: bolder;
+			letter-spacing: 1px;
+			font-size: 12px;
+			background-color: #0F52BA;
+			border: none;
+			border-radius: 45px;
+			box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+			transition: all 0.3s ease 0s;
+			cursor: pointer;
+			outline: none;
+			color: white;
+		}
+		#ContactThirdSection .btn:hover{
+			background-color: #2EE59D;
+			box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+			color: #fff;
+			transform: translateY(-7px);	
+		}
+		#ContactFourthSection{
+			padding: 100px 200px 50px 200px;
+			background-color:#EEEEEE ;
+		}
+		#ContactFourthSection h1{
+			font-size: 40px;
+			font-weight: 800;
+			font-family: 'Josefin Sans', sans-serif;
+		}
+		#ContactFourthSection h3{
+			margin-top: 10px;
+			font-weight: 700;
+			font-family: 'Josefin Sans', sans-serif;	
+		}
+		#ContactFourthSection p{
+			margin-top: 20px;
+			width: 300px;
+		}
+		#ContactMap{
+			background-color:#EEEEEE ;
+			min-height: 200px;
+		}
+		#ContactMap iframe{
+			border-radius: 10px;
+			border: none;
+			width: 100%;
+			margin: 0px;
+			min-height: 500px;
+		}
 
 
 
