@@ -1005,6 +1005,116 @@ body{
 
 	}
 
+	#ProjectPalnner-body{
+		background-color: black;
+		color: white;
+	}
+	#ProjectPalnner{
+		padding: 50px 15px 20px 15px;
+	}
+	#ProjectPalnner .ProjectPalnnerRow{
+		display: inline;
+	}
+	#ProjectPalnner .navbar{
+		background-color: black;
+	}
+	#ProjectPalnner .navbar-brand img{
+		width: 40px;
+		transform: scale(2.0);
+	}
+	#ProjectPalnner .navbar a{
+		font-size: 20px;
+		text-decoration: none;
+		color: white;
+	}
+
+
+	#ProjectPalnner #ProjectPlannerFirstSection{
+		margin-top: 50px;
+		padding: 20px 10px 20px 10px;
+	}
+	#ProjectPlannerFirstSection h1{
+		font-size: 32px;
+		font-weight: 700;
+		font-family: 'Josefin Sans', sans-serif;	
+		margin-bottom: 20px;
+	}
+	#ProjectPlannerFirstSection h3{
+		font-size: 16px;
+		font-weight: 700;
+		font-family: 'Josefin Sans', sans-serif;	
+	}
+	#ProjectPlannerFirstSection p{
+		font-size: 13px;
+		font-family: 'Josefin Sans', sans-serif;	
+		color: #E1E5EA;
+	}
+	#ProjectPlannerSecondSection{
+		padding: 20px 10px 20px 10px;
+	}
+	#ProjectPlannerSecondSection .row, .Organization{
+		margin-top: 30px;
+	}
+
+	#ProjectPalnner .ContactRow{
+		margin-top: 35px;
+	}
+	#ProjectPalnner .ContactRow .form-check-label{
+		margin-left: -10px;
+		padding: 0px 50px 0px 10px;
+	}
+	#ProjectPalnner input[type="checkbox"]{
+		width: 20px;
+		height: 15px;
+	}
+	#ProjectPlannerSecondSection .InputText{
+		width: 100%;
+		padding: 7px;
+		border: none;
+		outline: none;
+		border-bottom: 1px white solid;
+		background-color: black;
+		color: white;
+	}
+
+	#ProjectPlannerSecondSection i{
+		float: right;
+	}
+	#ProjectPlannerSecondSection p{
+		font-size: 14px;
+	}
+	#ProjectPlannerSecondSection h5{
+		font-size: 17px;
+		cursor: pointer;
+	}
+	#ProjectPlannerSecondSection .Service-Item{
+		border-bottom: 0.5px solid white;
+		padding-bottom: 5px;
+		border-width: thin;
+	}
+
+	#ProjectPalnner .Overview-section{
+		margin-top: 50px;
+	}
+	#ProjectPalnner .Submit-Button button{
+		float: right;
+		min-width: 100px;
+		text-align: center;
+		border: none;
+		outline: none;
+		padding: 10px;
+		border-radius: 50px;
+		font-size: 13px;
+		background-color: #0F52BA;
+		color: white;
+		font-family: 'Ubuntu', sans-serif;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+	#ProjectPalnner .Submit-Button button:hover{
+		transition: 0.5s ease-in-out;
+		background-color: #001E6C;
+	}
 
 
 
@@ -2062,6 +2172,18 @@ body{
 		#ProjectPalnner{
 			padding: 50px 200px 10px 200px;
 		}
+		#ProjectPalnner .navbar{
+			background-color: black;
+		}
+		#ProjectPalnner .navbar a{
+			font-size: 30px;
+			text-decoration: none;
+			color: white;
+		}
+		#ProjectPalnner .navbar-brand img{
+		width: 50px;
+		transform: scale(2.0);
+	}
 
 		#ProjectPalnner #HeadImg img{
 			width: 60px;
@@ -2102,7 +2224,7 @@ body{
 			padding: 20px 0px 20px 0px;
 		}
 		#ProjectPlannerSecondSection .row{
-				margin-top: 20px;
+			margin-top: 20px;
 		}
 		#ProjectPalnner form{
 			min-width: 700px;
@@ -2111,8 +2233,8 @@ body{
 			margin-top: 50px;
 		}
 		#ProjectPalnner .ContactRow .form-check-label{
-				margin-left: -10px;
-				padding: 0px 50px 0px 10px;
+			margin-left: -10px;
+			padding: 0px 50px 0px 10px;
 		}
 		#ProjectPalnner input[type="checkbox"]{
 			width: 20px;
