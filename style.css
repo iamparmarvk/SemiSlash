@@ -1292,6 +1292,80 @@ body{
 	}
 
 
+	#ClinetFirstSection{
+		padding: 50px 10px 20px 10px;
+		min-height: 250px;	
+	}
+	#ClinetFirstSection h6{
+		font-family: 'Ubuntu', sans-serif;
+		text-transform: uppercase;
+		font-weight: bolder;
+		font-size: 13px;
+		color: #6E7C7C;
+	}
+
+	#ClinetFirstSection h1{
+		font-size: 32px;
+		font-weight: 900;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+	#ClinetFirstSection p{
+		font-size: 16px;
+		margin-top: 20px;
+	}
+	#ClinetFirstSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#ClientPagination{
+		padding: 5px 10px 5px 10px;
+		background-color:#EEEEEE ;
+	}
+	#ClientPagination ul{
+		list-style-type: none;
+		position: relative;
+		top: 7px;
+	}
+	#ClientPagination ul li{
+		display: inline;
+		font-size: 12px;
+		margin-left: 10px;
+		text-transform: uppercase;
+		font-family: 'Ubuntu', sans-serif;
+		font-weight: 600;
+		color: #6E7C7C;
+	}
+	#ClientPagination .Entity{
+		font-size: 15px;
+		color: black;
+		font-weight: 600;
+	}
+	#ClientPagination a{
+		text-decoration: none;
+		color: black;
+	}
+	#ClientsSecondSection{
+		padding: 50px 10px 30px 10px;
+		min-height: 300px;		
+	}
+	#ClientsSecondSection .row{
+		margin-top: 50px;
+	}
+	#ClientsSecondSection .col{
+		margin-left: 5px;
+		display: inline;
+		text-align: center;
+	}
+	#ClientsSecondSection img{
+		width: 150px;
+	}
+	.back-to-top {
+		position: fixed;
+		bottom: 25px;
+		right: 25px;
+		display: none;
+	}
 	.page-footer{
 		padding: 30px 10px 20px 5px;
 	}
@@ -2622,10 +2696,81 @@ body{
 		}
 
 
+		#ClinetFirstSection{
+			padding: 100px 200px 50px 200px;
+			min-height: 300px;	
+		}
+		#ClinetFirstSection h6{
+			font-family: 'Ubuntu', sans-serif;
+			text-transform: uppercase;
+			font-weight: bolder;
+			font-size: 13px;
+			color: #6E7C7C;
+		}
 
-
-
-
+		#ClinetFirstSection h1{
+			font-size: 70px;
+			font-weight: 900;
+			font-family: 'Josefin Sans', sans-serif;
+		}
+		#ClinetFirstSection p{
+			font-size: 20px;
+		}
+		#ClinetFirstSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#ClientPagination{
+			padding: 5px 200px 5px 140px;
+			background-color:#EEEEEE ;
+		}
+		#ClientPagination ul{
+			list-style-type: none;
+			position: relative;
+			top: 7px;
+		}
+		#ClientPagination ul li{
+			display: inline;
+			font-size: 12px;
+			margin-left: 10px;
+			text-transform: uppercase;
+			font-family: 'Ubuntu', sans-serif;
+			font-weight: 600;
+			color: #6E7C7C;
+		}
+		#ClientPagination .Entity{
+			font-size: 15px;
+			color: black;
+			font-weight: 600;
+		}
+		#ClientPagination a{
+			text-decoration: none;
+			color: black;
+		}
+		#ClientsSecondSection{
+			padding: 50px 200px 100px 200px;
+			min-height: 300px;		
+		}
+		#ClientsSecondSection .row{
+			margin-top: 50px;
+		}
+		#ClientsSecondSection .col{
+			margin-left: 5px;
+			text-align: center;
+		}
+		#ClientsSecondSection img{
+			width: 200px;
+		}
+		.back-to-top {
+			position: fixed;
+			bottom: 25px;
+			right: 25px;
+			display: none;
+			border: none;
+			outline: none;
+			
+		}
 		.page-footer{
 			padding: 30px 160px 0px 160px;
 		}
