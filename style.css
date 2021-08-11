@@ -1196,6 +1196,11 @@ body{
 		font-weight: 600;
 		font-size: 32px;
 	}
+	#ContactThirdSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
 	#ContactThirdSection .col{
 		padding: 10px;
 	}
