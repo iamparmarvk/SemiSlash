@@ -8,7 +8,7 @@
 
 			<meta name="viewport" content="width=device-widht, initial-scale=1.0">
 
-			<link rel="stylesheet" type="text/css" href="style.css">
+			<link rel="stylesheet" type="text/css" href="css/style.css">
 
 			<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 
@@ -31,621 +31,478 @@
 			<!-- Animation on scroll libraries -->
 			<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-			<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+				<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+				<script type="text/javascript" src="javascript/main.js"></script>
 
-			<script type="text/javascript">
-				$(document).ready(function(){
+				<script src="javascript/loader-menu.js"></script>
 
-					jQuery('#loading').fadeOut(2000);
-					/*This is effect is for Hiding everything*/
-					$("#DigitalMarketingP").show();
-					$("#DigitalMarketingImage").show(500);
-					$("#WebsiteDevelopmentP").hide();
-					$("#DesignP").hide();
-					$("#TechnologyP").hide();
-					$("#WebsiteDevelopmentImage").hide();
-					$("#DesignImage").hide();
-					$("#TechnologyImage").hide();
-					$("#DigitalMarketingIc").addClass("fa fa-angle-up");
-					$("#DesignIc").addClass("fa fa-angle-down");
-					$("#WebsiteDevelopmentIc").addClass("fa fa-angle-down");
-					$("#TechnologyIc").addClass("fa fa-angle-down");
+			</head>
+			<body>
+				<div id="loading">
 
-					/* This is for Digital Marketing*/
+				</div>
 
-					$("#DigitalMarketing").click(function(){
-						$("#DesignIc").removeClass("fa fa-angle-down");
-						$("#DesignIc").addClass("fa fa-angle-down");
-						$("#DigitalMarketingIc").removeClass("fa fa-angle-down");
-						$("#DigitalMarketingIc").addClass("fa fa-angle-up");
-						$("#WebsiteDevelopmentIc").removeClass("fa fa-angle-down");
-						$("#WebsiteDevelopmentIc").addClass("fa fa-angle-down");
-						$("#TechnologyIc").removeClass("fa fa-angle-down");
-						$("#TechnologyIc").addClass("fa fa-angle-down");
+				<div class="container-fluid" id="scene">
+					<!-- Navigation Bar -->
+					<nav class="navbar navbar-expand-md sticky">
+						<!-- Brand -->
+						<a class="navbar-brand" href="index.html"><img src="images/SemiSlash.png" title="Logo"></a>
 
-						$("#WebsiteDevelopmentP").hide(500);
-						$("#WebsiteDevelopmentImage").hide(500);
-						$("#DigitalMarketingP").show(500);
-						$("#DesignP").hide(500);
-						$("#TechnologyP").hide(500);
-						$("#DigitalMarketingImage").show(500);
-						$("#DesignImage").hide(500);
-						$("#TechnologyImage").hide(500);
-					});
+						<div class="hamburger navbar-toggler" id="hamburger-1" data-toggle="collapse" data-target="#collapsibleNavbar">
+							<span class="line"></span>
+							<span class="line"></span>
+							<span class="line"></span>
+						</div>
 
-					/* This Effect is for Website Development*/
-					$("#WebsiteDevelopment").click(function(){
+						<!-- Navbar links -->
+						<div class="collapse navbar-collapse" id="collapsibleNavbar">
+							<ul class="navbar-nav">
 
-						$("#DesignIc").removeClass("fa fa-angle-down");
-						$("#DesignIc").addClass("fa fa-angle-down");
-						$("#DigitalMarketingIc").removeClass("fa fa-angle-down");
-						$("#DigitalMarketingIc").addClass("fa fa-angle-down");
-						$("#WebsiteDevelopmentIc").removeClass("fa fa-angle-down");
-						$("#WebsiteDevelopmentIc").addClass("fa fa-angle-up");
-						$("#TechnologyIc").removeClass("fa fa-angle-down");
-						$("#TechnologyIc").addClass("fa fa-angle-down");
+								<li class="nav-item  dropdown" data-toggle="dropdown"> 	
+									<a class="nav-link" href="" title="What we do">What we do</a>
 
-						$("#WebsiteDevelopmentP").show(500);
-						$("#WebsiteDevelopmentImage").show(500);
-						$("#DigitalMarketingP").hide(500);
-						$("#DesignP").hide(500);
+									<!-- DropDown Menu Item  -->
+									<div class="DropDownList dropdown-menu ">
+										<ul>
+											<!-- Row For Digital Marketing Item -->
+											<li class="DigitalMarketingItem dropdown-item">
+												<div class="media">
+													<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/menu/digital.svg" class="align-self-center media-img">
+													<div class="media-body align-self-center">
+														<h5>Digital Marketing</h5>
+													</div>
+												</div>
+											</li>
+											<!-- Row for Technology item -->
+											<li class="TechnologyItem dropdown-item">
+												<div class="media">
+													<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/menu/tech.svg" class="align-self-center media-img">
+													<div class="media-body align-self-center">
+														<h5>Technology</h5>
+													</div>
+												</div>
+											</li>
+											<!-- Row for design and creative services Item -->
+											<li class="DesignItem dropdown-item">
+												<div class="media DesignItem">
+													<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/menu/design.svg" class="align-self-center media-img">
+													<div class="media-body align-self-center">
+														<h5>Design & Creative Services</h5>
+													</div>
+												</div>
+											</li>
+											<!-- Row For Web development Item -->
+											<li class="dropdown-item">
+												<div class="media webDevelopmentItem">
+													<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/menu/website.svg" class="align-self-center media-img">
+													<div class="media-body align-self-center">
+														<h5>Website Development</h5>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</li>
 
+								<li class="nav-item">
+									<a class="nav-link" href="case-studies.html" title="Case Study">Case Study</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="who-we-are.html" title="Who We are">Who We are</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="careers.html" title="Work With us">Work With us</a>
+								</li>
+								<li class="nav-item" >
+									<button id="GetStartedBtn" onclick="location.href='Project-planner.html'">Get Started</button>
+								</li>
+							</ul>
+						</div>
+					</nav>	
 
-						$("#TechnologyP").hide(500);
-						$("#DigitalMarketingImage").hide(500);
-						$("#DesignImage").hide(500);
-						$("#TechnologyImage").hide(500);
-					});
+					<!-- First Section --->
+					<div id="FirstSection" class="row" data-aos="fade-up">
 
-					/*This Effect is for Design*/
-					$("#Design").click(function(){
-						$("#DesignIc").removeClass("fa fa-angle-down");
-						$("#DesignIc").addClass("fa fa-angle-up");
-						$("#DigitalMarketingIc").removeClass("fa fa-angle-down");
-						$("#DigitalMarketingIc").addClass("fa fa-angle-down");
-						$("#WebsiteDevelopmentIc").removeClass("fa fa-angle-down");
-						$("#WebsiteDevelopmentIc").addClass("fa fa-angle-down");
-						$("#TechnologyIc").removeClass("fa fa-angle-down");
-						$("#TechnologyIc").addClass("fa fa-angle-down");
+						<div class="col-md" id="FirstLI">
+							<div class="row">
+								<div class="col-md">
+									<h1>Identify.<kbd data-aos="fade-right">Create.</kbd><br>Disrupt.</h1>
+								</div>
+							</div><br>
+							<div class="row">
+								<div class="col-md">
+									<p>In other words, we help your brand get <br>the traction and reach it deserves. Find <br>more cusomters, unearth new <br>opportunities for growth.</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md">
+									<button onclick="location.href='contact-us.html'">Let's talk</button>
+								</div>
+							</div>
+						</div>
 
-						$("#WebsiteDevelopmentP").hide(500);
-						$("#WebsiteDevelopmentImage").hide(500);
-						$("#DigitalMarketingP").hide(500);
-						$("#DesignP").show(500);
-						$("#TechnologyP").hide(500);
-						$("#DigitalMarketingImage").hide(500);
-						$("#DesignImage").show(500);
-						$("#TechnologyImage").hide(500);
-					});
-
-					/*This is for Technology*/
-					$("#Technology").click(function(){
-						$("#DesignIc").removeClass("fa fa-angle-down");
-						$("#DesignIc").addClass("fa fa-angle-down");
-						$("#DigitalMarketingIc").removeClass("fa fa-angle-down");
-						$("#DigitalMarketingIc").addClass("fa fa-angle-down");
-						$("#WebsiteDevelopmentIc").removeClass("fa fa-angle-down");
-						$("#WebsiteDevelopmentIc").addClass("fa fa-angle-down");
-						$("#TechnologyIc").removeClass("fa fa-angle-down");
-						$("#TechnologyIc").addClass("fa fa-angle-up");
-
-						$("#WebsiteDevelopmentP").hide(500);
-						$("#WebsiteDevelopmentImage").hide(500);
-						$("#DigitalMarketingP").hide(500);
-						$("#DesignP").hide(500);
-						$("#TechnologyP").show(500);
-						$("#DigitalMarketingImage").hide(500);
-						$("#DesignImage").hide(500);
-						$("#TechnologyImage").show(500);			
-					});
-
-					$(".card").hover(function(){
-						$(this).css("transition", "0.5s ease-in-out");
-						$(this).css("box-shadow","2px 2px 20px -6px rgba(22,20,20,0.87)");
-						$(this).css("border-radius","20px 0px 20px 0px");
-						$(this).css("transform", "scale(0.990)");
-					}, function(){
-						$(this).css("box-shadow","none");
-						$(this).css("transform", "scale(1)");
-						$(this).css("border-radius","0px");
-					});
-
-				});
-			</script>
-			
-		</head>
-		<body>
-			<div id="loading">
-				
-			</div>
-			
-			<div class="container-fluid" id="scene">
-				<!-- Navigation Bar -->
-				<nav class="navbar navbar-expand-md sticky">
-					<!-- Brand -->
-					<a class="navbar-brand" href="index.html"><img src="images/SemiSlash.png" title="Logo"></a>
-
-					<div class="hamburger navbar-toggler" id="hamburger-1" data-toggle="collapse" data-target="#collapsibleNavbar">
-						<span class="line"></span>
-						<span class="line"></span>
-						<span class="line"></span>
+						<div class="col-md">
+							<img src="SideImage.jpg" id="sideImage" alt="DigitalMarketingImage">
+						</div>
 					</div>
-					
-					<!-- Navbar links -->
-					<div class="collapse navbar-collapse" id="collapsibleNavbar">
-						<ul class="navbar-nav">
 
-							<li class="nav-item  dropdown" data-toggle="dropdown"> 	
-								<a class="nav-link" href="" title="What we do">What we do</a>
 
-								<!-- DropDown Menu Item  -->
-								<div class="DropDownList dropdown-menu ">
+					<div class="row">
+						<div class="col-md d-flex justify-content-center" id="ScrollIcon">
+							<a href="#SectionThree">
+								<img src="https://gunmagwarehouse.com/blog/wp-content/uploads/2020/09/scroll-down-gif.gif">
+								<br>
+								<span>Scroll down</span>
+							</a>
+						</div>
+					</div>
+
+
+					<!--Section Two --->
+					<div class="row" id="SectionTwo" >
+						<div class="col">
+							<div class="row" data-aos="fade-up">
+								<div class="col-md">
+									<h6>DIFFERENT BRANDS. DIFFERENT WORK. THE SAME ZEAL.</h6>
+									<h1>Brands associated with us</h1>
+								</div>
+							</div>
+							<br>
+							<div class="row brand-list" data-aos="fade-up">
+								<div class="col-md">
+									<a href="#"><img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/clients/2.png" alt="ogily"></a>
+								</div>
+								<div class="col-md">
+									<a href="#"><img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/clients/3.png"></a>
+								</div>
+								<div class="col-md">
+									<a href="#"><img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/clients/4.png"></a>
+								</div>
+								<div class="col-md">
+									<a href="#"><img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/clients/5.png"></a>
+								</div>
+								<div class="col-md">
+									<a href="#"><img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/clients/6.png"></a>
+								</div>
+							</div>
+							<br>
+							<div class="row" data-aos="fade-up">
+								<div class="col-md">
+									<p align="center">
+										<a href="clients.html">View all</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!--Section Three-->
+					<div class="row" id="SectionThree">
+						<div class="col-md">
+							<h1 data-aos="fade-up">We help you find and engage your <br><kbd>customers</kbd> online</h1>
+							<p data-aos="fade-up">Being from the digital generation, our DNA is embedded with a multi-device,
+								multi-channel approach. We go above & beyond, as a team, to bring you new,
+								effective tactics to navigate the online maze. We help you communicate,
+								execute & expand your company’s online presence.<br><br>
+								<a href="who-we-are.html">Read more</a>
+							</p>
+						</div>
+					</div>
+
+					<!-- Fourth Section-->
+					<div class="row" id="FourthSection">
+						<div class="col">
+							<div class="row" data-aos="fade-up">
+								<div class="col-md">
+									<h6>OUR SERVICES WILL GIVE YOU MANY MIC DROP MOMENTS</h6>
+									<h1>Because you won’t just get the <br>stage but the right <kbd>audience</kbd> too</h1>
+								</div>
+							</div>
+							<div class="row" id="ServiceInformation" data-aos="fade-up">
+								<div class="col-md">
 									<ul>
-										<!-- Row For Digital Marketing Item -->
-										<li class="DigitalMarketingItem dropdown-item">
-											<div class="media">
-												<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/menu/digital.svg" class="align-self-center media-img">
-												<div class="media-body align-self-center">
-													<h5>Digital Marketing</h5>
-												</div>
-											</div>
+										<li id="DigitalMarketing">
+											<h4>Digital Marketing <i class=" " id="DigitalMarketingIc"></i></h4>
+											<p id="DigitalMarketingP">We have a top notch digital marketing team. They’re the viral drivers of not just likes, comments and shares but also specialize in bringing in customers, consistent growth, increased ranking, website tracking and visits, boosted client engagement, and so much more.<br><br>
+												<a href="#">read more</a>
+											</p>
 										</li>
-										<!-- Row for Technology item -->
-										<li class="TechnologyItem dropdown-item">
-											<div class="media">
-												<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/menu/tech.svg" class="align-self-center media-img">
-												<div class="media-body align-self-center">
-													<h5>Technology</h5>
-												</div>
-											</div>
+										<li id="WebsiteDevelopment">
+											<h4>Website Development <i id="WebsiteDevelopmentIc"></i></h4>
+											<p id="WebsiteDevelopmentP">Our team of website developers will create that sleek and professional website you’ve always wanted. Maybe you’re looking to sell products and create smooth user-friendly transactions online. Whatever your website needs, we’ve got it all from HTML, and PHP to Wordpress.<br><br>
+												<a href="#">read more</a>
+											</p>
 										</li>
-										<!-- Row for design and creative services Item -->
-										<li class="DesignItem dropdown-item">
-											<div class="media DesignItem">
-												<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/menu/design.svg" class="align-self-center media-img">
-												<div class="media-body align-self-center">
-													<h5>Design & Creative Services</h5>
-												</div>
-											</div>
+										<li id="Design">
+											<h4>Design & Creative Services <i id="DesignIc"></i></h4>
+											<p id="DesignP">Who doesn’t want to make the first good impression? Your website is that digital space where customers will meet you for the first time. We’ll go all the way and wow them with catchy videos, brochures, infographics, e-books, mobile apps, among other relevant content.<br><br>
+												<a href="#">read more</a>
+											</p>
 										</li>
-										<!-- Row For Web development Item -->
-										<li class="dropdown-item">
-											<div class="media webDevelopmentItem">
-												<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/svg/menu/website.svg" class="align-self-center media-img">
-												<div class="media-body align-self-center">
-													<h5>Website Development</h5>
-												</div>
-											</div>
+										<li id="Technology">
+											<h4>Technology <i id="TechnologyIc"></i></h4>
+											<p id="TechnologyP">Competitors want to be in first place too. If you make the customer’s journey easy, you’ll stay ahead in line. Step-up the game with our high tech services that customers can’t do without! Match all business goals with customer software, customized product developments, and app developments.<br><br>
+												<a href="#">read more</a>
+											</p>
 										</li>
 									</ul>
 								</div>
-							</li>
-
-							<li class="nav-item">
-								<a class="nav-link" href="case-studies.html" title="Case Study">Case Study</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="who-we-are.html" title="Who We are">Who We are</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="careers.html" title="Work With us">Work With us</a>
-							</li>
-							<li class="nav-item" >
-								<button id="GetStartedBtn" onclick="location.href='Project-planner.html'">Get Started</button>
-							</li>
-						</ul>
-					</div>
-				</nav>	
-
-				<!-- First Section --->
-				<div id="FirstSection" class="row" data-aos="fade-up">
-
-					<div class="col-md" id="FirstLI">
-						<div class="row">
-							<div class="col-md">
-								<h1>Identify.<kbd data-aos="fade-right">Create.</kbd><br>Disrupt.</h1>
-							</div>
-						</div><br>
-						<div class="row">
-							<div class="col-md">
-								<p>In other words, we help your brand get <br>the traction and reach it deserves. Find <br>more cusomters, unearth new <br>opportunities for growth.</p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md">
-								<button onclick="location.href='contact-us.html'">Let's talk</button>
+								<div class="col-md" data-aos="fade-up">
+									<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/home/digital-marketing.svg" id="DigitalMarketingImage">
+									<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/home/web-development.svg" id="WebsiteDevelopmentImage">
+									<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/home/design-and-creative-serivces.svg" id="DesignImage">
+									<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/home/technology.svg" id="TechnologyImage">
+								</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-md">
-						<img src="SideImage.jpg" id="sideImage" alt="DigitalMarketingImage">
-					</div>
-				</div>
-
-
-				<div class="row">
-					<div class="col-md d-flex justify-content-center" id="ScrollIcon">
-						<a href="#SectionThree">
-							<img src="https://gunmagwarehouse.com/blog/wp-content/uploads/2020/09/scroll-down-gif.gif">
-							<br>
-							<span>Scroll down</span>
-						</a>
-					</div>
-				</div>
-
-
-				<!--Section Two --->
-				<div class="row" id="SectionTwo" >
-					<div class="col">
-						<div class="row" data-aos="fade-up">
-							<div class="col-md">
-								<h6>DIFFERENT BRANDS. DIFFERENT WORK. THE SAME ZEAL.</h6>
-								<h1>Brands associated with us</h1>
-							</div>
-						</div>
-						<br>
-						<div class="row brand-list" data-aos="fade-up">
-							<div class="col-md">
-								<a href="#"><img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/clients/2.png" alt="ogily"></a>
-							</div>
-							<div class="col-md">
-								<a href="#"><img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/clients/3.png"></a>
-							</div>
-							<div class="col-md">
-								<a href="#"><img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/clients/4.png"></a>
-							</div>
-							<div class="col-md">
-								<a href="#"><img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/clients/5.png"></a>
-							</div>
-							<div class="col-md">
-								<a href="#"><img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/clients/6.png"></a>
-							</div>
-						</div>
-						<br>
-						<div class="row" data-aos="fade-up">
-							<div class="col-md">
-								<p align="center">
-									<a href="clients.html">View all</a>
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!--Section Three-->
-				<div class="row" id="SectionThree">
-					<div class="col-md">
-						<h1 data-aos="fade-up">We help you find and engage your <br><kbd>customers</kbd> online</h1>
-						<p data-aos="fade-up">Being from the digital generation, our DNA is embedded with a multi-device,
-							multi-channel approach. We go above & beyond, as a team, to bring you new,
-							effective tactics to navigate the online maze. We help you communicate,
-							execute & expand your company’s online presence.<br><br>
-							<a href="who-we-are.html">Read more</a>
-						</p>
-					</div>
-				</div>
-
-				<!-- Fourth Section-->
-				<div class="row" id="FourthSection">
-					<div class="col">
-						<div class="row" data-aos="fade-up">
-							<div class="col-md">
-								<h6>OUR SERVICES WILL GIVE YOU MANY MIC DROP MOMENTS</h6>
-								<h1>Because you won’t just get the <br>stage but the right <kbd>audience</kbd> too</h1>
-							</div>
-						</div>
-						<div class="row" id="ServiceInformation" data-aos="fade-up">
-							<div class="col-md">
-								<ul>
-									<li id="DigitalMarketing">
-										<h4>Digital Marketing <i class=" " id="DigitalMarketingIc"></i></h4>
-										<p id="DigitalMarketingP">We have a top notch digital marketing team. They’re the viral drivers of not just likes, comments and shares but also specialize in bringing in customers, consistent growth, increased ranking, website tracking and visits, boosted client engagement, and so much more.<br><br>
-											<a href="#">read more</a>
-										</p>
-									</li>
-									<li id="WebsiteDevelopment">
-										<h4>Website Development <i id="WebsiteDevelopmentIc"></i></h4>
-										<p id="WebsiteDevelopmentP">Our team of website developers will create that sleek and professional website you’ve always wanted. Maybe you’re looking to sell products and create smooth user-friendly transactions online. Whatever your website needs, we’ve got it all from HTML, and PHP to Wordpress.<br><br>
-											<a href="#">read more</a>
-										</p>
-									</li>
-									<li id="Design">
-										<h4>Design & Creative Services <i id="DesignIc"></i></h4>
-										<p id="DesignP">Who doesn’t want to make the first good impression? Your website is that digital space where customers will meet you for the first time. We’ll go all the way and wow them with catchy videos, brochures, infographics, e-books, mobile apps, among other relevant content.<br><br>
-											<a href="#">read more</a>
-										</p>
-									</li>
-									<li id="Technology">
-										<h4>Technology <i id="TechnologyIc"></i></h4>
-										<p id="TechnologyP">Competitors want to be in first place too. If you make the customer’s journey easy, you’ll stay ahead in line. Step-up the game with our high tech services that customers can’t do without! Match all business goals with customer software, customized product developments, and app developments.<br><br>
-											<a href="#">read more</a>
-										</p>
-									</li>
-								</ul>
-							</div>
-							<div class="col-md" data-aos="fade-up">
-								<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/home/digital-marketing.svg" id="DigitalMarketingImage">
-								<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/home/web-development.svg" id="WebsiteDevelopmentImage">
-								<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/home/design-and-creative-serivces.svg" id="DesignImage">
-								<img src="https://www.bonoboz.in/wp-content/themes/bonoboz/assets/images/home/technology.svg" id="TechnologyImage">
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!--- Fifth Section--->
-				<div class="row" id="FifthSection" data-aos="fade-down">
-					<div class="col">
-						<p >
-							<h1>
-								We have a <span>proven track recordproven track record</span> of moving the needle on awareness, <br>engagement & revenue. So, let's connect before your competitors do ;)
-							</h1>
-						</p>
-						<button onclick="location.href='contact-us.html'">Let's Talk</button>
-					</div>
-				</div>
-
-				<!-- Sixth Section-->
-				<div class="container-fluid" id="SixthSection" data-aos="fade-up">
-					<div class="row information" data-aos="fade-up">
+					<!--- Fifth Section--->
+					<div class="row" id="FifthSection" data-aos="fade-down">
 						<div class="col">
-							<h6>WE’VE REALLY MADE AN IMPACT</h6>
-							<h1>Our work is diverse. <span>Take a look.</span></h1>
+							<p >
+								<h1>
+									We have a <span>proven track recordproven track record</span> of moving the needle on awareness, <br>engagement & revenue. So, let's connect before your competitors do ;)
+								</h1>
+							</p>
+							<button onclick="location.href='contact-us.html'">Let's Talk</button>
 						</div>
 					</div>
 
-					<div class="row" data-aos="fade-up">
-						<div class="col-md-6">
-							<a href="#">
-								<div class="card">
-									<img src="https://www.bonoboz.in/wp-content/uploads/2021/03/marketing-collaterals4.jpg" alt="Card-image" class="card-img-top">
-									<div class="card-body">
-										<h4 class="card-title">
-											Marketing Collaterals
-										</h4>
-										<p class="card-text">
-											Marketing Collaterals
-										</p>
-									</div>
-								</div>
-							</a>
-						</div>
-						<div class="col-md-6 align-self-end">
-							<a href="#">
-								<div class="card">
-									<img src="https://www.bonoboz.in/wp-content/uploads/2020/09/4.jpg" alt="Card-image" class="card-img-top">
-									<div class="card-body">
-										<h4 class="card-title">
-											Phonon
-										</h4>
-										<p class="card-text">
-											Website Design, Website Development
-										</p>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-					<br><br>
-					<div class="row" data-aos="fade-up">
-						<div class="col-md-6">
-							<a href="#">
-								<div class="card">
-									<img src="https://www.bonoboz.in/wp-content/uploads/2020/09/2.jpg" alt="Card-image" class="card-img-top">
-									<div class="card-body">
-										<h4 class="card-title">
-											Klearnow
-										</h4>
-										<p class="card-text">
-											Website Development
-										</p>
-									</div>
-								</div>
-							</a>
-						</div>
-						<div class="col-md-6 align-self-end">
-							<a href="#">
-								<div class="card">
-									<img src="https://www.bonoboz.in/wp-content/uploads/2020/09/3.jpg" alt="Card-image" class="card-img-top">
-									<div class="card-body">
-										<h4 class="card-title">
-											Hocco
-										</h4>
-										<p class="card-text">
-											Website Development
-										</p>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col d-flex justify-content-center" >
-							<h6><a href="#" id="ProjectListLink">View All</a></h6>
-						</div>
-					</div>
-				</div>
-
-				<!-- Seventh Section-->
-				<div class="row" id="SeventhSection" data-aos="fade-up"> 
-					<div class="col">
-						<div class="row Title-row" data-aos="fade-up">
-							<div class="col-md ">
-								<h6>KNOWLEDGE BASE</h6>
-								<h1>Our <span>Blog</span></h1>
-							</div>
-						</div>
-						<div class="row d-flex justify-content-center" data-aos="fade-up">
-							<div class="col-md-5 ">
-								<div class="media">
-									<a href="#">
-										<img src="https://www.bonoboz.in/wp-content/uploads/2021/04/super-seven-habits-of-social-media-marketing-for-2021-150x150.jpg" class="align-self-center">
-									</a>
-									<div class="media-body">
-										<p>April 29,2020</p>
-										<h6>Super Seven Habits of Social Media Marketing For 2021</h6>
-										<a href="#">Read More</a>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-5">
-								<div class="media">
-									<a href="#">
-										<img src="https://www.bonoboz.in/wp-content/uploads/2021/04/pexels-dominika-roseclay-905163-150x150.jpg" class="align-self-center">
-									</a>
-									<div class="media-body">
-										<p>January 21, 2021</p>
-										<h6>6 ways digital marketing changed in 2020 and what that means for 2021</h6>
-										<a href="#">Read More</a>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="row d-flex justify-content-center" data-aos="fade-up">
-							<div class="col-md-5">
-								<div class="media">
-									<a href="#">
-										<img src="https://www.bonoboz.in/wp-content/uploads/2021/04/Posts-Iphone-Moke-up-1-150x150.png" class="align-self-center">
-									</a>
-									<div class="media-body">
-										<p>December 27, 2020</p>
-										<h6>Highlights from 2020</h6>
-										<a href="#">Read More</a>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-5">
-								<div class="media">
-									<a href="#">
-										<img src="https://www.bonoboz.in/wp-content/uploads/2020/12/instagram-stories5-150x150.jpg" class="align-self-center">
-									</a>
-									<div class="media-body">
-										<p>December 5, 2020</p>
-										<h6>8 things you can’t miss about Instagram Stories</h6>
-										<a href="#">Read More</a>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="row BlogLink">
-							<div class="col-md d-flex justify-content-center">
-								<a href="#">View All</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<hr >
-				<div class=" row page-footer">
-					<div class="col">
-						<div class="row">
-							<div class="col-md">
-								<ul>
-									<li>
-										<img src="images/SemiSlash.png " alt="FooterImage" class="Footer-image">		
-									</li>
-									<li>
-										<h6>SemiSlash Marketing Services Pvt.Ltd</h6>		
-									</li>
-									<li>
-										<p>
-											627/220 Salibhadra Tower, Near. Zaveri Park, Old Wadaj, Ahmedabad 380013
-										</p>
-									</li>
-								</ul>
-
-							</div>
-							<div class="col-md">
-								<ul>
-									<h5>What we do</h5>
-									<li><a href="#">DIGITAL MARKETING</a></li>
-									<li><a href="#">WEBSITE DEVELOPMENT</a></li>
-									<li><a href="#">DESIGN & CREATIVE SERVICES</a></li>
-									<li><a href="#">TECHNOLOGY</a></li>
-
-								</ul>
-							</div>
-							<div class="col-md">
-								<ul>
-									<h5>Company</h5>
-									<li><a href="who-we-are.html">WHO WE ARE</a></li>
-									<li><a href="clients.html">CLIENTS</a></li>
-									<li><a href="careers.html">WORK WITH US</a></li>
-									<li><a href="case-studies.html">CASE STUDIES</a></li>
-									<li><a href="blog.html">BLOG</a></li>
-									<li><a href="portfolio.html">PORTFOLIO</a></li>
-								</ul>
-							</div>
-							<div class="col-md">
-								<ul>
-									<h5>Sign Up for Newsletter</h5>
-									<li>
-										<form action="#" method="post">
-											<input type="text" name="EmailAddress" placeholder="Enter your email Address">
-											<button><i class="fa fa-send" type="submit"></i></button>
-										</form>
-									</li>
-									<li>
-										<h5>Contact us via Email</h5>
-										<a href="mailto:iamparmarvk@gmail.com">iamparmarvk@gmail.com</a>
-									</li>
-									<li>
-										<h5>Prefer a web form?</h5>
-										<a href="#">GET IN TOUCH</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<hr>
-						<div class="row footer-copyright d-flex flex-column">
-							<div class="col social-media">
-								<ul>
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>								
-								</ul>
-							</div>
+					<!-- Sixth Section-->
+					<div class="container-fluid" id="SixthSection" data-aos="fade-up">
+						<div class="row information" data-aos="fade-up">
 							<div class="col">
-								<p>&copy;Copyright 2021 SemiSalsh Marketing Services Pvt. Ltd. All rights reserved.</p>
+								<h6>WE’VE REALLY MADE AN IMPACT</h6>
+								<h1>Our work is diverse. <span>Take a look.</span></h1>
+							</div>
+						</div>
+
+						<div class="row" data-aos="fade-up">
+							<div class="col-md-6">
+								<a href="#">
+									<div class="card">
+										<img src="https://www.bonoboz.in/wp-content/uploads/2021/03/marketing-collaterals4.jpg" alt="Card-image" class="card-img-top">
+										<div class="card-body">
+											<h4 class="card-title">
+												Marketing Collaterals
+											</h4>
+											<p class="card-text">
+												Marketing Collaterals
+											</p>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-md-6 align-self-end">
+								<a href="#">
+									<div class="card">
+										<img src="https://www.bonoboz.in/wp-content/uploads/2020/09/4.jpg" alt="Card-image" class="card-img-top">
+										<div class="card-body">
+											<h4 class="card-title">
+												Phonon
+											</h4>
+											<p class="card-text">
+												Website Design, Website Development
+											</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<br><br>
+						<div class="row" data-aos="fade-up">
+							<div class="col-md-6">
+								<a href="#">
+									<div class="card">
+										<img src="https://www.bonoboz.in/wp-content/uploads/2020/09/2.jpg" alt="Card-image" class="card-img-top">
+										<div class="card-body">
+											<h4 class="card-title">
+												Klearnow
+											</h4>
+											<p class="card-text">
+												Website Development
+											</p>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-md-6 align-self-end">
+								<a href="#">
+									<div class="card">
+										<img src="https://www.bonoboz.in/wp-content/uploads/2020/09/3.jpg" alt="Card-image" class="card-img-top">
+										<div class="card-body">
+											<h4 class="card-title">
+												Hocco
+											</h4>
+											<p class="card-text">
+												Website Development
+											</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col d-flex justify-content-center" >
+								<h6><a href="#" id="ProjectListLink">View All</a></h6>
+							</div>
+						</div>
+					</div>
+
+					<!-- Seventh Section-->
+					<div class="row" id="SeventhSection" data-aos="fade-up"> 
+						<div class="col">
+							<div class="row Title-row" data-aos="fade-up">
+								<div class="col-md ">
+									<h6>KNOWLEDGE BASE</h6>
+									<h1>Our <span>Blog</span></h1>
+								</div>
+							</div>
+							<div class="row d-flex justify-content-center" data-aos="fade-up">
+								<div class="col-md-5 ">
+									<div class="media">
+										<a href="#">
+											<img src="https://www.bonoboz.in/wp-content/uploads/2021/04/super-seven-habits-of-social-media-marketing-for-2021-150x150.jpg" class="align-self-center">
+										</a>
+										<div class="media-body">
+											<p>April 29,2020</p>
+											<h6>Super Seven Habits of Social Media Marketing For 2021</h6>
+											<a href="#">Read More</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-5">
+									<div class="media">
+										<a href="#">
+											<img src="https://www.bonoboz.in/wp-content/uploads/2021/04/pexels-dominika-roseclay-905163-150x150.jpg" class="align-self-center">
+										</a>
+										<div class="media-body">
+											<p>January 21, 2021</p>
+											<h6>6 ways digital marketing changed in 2020 and what that means for 2021</h6>
+											<a href="#">Read More</a>
+										</div>
+									</div>
+								</div>
 							</div>
 
+							<div class="row d-flex justify-content-center" data-aos="fade-up">
+								<div class="col-md-5">
+									<div class="media">
+										<a href="#">
+											<img src="https://www.bonoboz.in/wp-content/uploads/2021/04/Posts-Iphone-Moke-up-1-150x150.png" class="align-self-center">
+										</a>
+										<div class="media-body">
+											<p>December 27, 2020</p>
+											<h6>Highlights from 2020</h6>
+											<a href="#">Read More</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-5">
+									<div class="media">
+										<a href="#">
+											<img src="https://www.bonoboz.in/wp-content/uploads/2020/12/instagram-stories5-150x150.jpg" class="align-self-center">
+										</a>
+										<div class="media-body">
+											<p>December 5, 2020</p>
+											<h6>8 things you can’t miss about Instagram Stories</h6>
+											<a href="#">Read More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="row BlogLink">
+								<div class="col-md d-flex justify-content-center">
+									<a href="#">View All</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<hr >
+					<div class=" row page-footer">
+						<div class="col">
+							<div class="row">
+								<div class="col-md">
+									<ul>
+										<li>
+											<img src="images/SemiSlash.png " alt="FooterImage" class="Footer-image">		
+										</li>
+										<li>
+											<h6>SemiSlash Marketing Services Pvt.Ltd</h6>		
+										</li>
+										<li>
+											<p>
+												627/220 Salibhadra Tower, Near. Zaveri Park, Old Wadaj, Ahmedabad 380013
+											</p>
+										</li>
+									</ul>
+
+								</div>
+								<div class="col-md">
+									<ul>
+										<h5>What we do</h5>
+										<li><a href="#">DIGITAL MARKETING</a></li>
+										<li><a href="#">WEBSITE DEVELOPMENT</a></li>
+										<li><a href="#">DESIGN & CREATIVE SERVICES</a></li>
+										<li><a href="#">TECHNOLOGY</a></li>
+
+									</ul>
+								</div>
+								<div class="col-md">
+									<ul>
+										<h5>Company</h5>
+										<li><a href="who-we-are.html">WHO WE ARE</a></li>
+										<li><a href="clients.html">CLIENTS</a></li>
+										<li><a href="careers.html">WORK WITH US</a></li>
+										<li><a href="case-studies.html">CASE STUDIES</a></li>
+										<li><a href="blog.html">BLOG</a></li>
+										<li><a href="portfolio.html">PORTFOLIO</a></li>
+									</ul>
+								</div>
+								<div class="col-md">
+									<ul>
+										<h5>Sign Up for Newsletter</h5>
+										<li>
+											<form action="#" method="post">
+												<input type="text" name="EmailAddress" placeholder="Enter your email Address">
+												<button><i class="fa fa-send" type="submit"></i></button>
+											</form>
+										</li>
+										<li>
+											<h5>Contact us via Email</h5>
+											<a href="mailto:iamparmarvk@gmail.com">iamparmarvk@gmail.com</a>
+										</li>
+										<li>
+											<h5>Prefer a web form?</h5>
+											<a href="#">GET IN TOUCH</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<hr>
+							<div class="row footer-copyright d-flex flex-column">
+								<div class="col social-media">
+									<ul>
+										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fa fa-linkedin"></i></a></li>								
+									</ul>
+								</div>
+								<div class="col">
+									<p>&copy;Copyright 2021 SemiSalsh Marketing Services Pvt. Ltd. All rights reserved.</p>
+								</div>
+
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<a id="back-to-top" href="#" class="btn btn-transparent btn-lg back-to-top" role="button"><i class="fa fa-chevron-up"></i></a>
+				<a id="back-to-top" href="#" class="btn btn-transparent btn-lg back-to-top" role="button"><i class="fa fa-chevron-up"></i></a>
 
-			<script type="text/javascript">
-				$(document).ready(function(){
-					$(".hamburger").click(function(){
-						$(this).toggleClass("is-active");
-					});
-				});
-			</script>
-			<!-- animation on scroll Initialize -->
-			<script>
-				/*AOS.init();*/
-			</script>
-			<script type="text/javascript">
-				$(document).ready(function(){
-					$(window).scroll(function () {
-						if ($(this).scrollTop() > 50) {
-							$('#back-to-top').fadeIn();
-						} else {
-							$('#back-to-top').fadeOut();
-						}
-					});
-		// scroll body to 0px on click
-		$('#back-to-top').click(function () {
-			$('body,html').animate({
-				scrollTop: 0
-			}, 400);
-			return false;
-		});
-	});
-</script>
-</body>
-</html>
+				<script>
+					/*AOS.init();*/
+				</script>
+			</body>
+			</html>
