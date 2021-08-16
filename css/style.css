@@ -1319,6 +1319,52 @@ body{
 		margin-top: 10px;
 	}
 
+	#SEMFirstSection{
+		padding: 30px 10px 30px 10px;	
+	}
+	#SEMFirstSection h1{
+		font-size: 32px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
+	#SEMFirstSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#SEMFirstSection p{
+		margin-top: 10px;
+		font-size: 18px;
+	}
+	#SEMSecondSection{
+		padding: 30px 10px 30px 10px;				
+	}
+	#SEMSecondSection img{
+		width: 100%;
+	}
+	#SEMThirdSection{
+		padding: 30px 10px 30px 10px;		
+	}
+	#SEMThirdSection .row{
+		margin-top: 20px;
+	}
+	#SEMThirdSection h4{
+		font-size: 30px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
+	#SEMThirdSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#SEMThirdSection p{
+		margin-top: 10px;
+		font-size: 18px;
+	}
+	#SEMThirdSection ul li{
+		margin-top: 10px;
+	}
 
 
 
@@ -1327,9 +1373,6 @@ body{
 
 
 
-
-
-\
 
 
 
@@ -2837,6 +2880,63 @@ body{
 			width: 600px;
 		}
 		#PPCManagementThirdSection ul li{
+			margin-top: 10px;
+		}
+
+		#SEMFirstSection{
+			padding: 100px 200px 80px 250px;	
+		}
+		#SEMFirstSection h1{
+			font-size: 40px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+		}
+		#SEMFirstSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#SEMFirstSection p{
+			width: 600px;
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		#SEMSecondSection{
+			padding: 20px 200px 20px 200px;				
+		}
+		#SEMSecondSection img{
+			width: 100%;
+		}
+		#SEMThirdSection{
+			padding: 100px 200px 80px 250px;	
+
+		}
+		#SEMThirdSection .row{
+			margin-top: 20px;
+		}
+		#SEMThirdSection h4{
+			font-size: 30px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+			width: 600px;
+		}
+		#SEMThirdSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#SEMThirdSection p{
+			width: 600px;
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		#SEMThirdSection h4{
+			width: 600px;
+		}
+		#SEMThirdSection ul{
+			width: 600px;
+		}
+		#SEMThirdSection ul li{
 			margin-top: 10px;
 		}
 
