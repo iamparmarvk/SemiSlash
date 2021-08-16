@@ -548,7 +548,7 @@ body{
 		color: #2541B2;
 	}
 	#PageHeader{
-		padding: 20px 0px 20px 0px;
+		padding: 20px 10px 20px 10px;
 		min-height: 300px;	
 	}
 	#PageHeader h6{
@@ -568,18 +568,18 @@ body{
 		font-size: 16px;
 	}
 	#HeaderPagination{
-		padding: 5px 0px 5px 0px;
+		padding: 5px 10px 5px 10px;
 		background-color:#EEEEEE ;
 	}
 	#HeaderPagination ul{
 		list-style-type: none;
 		position: relative;
 		top: 7px;
-		left: -40px;
 	}
 	#HeaderPagination ul li{
 		display: inline;
 		font-size: 12px;
+		margin-left: 10px;
 		text-transform: uppercase;
 		font-family: 'Ubuntu', sans-serif;
 		font-weight: 600;
@@ -1172,7 +1172,7 @@ body{
 	}
 
 	#CampaingMarketingFirstSection{
-		padding: 60px 0px 60px 0px;	
+		padding: 60px 10px 60px 10px;	
 	}
 	#CampaingMarketingFirstSection h1{
 		font-size: 32px;
@@ -1215,13 +1215,61 @@ body{
 		margin-top: 30px;
 		font-size: 20px;
 	}
-	#CampaingMarketingThirdSection ul,ol{
-		padding:5;
-	}
+	
 	#CampaingMarketingThirdSection ul li, ol li{
 		margin-top: 10px;
 	}
+	#EmailMarketinngFirstSection{
+		padding: 60px 10px 60px 10px;
+	}
+	#EmailMarketinngFirstSection h1{
+		font-size: 32px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
+	#EmailMarketinngFirstSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#EmailMarketinngFirstSection p{
+		margin-top: 30px;
+		font-size: 18px;
+	}
+	#EmailMarketinngFirstSection ul li{
+		margin-top: 10px;
+	}
+	#EmailMarketingSecondSection{
+		padding: 30px 10px 30px 10px;				
+	}
+	#EmailMarketingSecondSection img{
+		width: 100%;
+	}
+	#EmailMarketingThirdSection{
+		padding: 60px 10px 60px 10px;	
 
+	}
+	#EmailMarketingThirdSection .row{
+		margin-top: 20px;
+	}
+	#EmailMarketingThirdSection h1{
+		font-size: 32px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
+	#EmailMarketingThirdSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#EmailMarketingThirdSection p{
+		margin-top: 30px;
+		font-size: 18px;
+	}
+
+	#EmailMarketingThirdSection ul li{
+		margin-top: 10px;
+	}
 
 
 
@@ -1770,7 +1818,6 @@ body{
 			color: #6E7C7C;	
 		}
 		#CardSection h1{
-			font-size: 32px;
 			font-family: 'Josefin Sans', sans-serif;
 			font-weight: bolder;	
 		}
@@ -2577,6 +2624,7 @@ body{
 			font-size: 40px;
 			font-weight: 700;
 			margin-bottom: 20px;	
+			width: 600px;
 		}
 		#CampaingMarketingThirdSection span{
 			background-color: black;
@@ -2588,17 +2636,74 @@ body{
 			margin-top: 30px;
 			font-size: 20px;
 		}
-		#CampaingMarketingThirdSection ol, h1, ul{
-			width: 600px;
-			padding-left: 15px;
-		}
+
 		#CampaingMarketingThirdSection ul li, ol li{
 			margin-top: 10px;
-
 		}
 
+		#EmailMarketinngFirstSection{
+			padding: 100px 200px 80px 250px;	
 
+		}
+		#EmailMarketinngFirstSection h1{
+			font-size: 40px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+		}
+		#EmailMarketinngFirstSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#EmailMarketinngFirstSection p{
+			width: 600px;
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		#EmailMarketinngFirstSection ul,ol{
+			width: 600px;
+		}
+		#EmailMarketinngFirstSection ul li{
+			margin-top: 10px;
+		}
+		#EmailMarketingSecondSection{
+			padding: 70px 200px 80px 220px;				
+		}
+		#EmailMarketingSecondSection img{
+			width: 100%;
+		}
+		#EmailMarketingThirdSection{
+			padding: 100px 200px 80px 250px;	
 
+		}
+		#EmailMarketingThirdSection .row{
+			margin-top: 20px;
+		}
+		#EmailMarketingThirdSection h1{
+			font-size: 40px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+			width: 600px;
+		}
+		#EmailMarketingThirdSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#EmailMarketingThirdSection p{
+			width: 600px;
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		#EmailMarketingThirdSection h4{
+			width: 600px;
+		}
+		#EmailMarketingThirdSection ul{
+			width: 600px;
+		}
+		#EmailMarketingThirdSection ul li{
+			margin-top: 10px;
+		}
 
 
 
