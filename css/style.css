@@ -1121,55 +1121,55 @@ body{
 	}
 
 	#SocialMediaFirstSection{
-			padding: 60px 10px 60px 10px;	
-					
-	}
-		#SocialMediaFirstSection h1{
-			font-size: 32px;
-			font-weight: 700;
-			margin-bottom: 20px;	
-		}
-		#SocialMediaFirstSection span{
-			background-color: black;
-			color: white;
-			padding: 5px;
-		}
-		#SocialMediaFirstSection p{
-			margin-top: 20px;
-			font-size: 16px;
-		}
-		#CarouselPart{
-			padding: 20px 10px 60px 10px;
-		}
-		#CarouselPart img{
-			width: 100%;
-		}
-		#CarouselPart .carousel-indicators{
-			position: absolute;
-			top: 100%;
-		}
-		#CarouselPart ul li{
-			width: 20px;
-			color: black;
-			border-radius: 10%;
-			background-color: black;
-		}
-		#SocialMediaSecondSection{
-			padding: 20px 10px 60px 10px;	
-		}
-		#SocialMediaSecondSection .row{
-			margin-top: 20px;
-		}
-		#SocialMediaSecondSection h1{
-			font-size: 30px;
-			font-weight: 700;
-			margin-bottom: 20px;	
+		padding: 60px 10px 60px 10px;	
 
-		}
-		#SocialMediaSecondSection p{
-			margin-top: 15px;
-			font-size: 16px;
-		}
+	}
+	#SocialMediaFirstSection h1{
+		font-size: 32px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
+	#SocialMediaFirstSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#SocialMediaFirstSection p{
+		margin-top: 20px;
+		font-size: 16px;
+	}
+	#CarouselPart{
+		padding: 20px 10px 60px 10px;
+	}
+	#CarouselPart img{
+		width: 100%;
+	}
+	#CarouselPart .carousel-indicators{
+		position: absolute;
+		top: 100%;
+	}
+	#CarouselPart ul li{
+		width: 20px;
+		color: black;
+		border-radius: 10%;
+		background-color: black;
+	}
+	#SocialMediaSecondSection{
+		padding: 20px 10px 60px 10px;	
+	}
+	#SocialMediaSecondSection .row{
+		margin-top: 20px;
+	}
+	#SocialMediaSecondSection h1{
+		font-size: 30px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+
+	}
+	#SocialMediaSecondSection p{
+		margin-top: 15px;
+		font-size: 16px;
+	}
 
 
 
@@ -1737,6 +1737,12 @@ body{
 		}
 		#CardSection .card{
 			overflow: hidden;
+		}
+		#CardSection .card:hover{
+			transition: 0.5s ease-in-out;
+			transform: translateY(-15px);
+			box-shadow: 1px 8px 4px 0px rgba(0,0,0,0.75);
+
 		}
 		#CardSection .card-body{
 			padding: 15px;
@@ -2431,7 +2437,7 @@ body{
 
 		#SocialMediaFirstSection{
 			padding: 100px 200px 80px 300px;	
-					
+
 		}
 		#SocialMediaFirstSection h1{
 			font-size: 40px;
@@ -2481,10 +2487,64 @@ body{
 			font-size: 20px;
 		}
 
+		#CampaingMarketingFirstSection{
+			padding: 100px 200px 80px 250px;	
 
+		}
+		#CampaingMarketingFirstSection h1{
+			font-size: 40px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+		}
+		#CampaingMarketingFirstSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#CampaingMarketingFirstSection p{
+			width: 600px;
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		#CampaingMarketingFirstSection ul{
+			width: 600px;
+		}
+		#CampaingMarketingFirstSection ul li{
+			margin-top: 10px;
+		}
+		#CampaingMarketingSecondSection{
+		padding: 70px 200px 80px 220px;				
+		}
+		#CampaingMarketingSecondSection img{
+			width: 100%;
+		}
+		#CampaingMarketingThirdSection{
+			padding: 100px 200px 80px 250px;	
 
+		}
+		#CampaingMarketingThirdSection h1{
+			font-size: 40px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+		}
+		#CampaingMarketingThirdSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#CampaingMarketingThirdSection p{
+			width: 600px;
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		#CampaingMarketingThirdSection ol, h1, ul{
+			width: 600px;
+			padding-left: 15px;
+		}
+		#CampaingMarketingThirdSection ul li, ol li{
+			margin-top: 10px;
 
-
+		}
 
 
 
