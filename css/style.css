@@ -1120,6 +1120,61 @@ body{
 		font-size: 18px;
 	}
 
+	#SocialMediaFirstSection{
+			padding: 60px 10px 60px 10px;	
+					
+	}
+		#SocialMediaFirstSection h1{
+			font-size: 32px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+		}
+		#SocialMediaFirstSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#SocialMediaFirstSection p{
+			margin-top: 20px;
+			font-size: 16px;
+		}
+		#CarouselPart{
+			padding: 20px 10px 60px 10px;
+		}
+		#CarouselPart img{
+			width: 100%;
+		}
+		#CarouselPart .carousel-indicators{
+			position: absolute;
+			top: 100%;
+		}
+		#CarouselPart ul li{
+			width: 20px;
+			color: black;
+			border-radius: 10%;
+			background-color: black;
+		}
+		#SocialMediaSecondSection{
+			padding: 20px 10px 60px 10px;	
+		}
+		#SocialMediaSecondSection .row{
+			margin-top: 20px;
+		}
+		#SocialMediaSecondSection h1{
+			font-size: 30px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+
+		}
+		#SocialMediaSecondSection p{
+			margin-top: 15px;
+			font-size: 16px;
+		}
+
+
+
+
+
 	#ServiceList{
 		padding: 20px 10px 20px 10px;
 	}
