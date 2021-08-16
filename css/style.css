@@ -1084,112 +1084,112 @@ body{
 
 
 	#DmSecondSection{
-			padding: 20px 10px 20px 10px;
-		}
-		#DmSecondSection h1{
-			font-size: 28px;
-			font-weight: 700;
-			margin-bottom: 20px;
-		}
-		#DmSecondSection p{
-			margin-top: 30px;
-			font-size: 16px;
-			line-height: 30px;
-		}
-		#DmThirdSection img{
-			width: 100%;
-			min-height: 300px;
-		}
+		padding: 20px 10px 20px 10px;
+	}
+	#DmSecondSection h1{
+		font-size: 28px;
+		font-weight: 700;
+		margin-bottom: 20px;
+	}
+	#DmSecondSection p{
+		margin-top: 30px;
+		font-size: 16px;
+		line-height: 30px;
+	}
+	#DmThirdSection img{
+		width: 100%;
+		min-height: 300px;
+	}
 
-		#DmFourthSection{
-			padding: 40px 10px 40px 20px;	
-			min-height: 400px;
-		}
-		#DmFourthSection h3{
-			font-family: 'Josefin Sans', sans-serif;
-			font-size: 25px;
-			font-weight: 700;
-			margin-bottom: 20px;
-		}
-		#DmFourthSection .list-group{
-			margin: auto;
-		}
-		#DmFourthSection .list-item{
-			padding: 5px;
-			margin-top: 5px;
-			font-size: 18px;
-		}
+	#DmFourthSection{
+		padding: 40px 10px 40px 20px;	
+		min-height: 400px;
+	}
+	#DmFourthSection h3{
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 25px;
+		font-weight: 700;
+		margin-bottom: 20px;
+	}
+	#DmFourthSection .list-group{
+		margin: auto;
+	}
+	#DmFourthSection .list-item{
+		padding: 5px;
+		margin-top: 5px;
+		font-size: 18px;
+	}
 
-		#ServiceList{
-			padding: 20px 10px 20px 10px;
-		}
-		#ServiceList .row{
-			margin-top: 40px;
-		}
-		#ServiceList img{
-			width: 200px;
-			position: relative;
-			left: 22%;
-			margin-top: 20px;
-		}
-		
-		#ServiceList h3{
-			font-family: 'Josefin Sans', sans-serif;
-			font-weight: 700;
-			font-size: 28px;
-		}
-		#ServiceList p{
-			font-size: 18px;
-			line-height: 32px;
-		}	
+	#ServiceList{
+		padding: 20px 10px 20px 10px;
+	}
+	#ServiceList .row{
+		margin-top: 40px;
+	}
+	#ServiceList img{
+		width: 200px;
+		position: relative;
+		left: 22%;
+		margin-top: 20px;
+	}
 
-		#ServiceList a{
-			padding: 5px;
-			text-decoration: none;
-			border-bottom: 2px solid;
-			border-width: thin;
-			color: black;
-			text-transform: uppercase;
-			font-weight: bolder;
-			font-size: 13px;
-		}
-		#ServiceList a:hover{
-			transition: 0.5s ease-in-out;
-			color: #0F52BA;
-		}
+	#ServiceList h3{
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: 700;
+		font-size: 28px;
+	}
+	#ServiceList p{
+		font-size: 18px;
+		line-height: 32px;
+	}	
 
-		#BottomPagination{
-			padding:30px 10px 30px 10px;
-			background-color: black;
-			color: white;	
-		}
-		#BottomPagination  h6{
-			font-size: 12px;
-			text-transform: uppercase;
-			font-family: 'Ubuntu', sans-serif;
-			font-weight: 600;
-			color: #6E7C7C;
-		}
-		#BottomPagination h2{
-			font-family: 'Josefin Sans', sans-serif;
-			font-size: 18px;
-			font-weight: 700;
-		}
-		#BottomPagination a{
-			text-decoration: none;
-			color: white;
-			font-size: 10px;
-			text-transform: uppercase;
-			font-family: 'Ubuntu', sans-serif;
-			font-weight: bolder;
-			border-bottom: 2px solid;
-			border-width: thin;
-			padding-bottom: 5px;
-		}
-		#BottomPagination a:hover{
-			transition: 0.5s ease-in-out;
-			color: #0F52BA;
-		}
+	#ServiceList a{
+		padding: 5px;
+		text-decoration: none;
+		border-bottom: 2px solid;
+		border-width: thin;
+		color: black;
+		text-transform: uppercase;
+		font-weight: bolder;
+		font-size: 13px;
+	}
+	#ServiceList a:hover{
+		transition: 0.5s ease-in-out;
+		color: #0F52BA;
+	}
+
+	#BottomPagination{
+		padding:30px 10px 30px 10px;
+		background-color: black;
+		color: white;	
+	}
+	#BottomPagination  h6{
+		font-size: 12px;
+		text-transform: uppercase;
+		font-family: 'Ubuntu', sans-serif;
+		font-weight: 600;
+		color: #6E7C7C;
+	}
+	#BottomPagination h2{
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 18px;
+		font-weight: 700;
+	}
+	#BottomPagination a{
+		text-decoration: none;
+		color: white;
+		font-size: 10px;
+		text-transform: uppercase;
+		font-family: 'Ubuntu', sans-serif;
+		font-weight: bolder;
+		border-bottom: 2px solid;
+		border-width: thin;
+		padding-bottom: 5px;
+	}
+	#BottomPagination a:hover{
+		transition: 0.5s ease-in-out;
+		color: #0F52BA;
+	}
 
 
 
@@ -2373,6 +2373,72 @@ body{
 			margin-top: 5px;
 			font-size: 18px;
 		}
+
+		#SocialMediaFirstSection{
+			padding: 100px 200px 80px 300px;	
+					
+		}
+		#SocialMediaFirstSection h1{
+			font-size: 40px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+		}
+		#SocialMediaFirstSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#SocialMediaFirstSection p{
+			width: 600px;
+			margin-top: 20px;
+			font-size: 20px;
+		}
+		#CarouselPart{
+			padding: 100px 200px 80px 200px;
+		}
+		#CarouselPart img{
+			width: 100%;
+		}
+		#CarouselPart .carousel-indicators{
+			position: absolute;
+			top: 105%;
+		}
+		#CarouselPart ul li{
+			color: black;
+			border-radius: 10%;
+			background-color: black;
+		}
+		#SocialMediaSecondSection{
+			padding: 100px 200px 80px 400px;	
+		}
+		#SocialMediaSecondSection .row{
+			width: 700px;
+			margin-top: 20px;
+		}
+		#SocialMediaSecondSection h1{
+			font-size: 40px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+
+		}
+		#SocialMediaSecondSection p{
+			margin-top: 15px;
+			font-size: 20px;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 		#ServiceList{
 			padding: 100px 250px 80px 250px;
