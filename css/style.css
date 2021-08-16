@@ -1368,6 +1368,55 @@ body{
 
 
 
+	#SEOServiceFirstSection{
+		padding: 30px 10px 30px 10px;	
+	}
+	#SEOServiceFirstSection h1{
+		font-size: 32px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
+	#SEOServiceFirstSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#SEOServiceFirstSection p{
+		margin-top: 20px;
+		font-size: 18px;
+	}
+	#SEOServiceSecondSection{
+		padding: 30px 10px 30px 10px;				
+	}
+	#SEOServiceSecondSection img{
+		width: 100%;
+	}
+	#SEOServiceThirdSection{
+		padding: 30px 10px 30px 10px;		
+
+	}
+	#SEOServiceThirdSection .row{
+		margin-top: 20px;
+	}
+
+	#SEOServiceThirdSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#SEOServiceThirdSection p{
+		margin-top: 10px;
+		font-size: 18px;
+	}
+	#SEOServiceThirdSection ul li{
+		margin-top: 10px;
+	}
+	#SEOServiceThirdSection h1{
+		font-size: 32px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
+
 
 
 
@@ -2940,6 +2989,65 @@ body{
 			margin-top: 10px;
 		}
 
+
+		#SEOServiceFirstSection{
+			padding: 100px 200px 80px 250px;	
+		}
+		#SEOServiceFirstSection h1{
+			font-size: 40px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+		}
+		#SEOServiceFirstSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#SEOServiceFirstSection p{
+			width: 600px;
+			margin-top: 20px;
+			font-size: 20px;
+		}
+		#SEOServiceSecondSection{
+			padding: 20px 200px 20px 200px;				
+		}
+		#SEOServiceSecondSection img{
+			width: 100%;
+		}
+		#SEOServiceThirdSection{
+			padding: 100px 200px 80px 250px;	
+
+		}
+		#SEOServiceThirdSection .row{
+			margin-top: 20px;
+		}
+		#SEOServiceThirdSection h4{
+			font-size: 20px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+			width: 600px;
+		}
+		#SEOServiceThirdSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#SEOServiceThirdSection p{
+			width: 600px;
+			margin-top: 20px;
+			font-size: 20px;
+		}
+		#SEOServiceThirdSection ul{
+			width: 600px;
+		}
+		#SEOServiceThirdSection ul li{
+			margin-top: 10px;
+		}
+		#SEOServiceThirdSection h1{
+			font-size: 40px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+		}
 
 		#ServiceList{
 			padding: 100px 250px 80px 250px;
