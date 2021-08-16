@@ -548,7 +548,7 @@ body{
 		color: #2541B2;
 	}
 	#PageHeader{
-		padding: 20px 10px 20px 10px;
+		padding: 20px 0px 20px 0px;
 		min-height: 300px;	
 	}
 	#PageHeader h6{
@@ -568,18 +568,18 @@ body{
 		font-size: 16px;
 	}
 	#HeaderPagination{
-		padding: 5px 10px 5px 10px;
+		padding: 5px 0px 5px 0px;
 		background-color:#EEEEEE ;
 	}
 	#HeaderPagination ul{
 		list-style-type: none;
 		position: relative;
 		top: 7px;
+		left: -40px;
 	}
 	#HeaderPagination ul li{
 		display: inline;
 		font-size: 12px;
-		margin-left: 10px;
 		text-transform: uppercase;
 		font-family: 'Ubuntu', sans-serif;
 		font-weight: 600;
@@ -1171,6 +1171,56 @@ body{
 		font-size: 16px;
 	}
 
+	#CampaingMarketingFirstSection{
+		padding: 60px 0px 60px 0px;	
+	}
+	#CampaingMarketingFirstSection h1{
+		font-size: 32px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
+	#CampaingMarketingFirstSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#CampaingMarketingFirstSection p{
+		margin-top: 20px;
+		font-size: 16px;
+	}
+	#CampaingMarketingFirstSection ul li{
+		margin-top: 10px;
+	}
+	#CampaingMarketingSecondSection{
+		padding: 30px 0px 30px 0px;				
+	}
+	#CampaingMarketingSecondSection img{
+		width: 100%;
+	}
+	#CampaingMarketingThirdSection{
+		padding: 60px 0px 60px 0px;	
+
+	}
+	#CampaingMarketingThirdSection h1{
+		font-size: 32px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
+	#CampaingMarketingThirdSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#CampaingMarketingThirdSection p{
+		margin-top: 30px;
+		font-size: 20px;
+	}
+	#CampaingMarketingThirdSection ul,ol{
+		padding:5;
+	}
+	#CampaingMarketingThirdSection ul li, ol li{
+		margin-top: 10px;
+	}
 
 
 
@@ -1720,6 +1770,7 @@ body{
 			color: #6E7C7C;	
 		}
 		#CardSection h1{
+			font-size: 32px;
 			font-family: 'Josefin Sans', sans-serif;
 			font-weight: bolder;	
 		}
@@ -2513,7 +2564,7 @@ body{
 			margin-top: 10px;
 		}
 		#CampaingMarketingSecondSection{
-		padding: 70px 200px 80px 220px;				
+			padding: 70px 200px 80px 220px;				
 		}
 		#CampaingMarketingSecondSection img{
 			width: 100%;
