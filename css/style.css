@@ -1416,7 +1416,77 @@ body{
 		font-weight: 700;
 		margin-bottom: 20px;	
 	}
+	#WebDevelopmentFirstSection{
+		padding: 30px 10px 30px 10px;	
+	}
+	#WebDevelopmentFirstSection h1{
+		font-size: 32px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
+	#WebDevelopmentFirstSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#WebDevelopmentFirstSection ul li{
+		margin-top: 10px;
+		font-size: 18px;
+	}
+	#WebDevelopmentFirstSection p{
+		margin-top: 20px;
+		font-size: 18px;
+	}
+	#WebDevelopmentSecondSection img{
+		width: 100%;
+	}
+	#CorpFirstSection{
+		padding: 30px 10px 30px 10px;	
+	}
+	#CorpFirstSection h1{
+		font-size: 32px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
+	#CorpFirstSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#CorpFirstSection p{
+		margin-top: 10px;
+		font-size: 18px;
+	}
+	#CorpSecondSection{
+		padding: 30px 10px 30px 10px;	
+	}
+	#CorpSecondSection img{
+		width: 100%;
+	}
+	#CorpThirdSection{
+		padding: 30px 10px 30px 10px;		
+	}
+	#CorpThirdSection .row{
+		margin-top: 20px;
+	}
+	#CorpThirdSection h4{
+		font-size: 28px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
+	#CorpThirdSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#CorpThirdSection p{
+		margin-top: 10px;
+		font-size: 18px;
+	}
 
+	#CorpThirdSection ul li{
+		margin-top: 10px;
+	}
 
 
 
@@ -3048,6 +3118,95 @@ body{
 			font-weight: 700;
 			margin-bottom: 20px;	
 		}
+
+		#WebDevelopmentFirstSection{
+			padding: 100px 200px 80px 250px;	
+		}
+		#WebDevelopmentFirstSection h1{
+			font-size: 40px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+		}
+		#WebDevelopmentFirstSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#WebDevelopmentFirstSection ul{
+			width: 600px;
+		}
+		#WebDevelopmentFirstSection ul li{
+			margin-top: 10px;
+			font-size: 20px;
+		}
+		#WebDevelopmentFirstSection p{
+			width: 600px;
+			margin-top: 20px;
+			font-size: 20px;
+		}
+		#WebDevelopmentSecondSection img{
+			width: 100%;
+		}
+
+		#CorpFirstSection{
+			padding: 100px 200px 80px 250px;	
+		}
+		#CorpFirstSection h1{
+			font-size: 40px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+		}
+		#CorpFirstSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#CorpFirstSection p{
+			width: 600px;
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		#CorpSecondSection{
+			padding: 20px 200px 20px 200px;				
+		}
+		#CorpSecondSection img{
+			width: 100%;
+		}
+		#CorpThirdSection{
+			padding: 100px 200px 80px 250px;	
+
+		}
+		#CorpThirdSection .row{
+			margin-top: 20px;
+		}
+		#CorpThirdSection h4{
+			font-size: 30px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+			width: 600px;
+		}
+		#CorpThirdSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#CorpThirdSection p{
+			width: 600px;
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		#CorpThirdSection ul{
+			width: 600px;
+		}
+		#CorpThirdSection ul li{
+			margin-top: 10px;
+		}
+
+
+
+
+
+
 
 		#ServiceList{
 			padding: 100px 250px 80px 250px;
