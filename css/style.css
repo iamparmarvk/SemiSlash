@@ -1487,7 +1487,56 @@ body{
 	#CorpThirdSection ul li{
 		margin-top: 10px;
 	}
+	#EcommerceFirstSection{
+		padding: 30px 10px 30px 10px;	
+	}
+	#EcommerceFirstSection h1{
+		font-size: 32px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
+	#EcommerceFirstSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#EcommerceFirstSection p{
+		margin-top: 10px;
+		font-size: 18px;
+	}
+	#EcommerceFirstSection ul li{
+		margin-top: 10px;
+	}
+	#EcommerceSecondSection{
+		padding: 30px 10px 30px 10px;	
+	}
+	#EcommerceSecondSection img{
+		width: 100%;
+	}
+	#EcommerceThirdSection{
+		padding: 30px 10px 30px 10px;		
+	}
+	#EcommerceThirdSection .row{
+		margin-top: 20px;
+	}
+	#EcommerceThirdSection h4{
+		font-size: 28px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
+	#EcommerceThirdSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#EcommerceThirdSection p{
+		margin-top: 10px;
+		font-size: 18px;
+	}
 
+	#EcommerceThirdSection ul li{
+		margin-top: 10px;
+	}
 
 
 
@@ -3202,7 +3251,65 @@ body{
 			margin-top: 10px;
 		}
 
+		#EcommerceFirstSection{
+			padding: 100px 200px 80px 250px;	
+		}
+		#EcommerceFirstSection h1{
+			font-size: 40px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+		}
+		#EcommerceFirstSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#EcommerceFirstSection p{
+			width: 600px;
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		#EcommerceFirstSection ul{
+			width: 600px;
+		}
+		#EcommerceFirstSection ul li{
+			margin-top: 10px;
+		}
+		#EcommerceSecondSection{
+			padding: 20px 200px 20px 200px;				
+		}
+		#EcommerceSecondSection img{
+			width: 100%;
+		}
+		#EcommerceThirdSection{
+			padding: 100px 200px 80px 250px;	
 
+		}
+		#EcommerceThirdSection .row{
+			margin-top: 20px;
+		}
+		#EcommerceThirdSection h4{
+			font-size: 30px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+			width: 600px;
+		}
+		#EcommerceThirdSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#EcommerceThirdSection p{
+			width: 600px;
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		#EcommerceThirdSection ul{
+			width: 600px;
+		}
+		#EcommerceThirdSection ul li{
+			margin-top: 10px;
+		}
 
 
 
