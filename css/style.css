@@ -1588,6 +1588,26 @@ body{
 	#WordpressThirdSection ul li{
 		margin-top: 10px;
 	}
+	#DesignFirstSection{
+		padding: 30px 10px 30px 10px;
+	}
+	#DesignFirstSection h4{
+		font-size: 30px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
+	#DesignFirstSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#DesignFirstSection p{
+		margin-top: 20px;
+		font-size: 18px;
+	}
+	#DesignSecondSection img{
+		width: 100%;
+	}
 
 
 
@@ -3419,7 +3439,27 @@ body{
 		#WordpressThirdSection ul li{
 			margin-top: 10px;
 		}
-
+		#DesignFirstSection{
+			padding:30px 200px 80px 250px;	
+		}
+		#DesignFirstSection h4{
+			font-size: 30px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+		}
+		#DesignFirstSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#DesignFirstSection p{
+			width: 600px;
+			margin-top: 20px;
+			font-size: 20px;
+		}
+		#DesignSecondSection img{
+			width: 100%;
+		}
 
 
 
