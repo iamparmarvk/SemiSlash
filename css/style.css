@@ -1608,8 +1608,105 @@ body{
 	#DesignSecondSection img{
 		width: 100%;
 	}
+	#WebsiteDesignFirstSection{
+		padding: 30px 10px 30px 10px;	
+	}
+	#WebsiteDesignFirstSection h1{
+		font-size: 32px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
+	#WebsiteDesignFirstSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#WebsiteDesignFirstSection p{
+		margin-top: 10px;
+		font-size: 18px;
+	}
+	#WebsiteDesignSecondSection{
+		padding: 30px 10px 30px 10px;	
+	}
+	#WebsiteDesignSecondSection img{
+		width: 100%;
+	}
+	#WebsiteDesignThirdSection{
+		padding: 30px 10px 30px 10px;		
+	}
+	#WebsiteDesignThirdSection .row{
+		margin-top: 20px;
+	}
+	#WebsiteDesignThirdSection h4{
+		font-size: 28px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
+	#WebsiteDesignThirdSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#WebsiteDesignThirdSection p{
+		margin-top: 10px;
+		font-size: 18px;
+	}
 
-
+	#WebsiteDesignThirdSection ol li{
+		margin-top: 10px;
+	}
+	#MobileDesignFirstSection{
+		padding: 30px 10px 30px 10px;		
+	}
+	#MobileDesignFirstSection h1{
+		font-size: 32px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
+	#MobileDesignFirstSection ul{
+		font-size: 18px;
+	}
+	#MobileDesignFirstSection ul li{
+		margin-top: 10px;
+	}
+	#MobileDesignFirstSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#MobileDesignFirstSection p{
+		margin-top: 30px;
+		font-size: 20px;
+	}
+	#MobileDesignSecondSection{
+		padding: 30px 10px 30px 10px;			
+	}
+	#MobileDesignSecondSection img{
+		width: 100%;
+	}
+	#MobileDesignThirdSection{
+		padding: 30px 10px 30px 10px;		
+	}
+	#MobileDesignThirdSection h4{
+		font-size: 30px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
+	#MobileDesignThirdSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#MobileDesignThirdSection p{
+		margin-top: 30px;
+		font-size: 20px;
+	}
+	#MobileDesignThirdSection ul{
+		font-size: 18px;
+	}
+	#MobileDesignThirdSection ul li{
+		margin-top: 10px;
+	}
 
 
 
@@ -3439,6 +3536,9 @@ body{
 		#WordpressThirdSection ul li{
 			margin-top: 10px;
 		}
+
+
+		
 		#DesignFirstSection{
 			padding:30px 200px 80px 250px;	
 		}
@@ -3460,6 +3560,121 @@ body{
 		#DesignSecondSection img{
 			width: 100%;
 		}
+
+		#WebsiteDesignFirstSection{
+			padding: 100px 200px 80px 250px;	
+		}
+		#WebsiteDesignFirstSection h1{
+			font-size: 40px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+		}
+		#WebsiteDesignFirstSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#WebsiteDesignFirstSection p{
+			width: 600px;
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		
+		#WebsiteDesignSecondSection{
+			padding: 20px 200px 20px 200px;				
+		}
+		#WebsiteDesignSecondSection img{
+			width: 100%;
+		}
+		#WebsiteDesignThirdSection{
+			padding: 100px 200px 80px 250px;	
+
+		}
+		#WebsiteDesignThirdSection h4{
+			font-size: 30px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+			width: 600px;
+		}
+		#WebsiteDesignThirdSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#WebsiteDesignThirdSection p{
+			width: 600px;
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		#WebsiteDesignThirdSection ol{
+			width: 600px;
+		}
+		#WebsiteDesignThirdSection ol li{
+			margin-top: 10px;
+		}
+		#MobileDesignFirstSection{
+			padding: 100px 200px 80px 250px;	
+		}
+		#MobileDesignFirstSection h1{
+			font-size: 40px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+		}
+		#MobileDesignFirstSection h4{
+			width: 600px;
+		}
+		#MobileDesignFirstSection ul{
+			font-size: 18px;
+		}
+		#MobileDesignFirstSection ul li{
+			margin-top: 10px;
+		}
+		#MobileDesignFirstSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#MobileDesignFirstSection p{
+			width: 600px;
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		
+		#MobileDesignSecondSection{
+			padding: 20px 200px 20px 200px;				
+		}
+		#MobileDesignSecondSection img{
+			width: 100%;
+		}
+		#MobileDesignThirdSection{
+			padding: 100px 200px 80px 250px;	
+
+		}
+		#MobileDesignThirdSection h4{
+			font-size: 30px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+			width: 600px;
+		}
+		#MobileDesignThirdSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#MobileDesignThirdSection p{
+			width: 600px;
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		#MobileDesignThirdSection ul{
+			width: 600px;
+			font-size: 18px;
+		}
+		#MobileDesignThirdSection ul li{
+			margin-top: 10px;
+		}
+
+
 
 
 
