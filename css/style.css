@@ -1708,7 +1708,168 @@ body{
 		margin-top: 10px;
 	}
 
+	#BrandDesignFirstSection{
+		padding: 30px 10px 30px 10px;		
+	}
+	#BrandDesignFirstSection h1{
+		font-size: 32px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
 
+	#BrandDesignFirstSection ul{
+		font-size: 18px;
+	}
+	#BrandDesignFirstSection ul li{
+		margin-top: 10px;
+	}
+	#BrandDesignFirstSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#BrandDesignFirstSection p{
+		margin-top: 10px;
+		font-size: 18px;
+	}
+	
+	#BrandDesignSecondSection{
+		padding: 30px 10px 30px 10px;		
+	}
+	#BrandDesignSecondSection img{
+		width: 100%;
+	}
+	#BrandDesignThirdSection{
+		padding: 30px 10px 30px 10px;		
+
+	}
+	#BrandDesignThirdSection h4{
+		font-size: 28px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
+	#BrandDesignThirdSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#BrandDesignThirdSection p{
+		margin-top: 10px;
+		font-size: 18px;
+	}
+	#BrandDesignThirdSection ul{
+		font-size: 18px;
+	}
+	#BrandDesignThirdSection ul li{
+		margin-top: 10px;
+	}
+	#BrandDesignThirdSection ol{
+		font-size: 18px;
+	}
+	#BrandDesignThirdSection ol li{
+		margin-top: 10px;
+	}
+	#MarketingFirstSection{
+		padding: 30px 10px 30px 10px;		
+	}
+	#MarketingFirstSection h1{
+		font-size: 32px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
+	
+	#MarketingFirstSection ul{
+		font-size: 18px;
+	}
+	#MarketingFirstSection ul li{
+		margin-top: 10px;
+	}
+	#MarketingFirstSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#MarketingFirstSection p{
+		margin-top: 30px;
+		font-size: 18px;
+	}
+	
+	#MarketingSecondSection{
+		padding: 30px 10px 30px 10px;				
+	}
+	#MarketingSecondSection img{
+		width: 100%;
+	}
+	#MarketingThirdSection{
+		padding: 30px 10px 30px 10px;		
+	}
+	#MarketingThirdSection h4{
+		font-size: 30px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
+	#MarketingThirdSection p{
+		margin-top: 10px;
+		font-size: 18px;
+	}
+	#MarketingThirdSection ul{
+		font-size: 18px;
+	}
+	#MarketingThirdSection ul li{
+		margin-top: 10px;
+	}
+	
+	#VideoProductionFirstSection{
+		padding: 30px 10px 30px 10px;	
+	}
+	#VideoProductionFirstSection h1{
+		font-size: 32px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
+	#VideoProductionFirstSection ul{
+		font-size: 18px;
+	}
+	#VideoProductionFirstSection ul li{
+		margin-top: 10px;
+	}
+	#VideoProductionFirstSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#VideoProductionFirstSection p{
+		margin-top: 30px;
+		font-size: 18px;
+	}
+	
+	#VideoProductionSecondSection{
+		padding: 30px 10px 30px 10px;				
+	}
+	#VideoProductionSecondSection img{
+		width: 100%;
+	}
+	#VideoProductionThirdSection{
+		padding: 30px 10px 30px 10px;		
+	}
+	#VideoProductionThirdSection h4{
+		font-size: 28px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
+	#VideoProductionThirdSection h5{
+		font-weight: 700;
+	}
+	#VideoProductionThirdSection p{
+		margin-top: 10px;
+		font-size: 18px;
+	}
+	#VideoProductionThirdSection ul{
+		font-size: 18px;
+	}
+	#VideoProductionThirdSection ul li{
+		margin-top: 10px;
+	}
 
 
 
@@ -3674,6 +3835,191 @@ body{
 			margin-top: 10px;
 		}
 
+		#BrandDesignFirstSection{
+			padding: 100px 200px 80px 250px;	
+		}
+		#BrandDesignFirstSection h1{
+			font-size: 40px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+		}
+		#BrandDesignFirstSection h4{
+			width: 600px;
+		}
+		#BrandDesignFirstSection ul{
+			font-size: 18px;
+		}
+		#BrandDesignFirstSection ul li{
+			margin-top: 10px;
+		}
+		#BrandDesignFirstSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#BrandDesignFirstSection p{
+			width: 600px;
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		
+		#BrandDesignSecondSection{
+			padding: 20px 200px 20px 200px;				
+		}
+		#BrandDesignSecondSection img{
+			width: 100%;
+		}
+		#BrandDesignThirdSection{
+			padding: 100px 200px 80px 250px;	
+
+		}
+		#BrandDesignThirdSection h4{
+			font-size: 30px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+			width: 600px;
+		}
+		#BrandDesignThirdSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#BrandDesignThirdSection p{
+			width: 600px;
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		#BrandDesignThirdSection ul{
+			width: 600px;
+			font-size: 18px;
+		}
+		#BrandDesignThirdSection ul li{
+			margin-top: 10px;
+		}
+		#BrandDesignThirdSection ol{
+			width: 600px;
+			font-size: 18px;
+		}
+		#BrandDesignThirdSection ol li{
+			margin-top: 10px;
+		}
+
+		#MarketingFirstSection{
+			padding: 100px 200px 80px 250px;	
+		}
+		#MarketingFirstSection h1{
+			font-size: 40px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+		}
+		#MarketingFirstSection h4{
+			width: 600px;
+		}
+		#MarketingFirstSection ul{
+			font-size: 18px;
+		}
+		#MarketingFirstSection ul li{
+			margin-top: 10px;
+		}
+		#MarketingFirstSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#MarketingFirstSection p{
+			width: 600px;
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		
+		#MarketingSecondSection{
+			padding: 20px 200px 20px 200px;				
+		}
+		#MarketingSecondSection img{
+			width: 100%;
+		}
+		#MarketingThirdSection{
+			padding: 100px 200px 80px 250px;	
+
+		}
+		#MarketingThirdSection h4{
+			font-size: 30px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+			width: 600px;
+		}
+		#MarketingThirdSection p{
+			width: 600px;
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		#MarketingThirdSection ul{
+			width: 600px;
+			font-size: 18px;
+		}
+		#MarketingThirdSection ul li{
+			margin-top: 10px;
+		}
+		#VideoProductionFirstSection{
+			padding: 100px 200px 80px 250px;	
+		}
+		#VideoProductionFirstSection h1{
+			font-size: 40px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+		}
+		#VideoProductionFirstSection h4{
+			width: 600px;
+		}
+		#VideoProductionFirstSection ul{
+			font-size: 18px;
+		}
+		#VideoProductionFirstSection ul li{
+			margin-top: 10px;
+		}
+		#VideoProductionFirstSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#VideoProductionFirstSection p{
+			width: 600px;
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		
+		#VideoProductionSecondSection{
+			padding: 20px 200px 20px 200px;				
+		}
+		#VideoProductionSecondSection img{
+			width: 100%;
+		}
+		#VideoProductionThirdSection{
+			padding: 100px 200px 80px 250px;	
+
+		}
+		#VideoProductionThirdSection h4{
+			font-size: 30px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+			width: 600px;
+		}
+		#VideoProductionThirdSection h5{
+			font-weight: 700;
+			width: 600px;
+		}
+		#VideoProductionThirdSection p{
+			width: 600px;
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		#VideoProductionThirdSection ul{
+			width: 600px;
+			font-size: 18px;
+		}
+		#VideoProductionThirdSection ul li{
+			margin-top: 10px;
+		}
 
 
 
