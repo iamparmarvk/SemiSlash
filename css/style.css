@@ -51,6 +51,7 @@ body{
 	}
 	#hamburger-1.is-active .line:nth-child(2){
 		opacity: 0;
+		
 	}
 	#hamburger-1.is-active .line:nth-child(1){
 		-webkit-transform: translateY(13px) rotate(45deg);
@@ -1537,7 +1538,56 @@ body{
 	#EcommerceThirdSection ul li{
 		margin-top: 10px;
 	}
+	#WordpressFirstSection{
+		padding: 30px 10px 30px 10px;	
+	}
+	#WordpressFirstSection h1{
+		font-size: 32px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
+	#WordpressFirstSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#WordpressFirstSection p{
+		margin-top: 10px;
+		font-size: 18px;
+	}
+	#WordpressFirstSection ul li{
+		margin-top: 10px;
+	}
+	#WordpressSecondSection{
+		padding: 30px 10px 30px 10px;	
+	}
+	#WordpressSecondSection img{
+		width: 100%;
+	}
+	#WordpressThirdSection{
+		padding: 30px 10px 30px 10px;		
+	}
+	#WordpressThirdSection .row{
+		margin-top: 20px;
+	}
+	#WordpressThirdSection h4{
+		font-size: 28px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
+	#WordpressThirdSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#WordpressThirdSection p{
+		margin-top: 10px;
+		font-size: 18px;
+	}
 
+	#WordpressThirdSection ul li{
+		margin-top: 10px;
+	}
 
 
 
@@ -3310,7 +3360,65 @@ body{
 		#EcommerceThirdSection ul li{
 			margin-top: 10px;
 		}
+		#WordpressFirstSection{
+			padding: 100px 200px 80px 250px;	
+		}
+		#WordpressFirstSection h1{
+			font-size: 40px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+		}
+		#WordpressFirstSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#WordpressFirstSection p{
+			width: 600px;
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		#WordpressFirstSection ul{
+			width: 600px;
+		}
+		#WordpressFirstSection ul li{
+			margin-top: 10px;
+		}
+		#WordpressSecondSection{
+			padding: 20px 200px 20px 200px;				
+		}
+		#WordpressSecondSection img{
+			width: 100%;
+		}
+		#WordpressThirdSection{
+			padding: 100px 200px 80px 250px;	
 
+		}
+		#WordpressThirdSection .row{
+			margin-top: 20px;
+		}
+		#WordpressThirdSection h4{
+			font-size: 30px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+			width: 600px;
+		}
+		#WordpressThirdSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#WordpressThirdSection p{
+			width: 600px;
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		#WordpressThirdSection ul{
+			width: 600px;
+		}
+		#WordpressThirdSection ul li{
+			margin-top: 10px;
+		}
 
 
 
