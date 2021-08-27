@@ -2257,10 +2257,26 @@ body{
 
 
 	@media only screen and (min-width: 992px){
+		html{
+			padding: 0;
+			margin: 0;
+		}
+		body{
+			padding: 0;
+			margin: 0;
+			font-size: 18px;
+			line-height: 1.375em;
+			font-family: 'Source Sans Pro', sans-serif;
+		}
+		h1,h2,h3,h4,h5,h6{
+			font-family: 'Raleway', sans-serif !important;
+		}
+		li{
+			font-family: 'Poppins', sans-serif;
+		}
 		.navbar{
 			background-color: white;
 			margin: 20px 160px 10px 160px;
-
 		}
 		.navbar #collapsibleNavbar{
 			/*display: inline-flex;*/
@@ -2271,10 +2287,9 @@ body{
 		}
 		.navbar .nav-item{
 			padding:10px;
-			font-family: 'Ubuntu', sans-serif;
+			font-family: 'Poppins', sans-serif;
 			font-weight: bolder;
 			text-transform: uppercase;
-			letter-spacing: 1px;
 		}
 
 		.DropDownList{
@@ -2284,6 +2299,7 @@ body{
 		}
 		.DropDownList ul{
 			padding: 20px;
+			font-family: 'Poppins', sans-serif;
 			overflow: hidden;
 			list-style-type: none;
 		}
@@ -2304,21 +2320,14 @@ body{
 		.DropDownList .media img{
 			margin: 5px;
 		}
-		.DropDownList a{
-			text-decoration: none;
-			color: black;
-			font-family: 'Ubuntu', sans-serif;
-			font-weight: bolder;
-		}
 		.DropDownList a:hover{
 			transition: 0.5s ease-in-out;
 			color: #0F52BA;
 		}
 		.navbar .DropDownList h5{
-			font-size: 14px;
-			font-weight: bolder;
-			font-family: 'Ubuntu', sans-serif;
+			font-size: 18px;	
 		}
+
 		.navbar .nav-link{
 			text-decoration: none;
 			color: black;
@@ -2329,21 +2338,22 @@ body{
 
 		}
 		.navbar #GetStartedBtn{
-			height: 50px;
-			width: 170px;
+			height: 40px;
+			width: 160px;
 			border: none;
 			border-radius: 25px;
+			font-family: 'Poppins', sans-serif;
 			background-color: #2541B2;
-			font-family: 'Ubuntu', sans-serif;
 			font-weight: bolder;
 			text-transform: uppercase;
 			color: white;
 			letter-spacing: 1px;
 			cursor: pointer;
+			transition: 0.5s;
 		}
-		.navbar button:hover{
-			transition: 0.5s ease-in-out;
-			background-color: #2940D3;
+		.navbar #GetStartedBtn:hover{
+			border-radius: 10px;
+			background-color: #286FB4;
 		}
 		.navbar-brand img{
 			width: 60px;
@@ -2360,14 +2370,12 @@ body{
 		}
 
 		#FirstSection h1{
-			font-weight: bolder;
+			font-weight: 900;
 			font-size: 55px;
-			font-family: 'Josefin Sans', sans-serif;;
 		}
 
 		#FirstSection p{
-			font-size: 25px;
-			font-family: 'Ubuntu', sans-serif;
+			font-size: 23px;	
 			color: #6E7C7C;	
 		}
 
@@ -2377,21 +2385,21 @@ body{
 			padding: 30px;
 		}
 		#FirstSection button{
-			height: 50px;
-			width: 170px;
+			height: 45px;
+			width: 160px;
 			border: none;
 			border-radius: 25px;
 			background-color: #2541B2;
-			font-family: 'Ubuntu', sans-serif;
 			font-weight: bolder;
 			text-transform: uppercase;
+			font-family: 'Poppins', sans-serif;
 			color: white;
 			letter-spacing: 1px;
 			cursor: pointer;
+			transition: all 0.5s;
 		}
 		#FirstSection button:hover{
-			transition: 0.5s ease-in-out;
-			background-color: #2940D3;
+			background-color: #286FB4;
 		}
 		#ScrollIcon{
 			text-align: center;
@@ -2442,31 +2450,25 @@ body{
 		#SectionTwo p a{
 			text-decoration: none;
 			color: white;
-			font-family: 'Ubuntu', sans-serif;
+			transition: all 0.5s;
 		}
 		#SectionTwo p a:hover{
-			transition: 1s ease-in-out;
 			border-bottom: 2px dotted;
 			letter-spacing: 2px;
 		}
 		#SectionTwo h1{
-			font-weight: bolders;
-			font-family: 'Josefin Sans', sans-serif;
+			font-weight: bolder;
 		}
 		#SectionTwo h6{
-			font-size: 15px;
-			font-family: 'Ubuntu', sans-serif;
+			font-size: 13px;
 		}
-
-
 		#SectionThree{
 			min-height: 370px;
 			padding: 50px 160px 50px 200px;
-			background-color: #DFEEEA;
+			background-color: #E2F0F9;
 		}
 		#SectionThree h1{
-			font-size: 40px;
-			font-family: 'Josefin Sans', sans-serif;
+			font-size: 48px;
 		}
 		kbd{
 			background-color: black;
@@ -2478,9 +2480,8 @@ body{
 			width: 750px;
 			padding: 5px;
 			line-height: 30px;
-			font-size: 20px;
-			font-family: 'Ubuntu', sans-serif;
-			color: #334443;
+			font-size: 18px;
+			color: #8ea09f;
 			text-align: justify;
 		}
 		#SectionThree a{
@@ -2490,10 +2491,9 @@ body{
 			font-weight: bolder;
 			border-bottom:solid;
 			color: black;
-			font-family: 'Ubuntu', sans-serif;
+			transition: all 0.5s;
 		}
 		#SectionThree a:hover{
-			transition: 1s ease-in-out;
 			color: #2541B2;
 		}
 		#FourthSection{
@@ -2501,18 +2501,13 @@ body{
 			min-height: 650px;
 		}
 		#FourthSection h6{
-			font-family: 'Ubuntu', sans-serif;	
 			font-size: 15px;
-
-
-
 			font-weight: bolder;
-			color: #6E7C7C;	
+			color: #8ea09f;	
 		}
 
 		#FourthSection h1{
-			font-family: 'Josefin Sans', sans-serif;
-			font-size: 40px;
+			font-size: 48px;
 			line-height: 50px;
 			overflow: hidden;
 		}
@@ -2533,26 +2528,23 @@ body{
 			margin-top: 20px;
 		}
 		#FourthSection ul h4{
-			font-family: 'Ubuntu', sans-serif;
 			font-size: 20px;
 			font-weight: bolder;
 			cursor: pointer;
 		}
 		#FourthSection p{
-			font-family: 'Ubuntu', sans-serif;
-			color: #6E7C7C;	
+			color: #8ea09f;	
 			font-size: 16px;
 		}
 		#FourthSection p a{
 			text-decoration: none;
 			text-transform: uppercase;
-			font-family: 'Ubuntu', sans-serif;
 			font-weight: bolder;
 			color: black;
 			border-bottom: 1px solid;
+			transition: all 0.5s;
 		}
 		#FourthSection p a:hover{
-			transition: 1s ease-in-out;
 			color: #2541B2;
 			letter-spacing: 0.5px;
 		}
@@ -2562,22 +2554,22 @@ body{
 			min-height: 400px;	
 		}
 		#FifthSection h1{
+			font-size: 48px;
 			color: white;
 			text-align: justify;
-			font-family: 'Josefin Sans', sans-serif;
 			font-weight: bolder;
 			line-height: 60px;
 		}
 		#FifthSection button{
 			margin-top: 20px;
-			min-width: 170px;
-			min-height: 45px;
+			min-width: 150px;
 			padding: 10px;
-			font-family: 'Ubuntu', sans-serif;
+			min-height: 45px;
 			text-transform: uppercase;
 			font-weight: bolder;
+			font-family: 'Poppins', sans-serif;
 			letter-spacing: 1px;
-			font-size: 12px;
+			font-size: 14px;
 			background-color: white;
 			border: none;
 			border-radius: 45px;
@@ -2603,13 +2595,12 @@ body{
 			min-height: 700px;
 		}
 		#CardSection h6{
-			font-family: 'Ubuntu', sans-serif;
 			font-weight: bolder;
 			color: #6E7C7C;	
 		}
 		#CardSection h1{
-			font-family: 'Josefin Sans', sans-serif;
 			font-weight: bolder;	
+			font-size: 48px;
 		}
 		#CardSection span{
 			background-color: black;
@@ -2633,15 +2624,15 @@ body{
 
 		}
 		#CardSection .card-body{
-			padding: 15px;
+			padding: 16px;
 		}
 		#CardSection .card-title{
 			font-weight: bold;
 			font-family: 'Josefin Sans', sans-serif;
+
 		}
 		#CardSection .card-text{
 			font-weight: bolder;
-			font-family: 'Ubuntu', sans-serif;
 			color: #6E7C7C;	
 		}
 		#CardSection a{
@@ -2653,15 +2644,11 @@ body{
 		}
 		#CardSection #ProjectListLink {
 			font-weight: bolder;
-			font-family: 'Ubuntu', sans-serif;
 			color: #334443;	
+			transition: all 0.5s;
 		}
 		#ProjectListLink:hover{
-			transition: 1s ease-in-out;
-			letter-spacing: 1px;
-			line-height: 20px;
-			font-size: 15px;
-			text-decoration: underline;
+			font-size: 18px;
 		}
 
 		#SeventhSection{
@@ -2673,13 +2660,12 @@ body{
 		}
 		#SeventhSection .Title-row h6{
 			font-weight: bolder;
-			font-family: 'Ubuntu', sans-serif;
 			color: #6E7C7C;	
-			font-size: 12px;
+			font-size: 13px;
 		}
 		#SeventhSection .Title-row h1{
 			font-weight: bolder;
-			font-family: 'Josefin Sans', sans-serif;
+			font-size: 48px;
 		}
 		#SeventhSection .Title-row span{
 			background-color: black;
@@ -2698,25 +2684,22 @@ body{
 			margin-top: 10px;
 		}
 		#SeventhSection .media p{
-			font-family: 'Ubuntu', sans-serif;
 			color: #334443;	
 			margin-bottom:5px;
-			font-size: 15px;
+			font-size: 16px;
 		}
 		#SeventhSection .media h6{
 			font-weight: bolder;
-			font-family: 'Josefin Sans', sans-serif;
 		}
 		#SeventhSection .media a{
 			text-decoration: none;
 			color: black;
-			font-family: 'Ubuntu', sans-serif;
-			font-size: 15px;
+			font-family: 'Poppins', sans-serif;
+			font-size: 16px;
 			color: #6E7C7C;	
-
+			transition: all 0.5s;
 		}
 		#SeventhSection .media a:hover{
-			transition: 0.5s ease-in-out;
 			color: #2541B2;
 
 		}
@@ -2724,22 +2707,20 @@ body{
 			margin-top: 100px;
 			text-decoration: none;
 			color: black;
-			font-family: 'Ubuntu', sans-serif;
 			font-weight: bolder;
-			font-size: 15px;
+			font-size: 16px;
+			transition: all 0.5s;
 			border-bottom: 2px solid;	
 		}
 		#SeventhSection .BlogLink a:hover{
-			transition: 0.5s ease-in-out;
 			color: #2541B2;
 		}
 
 		#PageHeader{
-			padding: 100px 200px 50px 200px;
+			padding: 100px 200px 30px 200px;
 			min-height: 300px;	
 		}
 		#PageHeader h6{
-			font-family: 'Ubuntu', sans-serif;
 			text-transform: uppercase;
 			font-weight: bolder;
 			font-size: 13px;
@@ -2747,12 +2728,11 @@ body{
 		}
 
 		#PageHeader h1{
-			font-size: 70px;
+			font-size: 48px;
 			font-weight: 900;
-			font-family: 'Josefin Sans', sans-serif;
 		}
 		#PageHeader p{
-			font-size: 20px;
+			font-size: 18px;
 		}
 		#HeaderPagination{
 			padding: 5px 200px 5px 140px;
@@ -2765,10 +2745,10 @@ body{
 		}
 		#HeaderPagination ul li{
 			display: inline;
-			font-size: 12px;
+			font-size: 14px;
 			margin-left: 10px;
 			text-transform: uppercase;
-			font-family: 'Ubuntu', sans-serif;
+			font-family: 'Poppins', sans-serif;
 			font-weight: 600;
 			color: #6E7C7C;
 		}
@@ -2794,7 +2774,7 @@ body{
 			border-width: 3px;
 			border-radius: 20px;
 			cursor: pointer;
-			font-family: 'Josefin Sans', sans-serif;
+			transition: all 0.5s;
 		}
 
 
@@ -2805,9 +2785,9 @@ body{
 		#CaseStudiesSecondSec .card{
 			overflow: hidden;
 			border: none;
+			transition: all 0.5s;
 		}
 		#CaseStudiesSecondSec .card:hover{
-			transition: 1s ease-in-out;
 			box-shadow: 1px 3px 7px -2px rgba(0,0,0,0.75);
 			-webkit-box-shadow: 1px 3px 7px -2px rgba(0,0,0,0.75);
 			-moz-box-shadow: 1px 3px 7px -2px rgba(0,0,0,0.75);
@@ -2818,13 +2798,12 @@ body{
 		}
 		#CaseStudiesSecondSec .card-title{
 			font-weight: bold;
-			font-size: 14px;
-			font-family: 'Josefin Sans', sans-serif;
+			font-size: 18px;
+			font-family: 'Raleway', sans-serif;
 		}
 		#CaseStudiesSecondSec .card-text{
 			font-weight: bolder;
-			font-size: 12px;
-			font-family: 'Ubuntu', sans-serif;
+			font-size: 16px;
 			color: #6E7C7C;	
 		}
 		#CaseStudiesSecondSec a{
@@ -2849,7 +2828,7 @@ body{
 
 		}
 		#ContactForm h1{
-			font-family: 'Josefin Sans', sans-serif;
+			font-size: 48px;
 			font-weight: 600;
 		}
 		#ContactForm .col{
@@ -2866,11 +2845,9 @@ body{
 			border-bottom:1px solid;
 			margin-top: 10px;
 			padding: 10px;
-			font-family: 'Ubuntu', sans-serif;
 		}
 		#ContactForm form textarea{
 			width: 400px;
-			font-family: 'Ubuntu', sans-serif;
 			border: none;
 			outline: none;
 			border-radius: 0px;
@@ -2883,10 +2860,10 @@ body{
 		}
 		#ContactForm .btn{
 			margin-top: 20px;
-			min-width: 170px;
+			min-width: 150px;
 			min-height: 45px;
 			padding: 10px;
-			font-family: 'Ubuntu', sans-serif;
+			font-family: 'Poppins', sans-serif;
 			text-transform: uppercase;
 			font-weight: bolder;
 			letter-spacing: 1px;
@@ -2923,12 +2900,12 @@ body{
 			min-height: 60px;
 		}
 		#WhoWeAreSectiontwo h3{
-			font-family: 'Josefin Sans', sans-serif;
 			font-weight: 550;
 			padding: 5px;
-			font-size: 25px;
+			font-size: 28px;
 		}
 		#WhoWeAreSectiontwo p{
+			font-size: 18px;
 			padding: 5px;
 		}
 
@@ -2953,14 +2930,14 @@ body{
 			min-height: 50px;
 		}
 		#WhoWeAreSectionThird h3{
-			font-family: 'Josefin Sans', sans-serif;
 			font-weight: 550;
 			padding: 5px;
-			font-size: 25px;
+			font-size: 28px;
 		}
 		#WhoWeAreSectionThird p{
 			padding: 5px;
 			margin-top: -10px;
+			font-size: 18px;
 		}
 
 		.bottomMenu {
@@ -2994,9 +2971,8 @@ body{
 			padding: 100px 200px 50px 300px;
 		}
 		#CareerThirdSection h1{
-			font-size: 35px;
 			font-weight: 700;
-			font-family: 'Josefin Sans', sans-serif;
+			font-size: 48px;
 		}
 		#CareerThirdSection span{
 			background-color: black;
@@ -3004,15 +2980,16 @@ body{
 			padding: 5px;
 		}
 		#CareerThirdSection p{
-			font-size: 20px;
+			font-size: 18px;
 			margin-top: 20px;
 		}
 		#CareerThirdSection ul{
 			padding: 10px;
+			width: 600px;
 		}
 		#CareerThirdSection ul li{
 			margin-top: 10px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 
 		#CareerFourthSection{
@@ -3029,17 +3006,15 @@ body{
 			padding-top: 20px;
 		}
 		#CareerFourthSection h1{
-			font-size: 35px;
+			font-size: 48px;
 			font-weight: 700;
-			font-family: 'Josefin Sans', sans-serif;
 		}
 		#CareerFourthSection h5{
 			font-weight: bolder;
-			font-size: 25px;
-			font-family: 'Josefin Sans', sans-serif;	
+			font-size: 28px;
 		}
 		#CareerFourthSection p{
-			font-size: 20px;
+			font-size: 18px;
 		}
 		#CareerFourthSection span{
 			background-color: black;
@@ -3057,9 +3032,8 @@ body{
 			margin-top: 50px;
 		}
 		#CareerFifthSection h1{
-			font-size: 35px;
+			font-size: 48px;
 			font-weight: 700;
-			font-family: 'Josefin Sans', sans-serif;
 		}
 		#CareerFifthSection span{
 			background-color: black;
@@ -3072,6 +3046,7 @@ body{
 		}
 		#CareerFifthSection ul li{
 			margin-top: 10px;
+			font-size: 18px;
 		}
 		#CareerFifthSection button{
 			float: right;
@@ -3079,11 +3054,10 @@ body{
 		#CareerFifthSection h5{
 			font-size: 20px;
 			font-weight: 700;
-			font-family: 'Josefin Sans', sans-serif;	
 		}
 		#CareerFifthSection p{
 			color:#766161;
-			font-size: 15px;	
+			font-size: 18px;	
 		}
 		#CareerFifthSection button{
 			position: relative;
@@ -3097,12 +3071,12 @@ body{
 			font-weight: bolder;
 			text-transform: uppercase;
 			border: 1px solid;
-			font-size: 12px;
-			font-family: 'Ubuntu', sans-serif;
+			font-size: 14px;
+			font-family: 'Poppins', sans-serif;
+			transition: all 0.5s;
 		}
 
 		#CareerFifthSection button:hover{
-			transition: 0.3s ease-in-out;
 			background-color: black;
 			color: white;
 
@@ -3147,19 +3121,16 @@ body{
 			margin-bottom: 20px;
 		}
 		#ProjectPlannerFirstSection h1{
-			font-size: 35px;
+			font-size: 48px;
 			font-weight: 700;
-			font-family: 'Josefin Sans', sans-serif;	
 			margin-bottom: 40px;
 		}
 		#ProjectPlannerFirstSection h3{
-			font-size: 20px;
+			font-size: 28px;
 			font-weight: 700;
-			font-family: 'Josefin Sans', sans-serif;	
 		}
-		#ProjectPlannerFirstSection hp{
-			font-size: 16px;
-			font-family: 'Josefin Sans', sans-serif;	
+		#ProjectPlannerFirstSection p{
+			font-size: 18px;
 			color: #E1E5EA;
 		}
 		#ProjectPlannerSecondSection{
@@ -3190,6 +3161,7 @@ body{
 			border-bottom: 1px white solid;
 			background-color: black;
 			color: white;
+			font-size: 18px;
 		}
 
 		#ProjectPlannerSecondSection i{
@@ -3215,15 +3187,15 @@ body{
 			outline: none;
 			padding: 10px;
 			border-radius: 50px;
-			font-size: 15px;
+			font-size: 16px;
 			background-color: #0F52BA;
 			color: white;
-			font-family: 'Ubuntu', sans-serif;
 			text-transform: uppercase;
+			font-family: 'Poppins', sans-serif;
 			letter-spacing: 1px;
+			transition: all 0.5s;
 		}
 		#ProjectPalnner .Submit-Button button:hover{
-			transition: 0.5s ease-in-out;
 			background-color: #001E6C;
 		}	
 		
@@ -3231,8 +3203,8 @@ body{
 			padding: 100px 200px 50px 200px;
 		}
 		#ContactSecondSecton h5{
-			font-family: 'Josefin Sans', sans-serif;
 			font-weight: 700;
+			font-size: 18px;
 		}
 		#ContactSecondSecton a{
 			text-decoration: none;
@@ -3243,17 +3215,16 @@ body{
 			background-color:#EEEEEE ;
 		}
 		#ContactFourthSection h1{
-			font-size: 40px;
+			font-size: 48px;
 			font-weight: 800;
-			font-family: 'Josefin Sans', sans-serif;
 		}
 		#ContactFourthSection h3{
 			margin-top: 10px;
 			font-weight: 700;
-			font-family: 'Josefin Sans', sans-serif;	
 		}
 		#ContactFourthSection p{
 			margin-top: 20px;
+			font-size: 16px;
 			width: 300px;
 		}
 		#ContactMap{
@@ -3289,13 +3260,13 @@ body{
 			padding: 100px 200px 80px 200px;
 		}
 		#DmSecondSection h1{
-			font-size: 32px;
-			font-weight: 700;
+			font-size: 48px;
+			font-weight: 900;
 			margin-bottom: 20px;
 		}
 		#DmSecondSection p{
 			margin-top: 30px;
-			font-size: 20px;
+			font-size: 16px;
 			line-height: 35px;
 			width: 700px;
 		}
@@ -3308,7 +3279,6 @@ body{
 			min-height: 400px;
 		}
 		#DmFourthSection h3{
-			font-family: 'Josefin Sans', sans-serif;
 			font-size: 25px;
 			font-weight: 700;
 			margin-left: -20px;
@@ -3328,7 +3298,7 @@ body{
 
 		}
 		#SocialMediaFirstSection h1{
-			font-size: 40px;
+			font-size: 48px;
 			font-weight: 700;
 			margin-bottom: 20px;	
 		}
@@ -3340,10 +3310,10 @@ body{
 		#SocialMediaFirstSection p{
 			width: 600px;
 			margin-top: 20px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		#CarouselPart{
-			padding: 100px 200px 80px 200px;
+			padding: 0px 200px 80px 200px;
 		}
 		#CarouselPart img{
 			width: 100%;
@@ -3365,14 +3335,14 @@ body{
 			margin-top: 20px;
 		}
 		#SocialMediaSecondSection h1{
-			font-size: 40px;
+			font-size: 42px;
 			font-weight: 700;
 			margin-bottom: 20px;	
 
 		}
 		#SocialMediaSecondSection p{
 			margin-top: 15px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 
 		#CampaingMarketingFirstSection{
@@ -3392,7 +3362,7 @@ body{
 		#CampaingMarketingFirstSection p{
 			width: 600px;
 			margin-top: 30px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		#CampaingMarketingFirstSection ul{
 			width: 600px;
@@ -3411,7 +3381,7 @@ body{
 
 		}
 		#CampaingMarketingThirdSection h1{
-			font-size: 40px;
+			font-size: 42px;
 			font-weight: 700;
 			margin-bottom: 20px;	
 			width: 600px;
@@ -3424,7 +3394,7 @@ body{
 		#CampaingMarketingThirdSection p{
 			width: 600px;
 			margin-top: 30px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 
 		#CampaingMarketingThirdSection ul li, ol li{
@@ -3436,7 +3406,7 @@ body{
 
 		}
 		#EmailMarketinngFirstSection h1{
-			font-size: 40px;
+			font-size: 42px;
 			font-weight: 700;
 			margin-bottom: 20px;	
 		}
@@ -3448,7 +3418,7 @@ body{
 		#EmailMarketinngFirstSection p{
 			width: 600px;
 			margin-top: 30px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		#EmailMarketinngFirstSection ul,ol{
 			width: 600px;
@@ -3470,7 +3440,7 @@ body{
 			margin-top: 20px;
 		}
 		#EmailMarketingThirdSection h1{
-			font-size: 40px;
+			font-size: 42px;
 			font-weight: 700;
 			margin-bottom: 20px;	
 			width: 600px;
@@ -3483,7 +3453,7 @@ body{
 		#EmailMarketingThirdSection p{
 			width: 600px;
 			margin-top: 30px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		#EmailMarketingThirdSection h4{
 			width: 600px;
@@ -3500,7 +3470,7 @@ body{
 
 		}
 		#PPCManagementFirstSection h1{
-			font-size: 40px;
+			font-size: 42px;
 			font-weight: 700;
 			margin-bottom: 20px;	
 		}
@@ -3512,7 +3482,7 @@ body{
 		#PPCManagementFirstSection p{
 			width: 600px;
 			margin-top: 30px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		#PPCManagementSecondSection{
 			padding: 20px 200px 20px 200px;				
@@ -3528,7 +3498,7 @@ body{
 			margin-top: 20px;
 		}
 		#PPCManagementThirdSection h1{
-			font-size: 40px;
+			font-size: 42px;
 			font-weight: 700;
 			margin-bottom: 20px;	
 			width: 600px;
@@ -3541,7 +3511,7 @@ body{
 		#PPCManagementThirdSection p{
 			width: 600px;
 			margin-top: 30px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		#PPCManagementThirdSection h4{
 			width: 600px;
@@ -3557,7 +3527,7 @@ body{
 			padding: 100px 200px 80px 250px;	
 		}
 		#SEMFirstSection h1{
-			font-size: 40px;
+			font-size: 42px;
 			font-weight: 700;
 			margin-bottom: 20px;	
 		}
@@ -3569,7 +3539,7 @@ body{
 		#SEMFirstSection p{
 			width: 600px;
 			margin-top: 30px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		#SEMSecondSection{
 			padding: 20px 200px 20px 200px;				
@@ -3598,7 +3568,7 @@ body{
 		#SEMThirdSection p{
 			width: 600px;
 			margin-top: 30px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		#SEMThirdSection h4{
 			width: 600px;
@@ -3615,7 +3585,7 @@ body{
 			padding: 100px 200px 80px 250px;	
 		}
 		#SEOServiceFirstSection h1{
-			font-size: 40px;
+			font-size: 42px;
 			font-weight: 700;
 			margin-bottom: 20px;	
 		}
@@ -3627,7 +3597,7 @@ body{
 		#SEOServiceFirstSection p{
 			width: 600px;
 			margin-top: 20px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		#SEOServiceSecondSection{
 			padding: 20px 200px 20px 200px;				
@@ -3656,7 +3626,7 @@ body{
 		#SEOServiceThirdSection p{
 			width: 600px;
 			margin-top: 20px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		#SEOServiceThirdSection ul{
 			width: 600px;
@@ -3665,7 +3635,7 @@ body{
 			margin-top: 10px;
 		}
 		#SEOServiceThirdSection h1{
-			font-size: 40px;
+			font-size: 42px;
 			font-weight: 700;
 			margin-bottom: 20px;	
 		}
@@ -3688,12 +3658,12 @@ body{
 		}
 		#WebDevelopmentFirstSection ul li{
 			margin-top: 10px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		#WebDevelopmentFirstSection p{
 			width: 600px;
 			margin-top: 20px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		#WebDevelopmentSecondSection img{
 			width: 100%;
@@ -3703,7 +3673,7 @@ body{
 			padding: 100px 200px 80px 250px;	
 		}
 		#CorpFirstSection h1{
-			font-size: 40px;
+			font-size: 42px;
 			font-weight: 700;
 			margin-bottom: 20px;	
 		}
@@ -3715,7 +3685,7 @@ body{
 		#CorpFirstSection p{
 			width: 600px;
 			margin-top: 30px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		#CorpSecondSection{
 			padding: 20px 200px 20px 200px;				
@@ -3744,7 +3714,7 @@ body{
 		#CorpThirdSection p{
 			width: 600px;
 			margin-top: 30px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		#CorpThirdSection ul{
 			width: 600px;
@@ -3757,7 +3727,7 @@ body{
 			padding: 100px 200px 80px 250px;	
 		}
 		#EcommerceFirstSection h1{
-			font-size: 40px;
+			font-size: 42px;
 			font-weight: 700;
 			margin-bottom: 20px;	
 		}
@@ -3769,7 +3739,7 @@ body{
 		#EcommerceFirstSection p{
 			width: 600px;
 			margin-top: 30px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		#EcommerceFirstSection ul{
 			width: 600px;
@@ -3804,7 +3774,7 @@ body{
 		#EcommerceThirdSection p{
 			width: 600px;
 			margin-top: 30px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		#EcommerceThirdSection ul{
 			width: 600px;
@@ -3816,7 +3786,7 @@ body{
 			padding: 100px 200px 80px 250px;	
 		}
 		#WordpressFirstSection h1{
-			font-size: 40px;
+			font-size: 42px;
 			font-weight: 700;
 			margin-bottom: 20px;	
 		}
@@ -3828,7 +3798,7 @@ body{
 		#WordpressFirstSection p{
 			width: 600px;
 			margin-top: 30px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		#WordpressFirstSection ul{
 			width: 600px;
@@ -3863,7 +3833,7 @@ body{
 		#WordpressThirdSection p{
 			width: 600px;
 			margin-top: 30px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		#WordpressThirdSection ul{
 			width: 600px;
@@ -3890,7 +3860,7 @@ body{
 		#DesignFirstSection p{
 			width: 600px;
 			margin-top: 20px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		#DesignSecondSection img{
 			width: 100%;
@@ -3900,7 +3870,7 @@ body{
 			padding: 100px 200px 80px 250px;	
 		}
 		#WebsiteDesignFirstSection h1{
-			font-size: 40px;
+			font-size: 42px;
 			font-weight: 700;
 			margin-bottom: 20px;	
 		}
@@ -3912,7 +3882,7 @@ body{
 		#WebsiteDesignFirstSection p{
 			width: 600px;
 			margin-top: 30px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		
 		#WebsiteDesignSecondSection{
@@ -3939,7 +3909,7 @@ body{
 		#WebsiteDesignThirdSection p{
 			width: 600px;
 			margin-top: 30px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		#WebsiteDesignThirdSection ol{
 			width: 600px;
@@ -3951,7 +3921,7 @@ body{
 			padding: 100px 200px 80px 250px;	
 		}
 		#MobileDesignFirstSection h1{
-			font-size: 40px;
+			font-size: 42px;
 			font-weight: 700;
 			margin-bottom: 20px;	
 		}
@@ -3972,7 +3942,7 @@ body{
 		#MobileDesignFirstSection p{
 			width: 600px;
 			margin-top: 30px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		
 		#MobileDesignSecondSection{
@@ -3999,7 +3969,7 @@ body{
 		#MobileDesignThirdSection p{
 			width: 600px;
 			margin-top: 30px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		#MobileDesignThirdSection ul{
 			width: 600px;
@@ -4013,7 +3983,7 @@ body{
 			padding: 100px 200px 80px 250px;	
 		}
 		#BrandDesignFirstSection h1{
-			font-size: 40px;
+			font-size: 42px;
 			font-weight: 700;
 			margin-bottom: 20px;	
 		}
@@ -4034,7 +4004,7 @@ body{
 		#BrandDesignFirstSection p{
 			width: 600px;
 			margin-top: 30px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		
 		#BrandDesignSecondSection{
@@ -4061,7 +4031,7 @@ body{
 		#BrandDesignThirdSection p{
 			width: 600px;
 			margin-top: 30px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		#BrandDesignThirdSection ul{
 			width: 600px;
@@ -4082,7 +4052,7 @@ body{
 			padding: 100px 200px 80px 250px;	
 		}
 		#MarketingFirstSection h1{
-			font-size: 40px;
+			font-size: 42px;
 			font-weight: 700;
 			margin-bottom: 20px;	
 		}
@@ -4103,7 +4073,7 @@ body{
 		#MarketingFirstSection p{
 			width: 600px;
 			margin-top: 30px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		
 		#MarketingSecondSection{
@@ -4125,7 +4095,7 @@ body{
 		#MarketingThirdSection p{
 			width: 600px;
 			margin-top: 30px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		#MarketingThirdSection ul{
 			width: 600px;
@@ -4138,7 +4108,7 @@ body{
 			padding: 100px 200px 80px 250px;	
 		}
 		#VideoProductionFirstSection h1{
-			font-size: 40px;
+			font-size: 42px;
 			font-weight: 700;
 			margin-bottom: 20px;	
 		}
@@ -4159,7 +4129,7 @@ body{
 		#VideoProductionFirstSection p{
 			width: 600px;
 			margin-top: 30px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		
 		#VideoProductionSecondSection{
@@ -4185,7 +4155,7 @@ body{
 		#VideoProductionThirdSection p{
 			width: 600px;
 			margin-top: 30px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		#VideoProductionThirdSection ul{
 			width: 600px;
@@ -4198,7 +4168,7 @@ body{
 			padding: 30px 200px 80px 250px;	
 		}
 		#TechnologyFirstSection h1{
-			font-size: 40px;
+			font-size: 42px;
 			font-weight: 700;
 			margin-bottom: 20px;	
 		}
@@ -4219,7 +4189,7 @@ body{
 		#TechnologyFirstSection p{
 			width: 600px;
 			margin-top: 30px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		#TechnologySecondSection img{
 			width: 100%;
@@ -4228,7 +4198,7 @@ body{
 			padding: 100px 200px 80px 250px;	
 		}
 		#CustomSoftwareFirstSection h1{
-			font-size: 40px;
+			font-size: 42px;
 			font-weight: 700;
 			margin-bottom: 20px;	
 		}
@@ -4250,7 +4220,7 @@ body{
 		#CustomSoftwareFirstSection p{
 			width: 600px;
 			margin-top: 30px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		
 		#CustomSoftwareSecondSection{
@@ -4275,14 +4245,14 @@ body{
 		#CustomSoftwareThirdSection p{
 			width: 600px;
 			margin-top: 10px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		
 		#AppDevlopmentFirstSection{
 			padding: 100px 200px 80px 250px;	
 		}
 		#AppDevlopmentFirstSection h1{
-			font-size: 40px;
+			font-size: 42px;
 			font-weight: 700;
 			margin-bottom: 20px;	
 		}
@@ -4304,7 +4274,7 @@ body{
 		#AppDevlopmentFirstSection p{
 			width: 600px;
 			margin-top: 30px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		
 		#AppDevlopmentSecondSection{
@@ -4344,14 +4314,14 @@ body{
 		#AppDevlopmentThirdSection p{
 			width: 600px;
 			margin-top: 10px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 
 		#ProductDevelopmentFirstSection{
 			padding: 100px 200px 80px 250px;	
 		}
 		#ProductDevelopmentFirstSection h1{
-			font-size: 40px;
+			font-size: 42px;
 			font-weight: 700;
 			margin-bottom: 20px;	
 		}
@@ -4374,7 +4344,7 @@ body{
 		#ProductDevelopmentFirstSection p{
 			width: 600px;
 			margin-top: 30px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 		
 		#ProductDevelopmentSecondSection{
@@ -4398,13 +4368,13 @@ body{
 		}
 		#ProductDevelopmentThirdSection ol li{
 			margin-top: 10px;
-			font-size: 23px;
+			font-size: 20px;
 			font-weight: bold;
 		}
 		#ProductDevelopmentThirdSection p{
 			width: 600px;
 			margin-top: 10px;
-			font-size: 20px;
+			font-size: 18px;
 		}
 
 
@@ -4429,10 +4399,10 @@ body{
 		#ServiceList h3{
 			font-family: 'Josefin Sans', sans-serif;
 			font-weight: 700;
-			font-size: 32px;
+			font-size: 30px;
 		}
 		#ServiceList p{
-			font-size: 20px;
+			font-size: 18px;
 			line-height: 35px;
 		}	
 
@@ -4444,10 +4414,10 @@ body{
 			color: black;
 			text-transform: uppercase;
 			font-weight: bolder;
-			font-size: 13px;
+			font-size: 14px;
+			transition: all 0.5s;
 		}
 		#ServiceList a:hover{
-			transition: 0.5s ease-in-out;
 			color: #0F52BA;
 		}
 
@@ -4457,30 +4427,27 @@ body{
 			color: white;	
 		}
 		#BottomPagination  h6{
-			font-size: 12px;
+			font-size: 14px;
 			text-transform: uppercase;
-			font-family: 'Ubuntu', sans-serif;
 			font-weight: 600;
 			color: #6E7C7C;
 		}
 		#BottomPagination h2{
-			font-family: 'Josefin Sans', sans-serif;
-			font-size: 25px;
+			font-size: 30px;
 			font-weight: 700;
 		}
 		#BottomPagination a{
 			text-decoration: none;
 			color: white;
-			font-size: 12px;
+			font-size: 14px;
 			text-transform: uppercase;
-			font-family: 'Ubuntu', sans-serif;
 			font-weight: bolder;
 			border-bottom: 2px solid;
 			border-width: thin;
 			padding-bottom: 5px;
+			transition: all 0.5s;
 		}
 		#BottomPagination a:hover{
-			transition: 0.5s ease-in-out;
 			color: #0F52BA;
 		}
 
@@ -4519,17 +4486,18 @@ body{
 		}
 		.page-footer ul li{
 			margin-top: 5px;
+			font-size: 16px;
+			font-family: 'Poppins', sans-serif;
 			padding: 5px 5px 5px 0px;
 		}
 		.page-footer ul a{
 			text-decoration: none;
 			color: black;
-			font-family: 'Ubuntu', sans-serif;
 			font-weight: bold;
-			font-size: 14px;
+			font-size: 16px;
+			transition: 0.5s all;
 		}
 		.page-footer ul a:hover{
-			transition: 0.5s ease-in-out;
 			color: #2541B2;
 		}
 		.page-footer .Footer-image{
@@ -4541,11 +4509,9 @@ body{
 		}
 		.page-footer h6{
 			font-weight: bold;
-			font-family: 'Ubuntu', sans-serif;
 		}
 		.page-footer p{
-			font-family: 'Ubuntu', sans-serif;
-			font-size: 14px;
+			font-size: 16px;
 			color: #6E7C7C;	
 		}
 		.page-footer h5{
@@ -4564,19 +4530,19 @@ body{
 		}
 		.social-media ul a{
 			padding: 10px;
-			font-size: 20px;
+			font-size: 16px;
 			border-radius: 50%;
 			text-decoration: none;
 			color: black;
+			transition: all 0.5s;
 		}
 		.social-media ul a:hover{
-			transition: 1s ease-in-out;
-			border: 1.5px solid;
-			border-radius: 50%;
 			color: #2541B2;
 		}
 		.footer-copyright .col{
 			text-align: center;
+			font-size: 18px;
+			text-transform: capitalize;
 		}
 		.page-footer form input{
 			min-width: 85%;
@@ -4588,15 +4554,16 @@ body{
 			outline: none;
 		}
 		.page-footer form button{
-			
 			padding: 5px;
 			margin-left: -10px;
 			background-color: transparent;
 			border: none;
-			border-bottom: 1px solid;
+			border-bottom: 1px solid #6E7C7C;
+			border-width: thin;
+			transition: all 0.5s;
+			outline: none;
 		}
 		.page-footer form button:hover{
-			transition: 1s ease-in-out;
 			color: #2541B2;
 		}
 	}
