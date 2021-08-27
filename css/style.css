@@ -1870,7 +1870,78 @@ body{
 	#VideoProductionThirdSection ul li{
 		margin-top: 10px;
 	}
+	#TechnologyFirstSection{
+		padding: 30px 10px 30px 10px;		
+	}
+	#TechnologyFirstSection h1{
+		font-size: 32px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
+	#TechnologyFirstSection ul{
+		font-size: 18px;
+	}
+	#TechnologyFirstSection ul li{
+		margin-top: 10px;
+	}
+	#TechnologyFirstSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#TechnologyFirstSection p{
+		margin-top: 10px;
+		font-size: 18px;
+	}
+	#TechnologySecondSection img{
+		width: 100%;
+	}
 
+	#CustomSoftwareFirstSection{
+		padding: 30px 10px 30px 10px;		
+	}
+	#CustomSoftwareFirstSection h1{
+		font-size: 32px;
+		font-weight: 700;
+		line-height: 50px;
+		margin-bottom: 20px;	
+	}
+	#CustomSoftwareFirstSection ul{
+		font-size: 18px;
+	}
+	#CustomSoftwareFirstSection ul li{
+		margin-top: 10px;
+	}
+	#CustomSoftwareFirstSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#CustomSoftwareFirstSection p{
+		margin-top: 10px;
+		font-size: 18px;
+	}
+	#CustomSoftwareSecondSection{
+		padding: 30px 10px 30px 10px;			
+	}
+	#CustomSoftwareSecondSection img{
+		width: 100%;
+	}
+	#CustomSoftwareThirdSection{
+		padding: 30px 10px 30px 10px;		
+	}
+	#CustomSoftwareThirdSection h4{
+		font-size: 28px;
+		font-weight: 700;
+		margin-bottom: 10px;	
+	}
+	#CustomSoftwareThirdSection .row{
+		margin-top:10px;
+	}
+	#CustomSoftwareThirdSection p{
+		margin-top: 10px;
+		font-size: 18px;
+	}
 
 
 
@@ -4020,6 +4091,94 @@ body{
 		#VideoProductionThirdSection ul li{
 			margin-top: 10px;
 		}
+		#TechnologyFirstSection{
+			padding: 30px 200px 80px 250px;	
+		}
+		#TechnologyFirstSection h1{
+			font-size: 40px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+		}
+		#TechnologyFirstSection h4{
+			width: 600px;
+		}
+		#TechnologyFirstSection ul{
+			font-size: 18px;
+		}
+		#TechnologyFirstSection ul li{
+			margin-top: 10px;
+		}
+		#TechnologyFirstSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#TechnologyFirstSection p{
+			width: 600px;
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		#TechnologySecondSection img{
+			width: 100%;
+		}
+		#CustomSoftwareFirstSection{
+			padding: 100px 200px 80px 250px;	
+		}
+		#CustomSoftwareFirstSection h1{
+			font-size: 40px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+		}
+		#CustomSoftwareFirstSection h4{
+			width: 600px;
+		}
+		#CustomSoftwareFirstSection ul{
+			font-size: 18px;
+			width: 600px;
+		}
+		#CustomSoftwareFirstSection ul li{
+			margin-top: 10px;
+		}
+		#CustomSoftwareFirstSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#CustomSoftwareFirstSection p{
+			width: 600px;
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		
+		#CustomSoftwareSecondSection{
+			padding: 20px 200px 20px 200px;				
+		}
+		#CustomSoftwareSecondSection img{
+			width: 100%;
+		}
+		#CustomSoftwareThirdSection{
+			padding: 40px 200px 80px 400px;	
+
+		}
+		#CustomSoftwareThirdSection h4{
+			font-size: 30px;
+			font-weight: 700;
+			margin-bottom: 10px;	
+			width: 600px;
+		}
+		#CustomSoftwareThirdSection .row{
+			margin-top:20px;
+		}
+		#CustomSoftwareThirdSection p{
+			width: 600px;
+			margin-top: 10px;
+			font-size: 20px;
+		}
+		
+		
+
+
+
 
 
 
