@@ -1943,8 +1943,111 @@ body{
 		font-size: 18px;
 	}
 
+	#AppDevlopmentFirstSection{
+		padding: 30px 10px 30px 10px;		
+	}
+	#AppDevlopmentFirstSection h1{
+		font-size: 32px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
+	#AppDevlopmentFirstSection ul{
+		font-size: 18px;
+	}
+	#AppDevlopmentFirstSection ul li{
+		margin-top: 10px;
+	}
+#AppDevlopmentFirstSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#AppDevlopmentFirstSection p{
+		margin-top: 10px;
+		font-size: 18px;
+	}
+	
+	#AppDevlopmentSecondSection{
+		padding: 30px 10px 30px 10px;				
+	}
+	#AppDevlopmentSecondSection img{
+		width: 100%;
+	}
+	#AppDevlopmentThirdSection{
+		padding: 30px 10px 30px 10px;		
+	}
+	#AppDevlopmentThirdSection h4{
+		font-size: 23px;
+		font-weight: 700;
+		margin-bottom: 10px;	
+	}
+	#AppDevlopmentThirdSection .row{
+		margin-top:10px;
+	}
+	#AppDevlopmentThirdSection ul{
+		font-style: 18px;
+	}
+	#AppDevlopmentThirdSection ul li{
+		margin-top: 10px;
+	}
+	#AppDevlopmentThirdSection ol li{
+		margin-top: 10px;
+		font-size: 20px;
+		font-weight: bold;
+	}
+	#AppDevlopmentThirdSection p{
+		margin-top: 10px;
+		font-size: 18px;
+	}
 
-
+	#ProductDevelopmentFirstSection{
+		padding: 30px 10px 30px 10px;	
+	}
+	#ProductDevelopmentFirstSection h1{
+		font-size: 32px;
+		font-weight: 700;
+		margin-bottom: 20px;	
+	}
+	#ProductDevelopmentFirstSection ol{
+		font-size: 18px;
+	}
+	#ProductDevelopmentFirstSection ol li{
+		margin-top: 10px;
+		font-weight: bold;
+	}
+	#ProductDevelopmentFirstSection span{
+		background-color: black;
+		color: white;
+		padding: 5px;
+	}
+	#ProductDevelopmentFirstSection p{
+		margin-top: 10px;
+		font-size: 18px;
+	}
+	
+	#ProductDevelopmentSecondSection{
+		padding: 30px 10px 30px 10px;				
+	}
+	#ProductDevelopmentSecondSection img{
+		width: 100%;
+	}
+	#ProductDevelopmentThirdSection{
+		padding: 30px 10px 30px 10px;	
+	}
+	#ProductDevelopmentThirdSection h4{
+		font-size: 30px;
+		font-weight: 700;
+		margin-bottom: 10px;	
+	}
+	#ProductDevelopmentThirdSection ol li{
+		margin-top: 10px;
+		font-size: 20px;
+		font-weight: bold;
+	}
+	#ProductDevelopmentThirdSection p{
+		margin-top: 10px;
+		font-size: 18px;
+	}
 
 
 
@@ -4175,9 +4278,134 @@ body{
 			font-size: 20px;
 		}
 		
+		#AppDevlopmentFirstSection{
+			padding: 100px 200px 80px 250px;	
+		}
+		#AppDevlopmentFirstSection h1{
+			font-size: 40px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+		}
+		#AppDevlopmentFirstSection h4{
+			width: 600px;
+		}
+		#AppDevlopmentFirstSection ul{
+			font-size: 18px;
+			width: 600px;
+		}
+		#AppDevlopmentFirstSection ul li{
+			margin-top: 10px;
+		}
+		#AppDevlopmentFirstSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#AppDevlopmentFirstSection p{
+			width: 600px;
+			margin-top: 30px;
+			font-size: 20px;
+		}
 		
+		#AppDevlopmentSecondSection{
+			padding: 20px 200px 20px 200px;				
+		}
+		#AppDevlopmentSecondSection img{
+			width: 100%;
+		}
+		#AppDevlopmentThirdSection{
+			padding: 40px 200px 80px 400px;	
 
+		}
+		#AppDevlopmentThirdSection h4{
+			font-size: 30px;
+			font-weight: 700;
+			margin-bottom: 10px;	
+			width: 600px;
+		}
+		#AppDevlopmentThirdSection .row{
+			margin-top:20px;
+		}
+		#AppDevlopmentThirdSection ul{
+			width: 600px;
+			font-style: 20px;
+		}
+		#AppDevlopmentThirdSection ul li{
+			margin-top: 10px;
+		}
+		#AppDevlopmentThirdSection ol{
+			width: 600px;
+		}
+		#AppDevlopmentThirdSection ol li{
+			margin-top: 10px;
+			font-size: 23px;
+			font-weight: bold;
+		}
+		#AppDevlopmentThirdSection p{
+			width: 600px;
+			margin-top: 10px;
+			font-size: 20px;
+		}
 
+		#ProductDevelopmentFirstSection{
+			padding: 100px 200px 80px 250px;	
+		}
+		#ProductDevelopmentFirstSection h1{
+			font-size: 40px;
+			font-weight: 700;
+			margin-bottom: 20px;	
+		}
+		#ProductDevelopmentFirstSection h4{
+			width: 600px;
+		}
+		#ProductDevelopmentFirstSection ol{
+			font-size: 18px;
+			width: 600px;
+		}
+		#ProductDevelopmentFirstSection ol li{
+			margin-top: 10px;
+			font-weight: bold;
+		}
+		#ProductDevelopmentFirstSection span{
+			background-color: black;
+			color: white;
+			padding: 5px;
+		}
+		#ProductDevelopmentFirstSection p{
+			width: 600px;
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		
+		#ProductDevelopmentSecondSection{
+			padding: 20px 200px 20px 200px;				
+		}
+		#ProductDevelopmentSecondSection img{
+			width: 100%;
+		}
+		#ProductDevelopmentThirdSection{
+			padding: 40px 200px 80px 400px;	
+
+		}
+		#ProductDevelopmentThirdSection h4{
+			font-size: 30px;
+			font-weight: 700;
+			margin-bottom: 10px;	
+			width: 600px;
+		}
+		#ProductDevelopmentThirdSection ol{
+			width: 600px;
+		}
+		#ProductDevelopmentThirdSection ol li{
+			margin-top: 10px;
+			font-size: 23px;
+			font-weight: bold;
+		}
+		#ProductDevelopmentThirdSection p{
+			width: 600px;
+			margin-top: 10px;
+			font-size: 20px;
+		}
 
 
 
