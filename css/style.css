@@ -2350,9 +2350,12 @@ body{
 			letter-spacing: 1px;
 			cursor: pointer;
 			transition: 0.5s;
+			outline: none;
 		}
 		.navbar #GetStartedBtn:hover{
 			border-radius: 10px;
+			outline: none;
+			border: none;
 			background-color: #286FB4;
 		}
 		.navbar-brand img{
