@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 	/*Code For Loading Event*/
-	jQuery('.loading').fadeOut(2000);
+	jQuery('.loading').fadeOut(1000);	
 
 	/*Code For Menu close button*/
 	$(".hamburger").click(function(){
