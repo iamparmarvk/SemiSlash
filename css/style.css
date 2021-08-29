@@ -30,6 +30,41 @@ body{
 }
 
 @media only screen and (max-width: 600px){
+	.loading{
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 10;
+		background-color: #5b6164;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.loader{
+		width:60px;
+		height:60px;
+		background-color:#FFE060;
+		border-radius:50%;
+		display:flex;
+		justify-content:center;
+		align-items:flex-end;
+	}
+	
+	.small{
+		width: 30px;
+		height: 30px;
+		border-radius:50%;
+		background-color: #5b6164;
+		transform-origin: 50% 0%;
+		animation:swing 0.8s infinite ease-in-out alternate;
+	}
+	
+	@keyframes swing {
+		0% { transform: rotate(90deg); }
+		100% { transform: rotate(-90deg); }
+	}
 	.hamburger .line{
 		width: 35px;
 		height: 4px;
@@ -72,11 +107,12 @@ body{
 	}
 	.navbar .nav-item{
 		padding:5px;
-		font-family: 'Ubuntu', sans-serif;
 		font-weight: bolder;
+		font-family: 'Poppins', sans-serif;
 		text-transform: uppercase;
 		letter-spacing: 1px;
-		font-size: 14px;
+		font-size: 16px;
+		line-height: 1.25em;
 	}
 	.navbar .nav-link{
 		text-decoration: none;
@@ -101,15 +137,15 @@ body{
 		font-size: 12px;
 		border-radius: 25px;
 		background-color: #2541B2;
-		font-family: 'Ubuntu', sans-serif;
+		font-family: 'Poppins', sans-serif;
 		font-weight: bolder;
 		text-transform: uppercase;
 		color: white;
 		letter-spacing: 1px;
 		cursor: pointer;
+		transition: all 0.5s;
 	}
 	.navbar #GetStartedBtn:hover{
-		transition: 0.5s ease-in-out;
 		background-color: #2940D3;
 	}
 	.DropDownList{
@@ -125,6 +161,8 @@ body{
 	.DropDownList ul li{
 		padding: 5px;
 		cursor: pointer;
+		font-size: 16px;
+		line-height: 1.25em;
 	}
 	.DropDownList ul li:hover{
 		transition: 0.5s ease-in-out;
@@ -138,35 +176,36 @@ body{
 	.DropDownList a{
 		text-decoration: none;
 		color: black;
-		font-family: 'Ubuntu', sans-serif;
+		font-size: 16px;
+		line-height: 1.25em;
 		font-weight: bolder;
+		transition: all 0.5s;
 	}
 	.DropDownList a:hover{
-		transition: 0.5s ease-in-out;
 		color: #0F52BA;
 	}
 	.navbar .DropDownList h5{
-		font-size: 10px;
+		font-size: 16px;
+		line-height: 1.25em;
+		font-family: 'Poppins', sans-serif;
 		font-weight: bolder;
-		font-family: 'Ubuntu', sans-serif;
 	}
-	
 	
 	#FirstSection{
 		margin-top: 40px;
-		min-height: 300px;
+		min-height: 350px;
 		overflow: hidden;	
 	}
 	
 	#FirstSection h1{
 		font-weight: bolder;
-		font-size: 35px;
-		font-family: 'Josefin Sans', sans-serif;;
+		font-size: 32px;
+		font-family: 'Raleway', sans-serif;
 	}
 	
 	#FirstSection p{
-		font-size: 17px;
-		font-family: 'Ubuntu', sans-serif;
+		font-size: 16px;
+		line-height: 1.25em;
 		color: #6E7C7C;	
 	}
 	
@@ -176,21 +215,22 @@ body{
 		margin-left: 20px;
 	}
 	#FirstSection button{
-		height: 30px;
+		height: 35px;
 		width: 100px;
 		border: none;
-		font-size: 10px;
 		border-radius: 15px;
 		background-color: #2541B2;
-		font-family: 'Ubuntu', sans-serif;
+		font-size: 12px;
+		line-height: 1.25em;
 		font-weight: bolder;
 		text-transform: uppercase;
 		color: white;
+		font-family: 'Poppins', sans-serif;
 		letter-spacing: 1px;
 		cursor: pointer;
+		transition: all 0.5s;
 	}
 	#FirstSection button:hover{
-		transition: 0.5s ease-in-out;
 		background-color: #2940D3;
 	}
 	#ScrollIcon{
@@ -201,8 +241,7 @@ body{
 		width: 40px;
 	}
 	#ScrollIcon span{
-		font-family: 'Ubuntu', sans-serif;
-		font-size: 10px;
+		font-size: 13px;
 		color: #6E7C7C;	
 		animation: 5s ScrollLink ease-out infinite;
 	}
@@ -242,21 +281,19 @@ body{
 	#SectionTwo p a{
 		text-decoration: none;
 		color: white;
-		font-family: 'Ubuntu', sans-serif;
+		font-family: 'Poppins', sans-serif;
+		transition: all 0.5s;
 	}
 	#SectionTwo p a:hover{
-		transition: 1s ease-in-out;
 		border-bottom: 2px dotted;
 		letter-spacing: 2px;
 	}
 	#SectionTwo h1{
-		font-size: 35px;
-		font-weight: bolders;
-		font-family: 'Josefin Sans', sans-serif;
+		font-size: 32px;
+		font-weight: bolder;
 	}
 	#SectionTwo h6{
 		font-size: 10px;
-		font-family: 'Ubuntu', sans-serif;
 	}
 	#SectionTwo .brand-list{
 		margin-top: -20px;
@@ -277,8 +314,7 @@ body{
 		background-color: #DFEEEA;
 	}
 	#SectionThree h1{
-		font-size: 25px;
-		font-family: 'Josefin Sans', sans-serif;
+		font-size: 32px;
 	}
 	kbd{
 		background-color: black;
@@ -290,8 +326,7 @@ body{
 		margin-top: 20px;
 		padding: 5px;
 		line-height: 20px;
-		font-size: 14px;
-		font-family: 'Ubuntu', sans-serif;
+		font-size: 16px;
 		color: #334443;
 		text-align: justify;
 	}
@@ -302,10 +337,10 @@ body{
 		font-weight: bolder;
 		border-bottom:solid;
 		color: black;
-		font-family: 'Ubuntu', sans-serif;
+		font-family: 'Poppins', sans-serif;
+		transition: all 0.5s;
 	}
 	#SectionThree a:hover{
-		transition: 1s ease-in-out;
 		color: #2541B2;
 	}
 	#FourthSection{
@@ -313,15 +348,13 @@ body{
 		min-height: 650px;
 	}
 	#FourthSection h6{
-		font-family: 'Ubuntu', sans-serif;	
 		font-size: 12px;
 		font-weight: bolder;
 		color: #6E7C7C;	
 	}
 	
 	#FourthSection h1{
-		font-family: 'Josefin Sans', sans-serif;
-		font-size: 35px;
+		font-size: 32px;
 		overflow: hidden;
 	}
 	#FourthSection #ServiceInformation{
@@ -341,26 +374,25 @@ body{
 		margin-top: 15px;
 	}
 	#FourthSection ul h4{
-		font-family: 'Ubuntu', sans-serif;
 		font-size: 16px;
 		font-weight: bolder;
 		cursor: pointer;
 	}
 	#FourthSection p{
-		font-family: 'Ubuntu', sans-serif;
 		color: #6E7C7C;	
-		font-size: 14px;
+		font-size: 16px;
+		line-height: 1.25em;
 	}
 	#FourthSection p a{
 		text-decoration: none;
 		text-transform: uppercase;
-		font-family: 'Ubuntu', sans-serif;
 		font-weight: bolder;
 		color: black;
 		border-bottom: 1px solid;
+		font-family: 'Poppins', sans-serif;
+		transition: all 0.5s;
 	}
 	#FourthSection p a:hover{
-		transition: 1s ease-in-out;
 		color: #2541B2;
 		letter-spacing: 0.5px;
 	}
@@ -370,8 +402,8 @@ body{
 	}
 	#FifthSection h1{
 		color: white;
-		font-size: 35px;
-		font-family: 'Josefin Sans', sans-serif;
+		font-size: 32px;
+		line-height: 50px;
 		font-weight: bolder;
 		
 	}
@@ -380,12 +412,12 @@ body{
 		min-width: 120px;
 		min-height: 40px;
 		padding: 10px;
-		font-family: 'Ubuntu', sans-serif;
 		text-transform: uppercase;
 		font-weight: bolder;
 		letter-spacing: 1px;
 		font-size: 12px;
 		background-color: white;
+		font-family: 'Poppins', sans-serif;
 		border: none;
 		border-radius: 45px;
 		box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -409,15 +441,14 @@ body{
 		padding:60px 10px 60px 10px;	
 	}
 	#CardSection h6{
-		font-family: 'Ubuntu', sans-serif;
 		font-weight: bolder;
 		color: #6E7C7C;	
 		font-size: 12px;
 	}
 	#CardSection h1{
-		font-family: 'Josefin Sans', sans-serif;
 		font-weight: bolder;	
-		font-size: 35px;
+		font-size: 32px;
+		line-height: 50px;
 	}
 	#CardSection span{
 		background-color: black;
@@ -440,13 +471,13 @@ body{
 	}
 	#CardSection .card-title{
 		font-weight: bold;
-		font-size: 15px;
-		font-family: 'Josefin Sans', sans-serif;
+		font-size: 16px;
+		font-family: 'Poppins', sans-serif;
 	}
 	#CardSection .card-text{
-		font-size: 12px;
+		font-size: 13px;
 		font-weight: bolder;
-		font-family: 'Ubuntu', sans-serif;
+		font-family: 'Poppins', sans-serif;
 		color: #6E7C7C;	
 	}
 	#CardSection a{
@@ -458,12 +489,12 @@ body{
 	}
 	#CardSection #ProjectListLink {
 		font-weight: bolder;
-		font-family: 'Ubuntu', sans-serif;
+		font-family: 'Poppins', sans-serif;
 		color: #334443;	
 		font-size: 13px;
+		transition: all 0.5s;
 	}
 	#ProjectListLink:hover{
-		transition: 1s ease-in-out;
 		letter-spacing: 1px;
 		line-height: 20px;
 		font-size: 14px;
@@ -478,14 +509,12 @@ body{
 	}
 	#SeventhSection .Title-row h6{
 		font-weight: bolder;
-		font-family: 'Ubuntu', sans-serif;
 		color: #6E7C7C;	
 		font-size: 12px;
 	}
 	#SeventhSection .Title-row h1{
 		font-weight: bolder;
-		font-size: 35;
-		font-family: 'Josefin Sans', sans-serif;
+		font-size: 32px;
 	}
 	#SeventhSection .Title-row span{
 		background-color: black;
@@ -505,49 +534,43 @@ body{
 		margin-top: 10px;
 	}
 	#SeventhSection .media p{
-		font-family: 'Ubuntu', sans-serif;
 		color: #6E7C7C;	
 		font-weight: bold;
 		margin-bottom:5px;
-		font-size: 12px;
+		font-size: 16px;
 	}
 	#SeventhSection .media h6{
 		font-weight: bolder;
 		font-size: 14px;
-		font-family: 'Josefin Sans', sans-serif;
 	}
 	#SeventhSection .media a{
 		text-decoration: none;
 		color: black;
-		font-family: 'Ubuntu', sans-serif;
+		font-family: 'Poppins', sans-serif;
 		font-size: 12px;
 		color: #6E7C7C;	
-		
+		transition: all 0.5s;		
 	}
 	#SeventhSection .media a:hover{
-		transition: 0.5s ease-in-out;
 		color: #2541B2;
-		
 	}
 	#SeventhSection .BlogLink a{
 		margin-top: 30px;
 		text-decoration: none;
 		color: black;
-		font-family: 'Ubuntu', sans-serif;
+		font-family: 'Poppins', sans-serif;
 		font-weight: bolder;
 		font-size: 15px;
 		border-bottom: 2px solid;	
+		transition: all 0.5s;
 	}
 	#SeventhSection .BlogLink a:hover{
-		transition: 0.5s ease-in-out;
 		color: #2541B2;
 	}
 	#PageHeader{
-		padding: 20px 10px 20px 10px;
-		min-height: 300px;	
+		padding: 20px 10px 20px 0px;
 	}
 	#PageHeader h6{
-		font-family: 'Ubuntu', sans-serif;
 		text-transform: uppercase;
 		font-weight: bolder;
 		font-size: 13px;
@@ -555,15 +578,16 @@ body{
 	}
 	
 	#PageHeader h1{
-		font-size: 40px;
+		font-size: 32px;
 		font-weight: 900;
-		font-family: 'Josefin Sans', sans-serif;
 	}
 	#PageHeader p{
 		font-size: 16px;
+		line-height: 1.5em;
 	}
 	#HeaderPagination{
-		padding: 5px 10px 5px 10px;
+		padding: 5px 10px 5px 0px;
+		margin-left: -60px;
 		background-color:#EEEEEE ;
 	}
 	#HeaderPagination ul{
@@ -576,8 +600,8 @@ body{
 		font-size: 12px;
 		margin-left: 10px;
 		text-transform: uppercase;
-		font-family: 'Ubuntu', sans-serif;
 		font-weight: 600;
+		font-family: 'Poppins', sans-serif;
 		color: #6E7C7C;
 	}
 	#HeaderPagination .Entity{
@@ -602,8 +626,9 @@ body{
 		padding: 10px;		
 		border-width: 3px;
 		border-radius: 20px;
+		font-family: 'Poppins', sans-serif;
+		font-size: 16px;
 		cursor: pointer;
-		font-family: 'Josefin Sans', sans-serif;
 	}
 	
 	
@@ -614,9 +639,9 @@ body{
 	#CaseStudiesSecondSec .card{
 		overflow: hidden;
 		border: none;
+		transition: all 0.5s;
 	}
 	#CaseStudiesSecondSec .card:hover{
-		transition: 1s ease-in-out;
 		box-shadow: 1px 3px 7px -2px rgba(0,0,0,0.75);
 		-webkit-box-shadow: 1px 3px 7px -2px rgba(0,0,0,0.75);
 		-moz-box-shadow: 1px 3px 7px -2px rgba(0,0,0,0.75);
@@ -624,16 +649,17 @@ body{
 	}
 	#CaseStudiesSecondSec .card-body{
 		padding: 15px;
+		background-color: #FAFAFB;
 	}
 	#CaseStudiesSecondSec .card-title{
 		font-weight: bold;
-		font-size: 14px;
-		font-family: 'Josefin Sans', sans-serif;
+		font-size: 16px;
+		font-family: 'Poppins', sans-serif;
 	}
 	#CaseStudiesSecondSec .card-text{
 		font-weight: bolder;
-		font-size: 12px;
-		font-family: 'Ubuntu', sans-serif;
+		font-size: 13px;
+		font-family: 'Poppins', sans-serif;
 		color: #6E7C7C;	
 	}
 	#CaseStudiesSecondSec a{
@@ -658,8 +684,8 @@ body{
 		
 	}
 	#ContactForm h1{
-		font-family: 'Josefin Sans', sans-serif;
 		font-weight: 600;
+		font-size: 32px;
 	}
 	#ContactForm .col{
 		padding: 10px;
@@ -675,17 +701,19 @@ body{
 		border-bottom:1px solid;
 		margin-top: 10px;
 		padding: 10px;
-		font-family: 'Ubuntu', sans-serif;
+		font-size: 16px;
+		font-family: 'Poppins', sans-serif;
 	}
 	#ContactForm form textarea{
 		width: 100%;
-		font-family: 'Ubuntu', sans-serif;
+		font-family: 'Poppins', sans-serif;
 		border: none;
 		outline: none;
 		border-radius: 0px;
 		border-bottom:1px solid;
 		margin-top: 10px;
 		padding: 10px;
+		font-size: 16px;
 	}
 	#ContactForm img{
 		width: 300px;
@@ -695,10 +723,10 @@ body{
 	}
 	#ContactForm .btn{
 		margin-top: 20px;
-		min-width: 150px;
+		min-width: 130px;
 		min-height: 45px;
 		padding: 10px;
-		font-family: 'Ubuntu', sans-serif;
+		font-family: 'Poppins', sans-serif;
 		text-transform: uppercase;
 		font-weight: bolder;
 		letter-spacing: 1px;
@@ -720,7 +748,7 @@ body{
 	}
 	
 	#WhoWeAreSectiontwo{
-		padding: 10px 5px 10px 5px;
+		padding: 10px 5px 10px 0px;
 	}
 	#WhoWeAreSectiontwo .row{
 		margin-top: 30px;
@@ -733,12 +761,14 @@ body{
 		min-height: 30px;
 	}
 	#WhoWeAreSectiontwo h3{
-		font-family: 'Josefin Sans', sans-serif;
 		font-weight: 550;
-		font-size: 20px;
+		font-size: 22px;
 	}
 	#WhoWeAreSectiontwo p{
 		text-align: justify;
+		font-size: 16px;
+		line-height: 1.25em;
+		
 	}
 	
 	#WhoWeAreSectiontwo .ColImg{
@@ -754,9 +784,8 @@ body{
 	}
 	
 	#WhoWeAreSectionThird{
-		padding: 30px 5px 10px 5px;
+		padding: 30px 5px 10px 0px;
 		background-color:#EEEEEE;
-		
 	}	
 	
 	
@@ -766,31 +795,33 @@ body{
 		min-height: 30px;
 	}
 	#WhoWeAreSectionThird h3{
-		font-family: 'Josefin Sans', sans-serif;
 		font-weight: 550;
 		padding: 5px;
-		font-size: 20px;
+		font-size: 22px;
 	}
 	#WhoWeAreSectionThird p{
 		padding: 5px;
 		margin-top: -10px;
+		font-size: 16px;
+		line-height: 1.25em;
+		
 	}
 	
 	#CareerSecondSection{
-		padding: 20px 10px 20px 10px;
+		padding: 20px 10px 20px 0px;
 	}
 	#CareerSecondSection .FirstImg{
 		height: 500px;
-		width: 310px;
+		width: 100%;
 		text-align: center;
 	}
 	#CareerSecondSection .Iframe{
 		position: relative;
 		margin-top: 10px;
-		width: 310px;
+		width: 100%;
 	}
 	#CareerSecondSection .CareerImgs{
-		width: 310px;
+		width: 100%;
 		height: auto;
 	}
 	
@@ -800,7 +831,6 @@ body{
 	#CareerThirdSection h1{
 		font-size: 32px;
 		font-weight: 700;
-		font-family: 'Josefin Sans', sans-serif;
 	}
 	#CareerThirdSection span{
 		background-color: black;
@@ -809,6 +839,7 @@ body{
 	}
 	#CareerThirdSection p{
 		font-size:16px;
+		line-height: 1.25em;
 		margin-top: 20px;
 	}
 	#CareerThirdSection ul{
@@ -817,10 +848,11 @@ body{
 	#CareerThirdSection ul li{
 		margin-top: 10px;
 		font-size: 16px;
+		font-family: 'Poppins', sans-serif;
 	}
 	
 	#CareerFourthSection{
-		padding: 30px 10px 50px 10px;	
+		padding: 30px 10px 50px 0px;	
 		background-color:#EEEEEE ;
 	}
 	
@@ -833,15 +865,14 @@ body{
 	#CareerFourthSection h1{
 		font-size: 32px;
 		font-weight: 700;
-		font-family: 'Josefin Sans', sans-serif;
 	}
 	#CareerFourthSection h5{
 		font-weight: bolder;
-		font-size: 20px;
-		font-family: 'Josefin Sans', sans-serif;	
+		font-size: 22px;
 	}
 	#CareerFourthSection p{
 		font-size: 16px;
+		line-height: 1.5em;
 	}
 	#CareerFourthSection span{
 		background-color: black;
@@ -850,7 +881,7 @@ body{
 	}
 	
 	#CareerFifthSection{
-		padding: 40px 10px 40px 10px;
+		padding: 40px 10px 40px 0px;
 	}
 	#CareerFifthSection .row{
 		margin-top: 10px;
@@ -861,7 +892,6 @@ body{
 	#CareerFifthSection h1{
 		font-size: 32px;
 		font-weight: 700;
-		font-family: 'Josefin Sans', sans-serif;
 	}
 	#CareerFifthSection span{
 		background-color: black;
@@ -872,13 +902,13 @@ body{
 		float: right;
 	}
 	#CareerFifthSection h5{
-		font-size: 16px;
+		font-size: 18px;
 		font-weight: 700;
-		font-family: 'Josefin Sans', sans-serif;	
 	}
 	#CareerFifthSection p{
 		color:#766161;
-		font-size: 15px;	
+		font-size: 16px;
+		line-height: 1.5em;	
 	}
 	#CareerFifthSection button{
 		position: relative;
@@ -893,14 +923,13 @@ body{
 		text-transform: uppercase;
 		border: 1px solid;
 		font-size: 10px;
-		font-family: 'Ubuntu', sans-serif;
+		font-family: 'Poppins', sans-serif;
+		transition: all 0.5s;
 	}
 	
 	#CareerFifthSection button:hover{
-		transition: 0.3s ease-in-out;
 		background-color: black;
 		color: white;
-		
 	}
 	
 	#ProjectPalnner-body{
@@ -921,7 +950,7 @@ body{
 		transform: scale(2.0);
 	}
 	#ProjectPalnner .navbar a{
-		font-size: 20px;
+		font-size: 16px;
 		text-decoration: none;
 		color: white;
 	}
@@ -929,26 +958,23 @@ body{
 	
 	#ProjectPalnner #ProjectPlannerFirstSection{
 		margin-top: 50px;
-		padding: 20px 10px 20px 10px;
+		padding: 20px 10px 20px 0px;
 	}
 	#ProjectPlannerFirstSection h1{
 		font-size: 32px;
 		font-weight: 700;
-		font-family: 'Josefin Sans', sans-serif;	
 		margin-bottom: 20px;
 	}
 	#ProjectPlannerFirstSection h3{
-		font-size: 16px;
+		font-size: 22px;
 		font-weight: 700;
-		font-family: 'Josefin Sans', sans-serif;	
 	}
 	#ProjectPlannerFirstSection p{
-		font-size: 13px;
-		font-family: 'Josefin Sans', sans-serif;	
+		font-size: 16px;
 		color: #E1E5EA;
 	}
 	#ProjectPlannerSecondSection{
-		padding: 20px 10px 20px 10px;
+		padding: 20px 10px 20px 0px;
 	}
 	#ProjectPlannerSecondSection .row, .Organization{
 		margin-top: 30px;
@@ -973,16 +999,19 @@ body{
 		border-bottom: 1px white solid;
 		background-color: black;
 		color: white;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	
 	#ProjectPlannerSecondSection i{
 		float: right;
 	}
 	#ProjectPlannerSecondSection p{
-		font-size: 14px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	#ProjectPlannerSecondSection h5{
-		font-size: 17px;
+		font-size: 20px;
 		cursor: pointer;
 	}
 	#ProjectPlannerSecondSection .Service-Item{
@@ -1005,12 +1034,11 @@ body{
 		font-size: 13px;
 		background-color: #0F52BA;
 		color: white;
-		font-family: 'Ubuntu', sans-serif;
 		text-transform: uppercase;
 		letter-spacing: 1px;
+		transition: all 0.5s;
 	}
 	#ProjectPalnner .Submit-Button button:hover{
-		transition: 0.5s ease-in-out;
 		background-color: #001E6C;
 	}
 	
@@ -1022,7 +1050,6 @@ body{
 		padding: 60px 10px 30px 10px;
 	}
 	#ContactSecondSecton h5{
-		font-family: 'Josefin Sans', sans-serif;
 		font-weight: 700;
 	}
 	#ContactSecondSecton a{
@@ -1030,24 +1057,23 @@ body{
 	}
 	
 	#ContactFourthSection{
-		padding: 50px 10px 20px 10px;
+		padding: 50px 10px 20px 0px;
 		background-color:#EEEEEE ;
 	}
 	#ContactFourthSection h1{
 		font-size: 32px;
 		font-weight: 800;
-		font-family: 'Josefin Sans', sans-serif;
 	}
 	#ContactFourthSection h3{
 		margin-top: 10px;
 		font-weight: 700;
-		font-size: 25px;
-		font-family: 'Josefin Sans', sans-serif;	
+		font-size: 22px;
 	}
 	#ContactFourthSection p{
 		margin-top: 20px;
 		width: 300px;
-		font-size: 15px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	#ContactMap{
 		background-color:#EEEEEE ;
@@ -1062,7 +1088,7 @@ body{
 	}
 	
 	#ClientsSecondSection{
-		padding: 50px 10px 30px 10px;
+		padding: 50px 10px 30px 0px;
 		min-height: 300px;		
 	}
 	#ClientsSecondSection .row{
@@ -1079,17 +1105,17 @@ body{
 	
 	
 	#DmSecondSection{
-		padding: 20px 10px 20px 10px;
+		padding: 20px 10px 20px 0px;
 	}
 	#DmSecondSection h1{
-		font-size: 28px;
+		font-size: 32px;
 		font-weight: 700;
 		margin-bottom: 20px;
 	}
 	#DmSecondSection p{
-		margin-top: 30px;
+		margin-top: 10px;
 		font-size: 16px;
-		line-height: 30px;
+		line-height: 1.5em;
 	}
 	#DmThirdSection img{
 		width: 100%;
@@ -1101,8 +1127,7 @@ body{
 		min-height: 400px;
 	}
 	#DmFourthSection h3{
-		font-family: 'Josefin Sans', sans-serif;
-		font-size: 25px;
+		font-size: 22px;
 		font-weight: 700;
 		margin-bottom: 20px;
 	}
@@ -1112,11 +1137,12 @@ body{
 	#DmFourthSection .list-item{
 		padding: 5px;
 		margin-top: 5px;
-		font-size: 18px;
+		font-size: 16px;
+		font-family: 'Poppins', sans-serif;
 	}
 	
 	#SocialMediaFirstSection{
-		padding: 60px 10px 60px 10px;	
+		padding: 60px 10px 60px 0px;	
 		
 	}
 	#SocialMediaFirstSection h1{
@@ -1130,8 +1156,9 @@ body{
 		padding: 5px;
 	}
 	#SocialMediaFirstSection p{
-		margin-top: 20px;
+		margin-top: 10px;
 		font-size: 16px;
+		line-height: 1.5em;
 	}
 	#CarouselPart{
 		padding: 20px 10px 60px 10px;
@@ -1150,24 +1177,25 @@ body{
 		background-color: black;
 	}
 	#SocialMediaSecondSection{
-		padding: 20px 10px 60px 10px;	
+		padding: 20px 10px 60px 0px;	
 	}
 	#SocialMediaSecondSection .row{
 		margin-top: 20px;
 	}
 	#SocialMediaSecondSection h1{
-		font-size: 30px;
+		font-size: 32px;
 		font-weight: 700;
 		margin-bottom: 20px;	
 		
 	}
 	#SocialMediaSecondSection p{
-		margin-top: 15px;
+		margin-top: 10px;
 		font-size: 16px;
+		line-height: 1.5em;
 	}
 	
 	#CampaingMarketingFirstSection{
-		padding: 60px 10px 60px 10px;	
+		padding: 60px 10px 60px 0px;	
 	}
 	#CampaingMarketingFirstSection h1{
 		font-size: 32px;
@@ -1182,9 +1210,11 @@ body{
 	#CampaingMarketingFirstSection p{
 		margin-top: 10px;
 		font-size: 16px;
+		line-height: 1.5em;
 	}
 	#CampaingMarketingFirstSection ul li{
 		margin-top: 10px;
+		font-family: 'Poppins', sans-serif;
 	}
 	#CampaingMarketingSecondSection{
 		padding: 30px 0px 30px 0px;				
@@ -1208,14 +1238,15 @@ body{
 	}
 	#CampaingMarketingThirdSection p{
 		margin-top: 10px;
-		font-size: 20px;
+		font-size:16px;
 	}
 	
 	#CampaingMarketingThirdSection ul li, ol li{
 		margin-top: 10px;
+		font-family: 'Poppins', sans-serif;
 	}
 	#EmailMarketinngFirstSection{
-		padding: 60px 10px 60px 10px;
+		padding: 60px 10px 60px 0px;
 	}
 	#EmailMarketinngFirstSection h1{
 		font-size: 32px;
@@ -1229,10 +1260,11 @@ body{
 	}
 	#EmailMarketinngFirstSection p{
 		margin-top: 10px;
-		font-size: 18px;
+		font-size: 16px;
 	}
 	#EmailMarketinngFirstSection ul li{
 		margin-top: 10px;
+		font-family: 'Poppins', sans-serif;
 	}
 	#EmailMarketingSecondSection{
 		padding: 30px 10px 30px 10px;				
@@ -1241,7 +1273,7 @@ body{
 		width: 100%;
 	}
 	#EmailMarketingThirdSection{
-		padding: 60px 10px 60px 10px;	
+		padding: 60px 10px 40px 0px;	
 		
 	}
 	#EmailMarketingThirdSection .row{
@@ -1259,11 +1291,12 @@ body{
 	}
 	#EmailMarketingThirdSection p{
 		margin-top: 10px;
-		font-size: 18px;
+		font-size: 16px;
 	}
 	
 	#EmailMarketingThirdSection ul li{
 		margin-top: 10px;
+		font-family: 'Poppins', sans-serif;
 	}
 	#PPCManagementFirstSection{
 		padding: 30px 10px 30px 10px;	
@@ -1281,7 +1314,8 @@ body{
 	}
 	#PPCManagementFirstSection p{
 		margin-top: 10px;
-		font-size: 18px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	#PPCManagementSecondSection{
 		padding: 30px 10px 30px 10px;				
@@ -1290,7 +1324,7 @@ body{
 		width: 100%;
 	}
 	#PPCManagementThirdSection{
-		padding: 30px 10px 30px 10px;	
+		padding: 30px 10px 30px 0px;	
 		
 	}
 	#PPCManagementThirdSection .row{
@@ -1307,20 +1341,23 @@ body{
 		padding: 5px;
 	}
 	#PPCManagementThirdSection p{
-		margin-top: 20px;
+		margin-top: 10px;
 		font-size: 18px;
+		line-height: 1.5em;
 	}
 	#PPCManagementThirdSection ul li{
 		margin-top: 10px;
+		font-family: 'Poppins', sans-serif;
 	}
 	
 	#SEMFirstSection{
-		padding: 30px 10px 30px 10px;	
+		padding: 30px 10px 30px 0px;	
 	}
 	#SEMFirstSection h1{
 		font-size: 32px;
 		font-weight: 700;
 		margin-bottom: 20px;	
+		line-height: 50px;
 	}
 	#SEMFirstSection span{
 		background-color: black;
@@ -1329,7 +1366,8 @@ body{
 	}
 	#SEMFirstSection p{
 		margin-top: 10px;
-		font-size: 18px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	#SEMSecondSection{
 		padding: 30px 10px 30px 10px;				
@@ -1338,13 +1376,13 @@ body{
 		width: 100%;
 	}
 	#SEMThirdSection{
-		padding: 30px 10px 30px 10px;		
+		padding: 30px 10px 30px 0px;		
 	}
 	#SEMThirdSection .row{
 		margin-top: 20px;
 	}
 	#SEMThirdSection h4{
-		font-size: 30px;
+		font-size: 22px;
 		font-weight: 700;
 		margin-bottom: 20px;	
 	}
@@ -1355,16 +1393,18 @@ body{
 	}
 	#SEMThirdSection p{
 		margin-top: 10px;
-		font-size: 18px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	#SEMThirdSection ul li{
 		margin-top: 10px;
+		font-family: 'Poppins', sans-serif;
 	}
 	
 	
 	
 	#SEOServiceFirstSection{
-		padding: 30px 10px 30px 10px;	
+		padding: 30px 10px 30px 0px;	
 	}
 	#SEOServiceFirstSection h1{
 		font-size: 32px;
@@ -1378,7 +1418,8 @@ body{
 	}
 	#SEOServiceFirstSection p{
 		margin-top: 20px;
-		font-size: 18px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	#SEOServiceSecondSection{
 		padding: 30px 10px 30px 10px;				
@@ -1387,7 +1428,7 @@ body{
 		width: 100%;
 	}
 	#SEOServiceThirdSection{
-		padding: 30px 10px 30px 10px;		
+		padding: 30px 10px 30px 0px;		
 		
 	}
 	#SEOServiceThirdSection .row{
@@ -1401,10 +1442,12 @@ body{
 	}
 	#SEOServiceThirdSection p{
 		margin-top: 10px;
-		font-size: 18px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	#SEOServiceThirdSection ul li{
 		margin-top: 10px;
+		font-family: 'Poppins', sans-serif;
 	}
 	#SEOServiceThirdSection h1{
 		font-size: 32px;
@@ -1426,11 +1469,13 @@ body{
 	}
 	#WebDevelopmentFirstSection ul li{
 		margin-top: 10px;
-		font-size: 18px;
+		font-size: 16px;
+		font-family: 'Poppins', sans-serif;
 	}
 	#WebDevelopmentFirstSection p{
 		margin-top: 20px;
-		font-size: 18px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	#WebDevelopmentSecondSection img{
 		width: 100%;
@@ -1440,6 +1485,7 @@ body{
 	}
 	#CorpFirstSection h1{
 		font-size: 32px;
+		line-height: 50px;
 		font-weight: 700;
 		margin-bottom: 20px;	
 	}
@@ -1450,7 +1496,8 @@ body{
 	}
 	#CorpFirstSection p{
 		margin-top: 10px;
-		font-size: 18px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	#CorpSecondSection{
 		padding: 30px 10px 30px 10px;	
@@ -1459,13 +1506,13 @@ body{
 		width: 100%;
 	}
 	#CorpThirdSection{
-		padding: 30px 10px 30px 10px;		
+		padding: 30px 10px 30px 0px;		
 	}
 	#CorpThirdSection .row{
 		margin-top: 20px;
 	}
 	#CorpThirdSection h4{
-		font-size: 28px;
+		font-size: 22px;
 		font-weight: 700;
 		margin-bottom: 20px;	
 	}
@@ -1476,11 +1523,13 @@ body{
 	}
 	#CorpThirdSection p{
 		margin-top: 10px;
-		font-size: 18px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	
 	#CorpThirdSection ul li{
 		margin-top: 10px;
+		font-family: 'Poppins', sans-serif;
 	}
 	#EcommerceFirstSection{
 		padding: 30px 10px 30px 10px;	
@@ -1488,6 +1537,7 @@ body{
 	#EcommerceFirstSection h1{
 		font-size: 32px;
 		font-weight: 700;
+		line-height: 50px;
 		margin-bottom: 20px;	
 	}
 	#EcommerceFirstSection span{
@@ -1497,10 +1547,13 @@ body{
 	}
 	#EcommerceFirstSection p{
 		margin-top: 10px;
-		font-size: 18px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	#EcommerceFirstSection ul li{
 		margin-top: 10px;
+		font-size: 16px;
+		font-family: 'Poppins', sans-serif;
 	}
 	#EcommerceSecondSection{
 		padding: 30px 10px 30px 10px;	
@@ -1509,13 +1562,13 @@ body{
 		width: 100%;
 	}
 	#EcommerceThirdSection{
-		padding: 30px 10px 30px 10px;		
+		padding: 30px 10px 30px 0px;		
 	}
 	#EcommerceThirdSection .row{
 		margin-top: 20px;
 	}
 	#EcommerceThirdSection h4{
-		font-size: 28px;
+		font-size: 22px;
 		font-weight: 700;
 		margin-bottom: 20px;	
 	}
@@ -1526,19 +1579,22 @@ body{
 	}
 	#EcommerceThirdSection p{
 		margin-top: 10px;
-		font-size: 18px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	
 	#EcommerceThirdSection ul li{
 		margin-top: 10px;
+		font-family: 'Poppins', sans-serif;
 	}
 	#WordpressFirstSection{
-		padding: 30px 10px 30px 10px;	
+		padding: 30px 10px 30px 0px;	
 	}
 	#WordpressFirstSection h1{
 		font-size: 32px;
 		font-weight: 700;
 		margin-bottom: 20px;	
+		line-height: 50px;
 	}
 	#WordpressFirstSection span{
 		background-color: black;
@@ -1547,10 +1603,12 @@ body{
 	}
 	#WordpressFirstSection p{
 		margin-top: 10px;
-		font-size: 18px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	#WordpressFirstSection ul li{
 		margin-top: 10px;
+		font-family: 'Poppins', sans-serif;
 	}
 	#WordpressSecondSection{
 		padding: 30px 10px 30px 10px;	
@@ -1559,13 +1617,13 @@ body{
 		width: 100%;
 	}
 	#WordpressThirdSection{
-		padding: 30px 10px 30px 10px;		
+		padding: 30px 10px 30px 0px;		
 	}
 	#WordpressThirdSection .row{
 		margin-top: 20px;
 	}
 	#WordpressThirdSection h4{
-		font-size: 28px;
+		font-size: 22px;
 		font-weight: 700;
 		margin-bottom: 20px;	
 	}
@@ -1576,17 +1634,19 @@ body{
 	}
 	#WordpressThirdSection p{
 		margin-top: 10px;
-		font-size: 18px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	
 	#WordpressThirdSection ul li{
 		margin-top: 10px;
+		font-family: 'Poppins', sans-serif;
 	}
 	#DesignFirstSection{
-		padding: 30px 10px 30px 10px;
+		padding: 30px 10px 30px 0px;
 	}
 	#DesignFirstSection h4{
-		font-size: 30px;
+		font-size: 22px;
 		font-weight: 700;
 		margin-bottom: 20px;	
 	}
@@ -1596,14 +1656,15 @@ body{
 		padding: 5px;
 	}
 	#DesignFirstSection p{
-		margin-top: 20px;
-		font-size: 18px;
+		margin-top: 10px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	#DesignSecondSection img{
 		width: 100%;
 	}
 	#WebsiteDesignFirstSection{
-		padding: 30px 10px 30px 10px;	
+		padding: 30px 10px 30px 0px;	
 	}
 	#WebsiteDesignFirstSection h1{
 		font-size: 32px;
@@ -1617,7 +1678,8 @@ body{
 	}
 	#WebsiteDesignFirstSection p{
 		margin-top: 10px;
-		font-size: 18px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	#WebsiteDesignSecondSection{
 		padding: 30px 10px 30px 10px;	
@@ -1626,13 +1688,13 @@ body{
 		width: 100%;
 	}
 	#WebsiteDesignThirdSection{
-		padding: 30px 10px 30px 10px;		
+		padding: 30px 10px 30px 0px;		
 	}
 	#WebsiteDesignThirdSection .row{
 		margin-top: 20px;
 	}
 	#WebsiteDesignThirdSection h4{
-		font-size: 28px;
+		font-size: 22px;
 		font-weight: 700;
 		margin-bottom: 20px;	
 	}
@@ -1643,14 +1705,16 @@ body{
 	}
 	#WebsiteDesignThirdSection p{
 		margin-top: 10px;
-		font-size: 18px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	
 	#WebsiteDesignThirdSection ol li{
 		margin-top: 10px;
+		font-family: 'Poppins', sans-serif;
 	}
 	#MobileDesignFirstSection{
-		padding: 30px 10px 30px 10px;		
+		padding: 30px 10px 30px 0px;		
 	}
 	#MobileDesignFirstSection h1{
 		font-size: 32px;
@@ -1662,6 +1726,7 @@ body{
 	}
 	#MobileDesignFirstSection ul li{
 		margin-top: 10px;
+		font-family: 'Poppins', sans-serif;
 	}
 	#MobileDesignFirstSection span{
 		background-color: black;
@@ -1669,8 +1734,9 @@ body{
 		padding: 5px;
 	}
 	#MobileDesignFirstSection p{
-		margin-top: 30px;
-		font-size: 20px;
+		margin-top: 10px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	#MobileDesignSecondSection{
 		padding: 30px 10px 30px 10px;			
@@ -1679,10 +1745,10 @@ body{
 		width: 100%;
 	}
 	#MobileDesignThirdSection{
-		padding: 30px 10px 30px 10px;		
+		padding: 30px 10px 30px 0px;		
 	}
 	#MobileDesignThirdSection h4{
-		font-size: 30px;
+		font-size: 22px;
 		font-weight: 700;
 		margin-bottom: 20px;	
 	}
@@ -1693,29 +1759,33 @@ body{
 	}
 	#MobileDesignThirdSection p{
 		margin-top: 30px;
-		font-size: 20px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	#MobileDesignThirdSection ul{
-		font-size: 18px;
+		font-size: 16px;
 	}
 	#MobileDesignThirdSection ul li{
 		margin-top: 10px;
+		font-family: 'Poppins', sans-serif;
 	}
 	
 	#BrandDesignFirstSection{
-		padding: 30px 10px 30px 10px;		
+		padding: 30px 10px 30px 0px;		
 	}
 	#BrandDesignFirstSection h1{
 		font-size: 32px;
+		line-height: 50px;
 		font-weight: 700;
 		margin-bottom: 20px;	
 	}
 	
 	#BrandDesignFirstSection ul{
-		font-size: 18px;
+		font-size: 16px;
 	}
 	#BrandDesignFirstSection ul li{
 		margin-top: 10px;
+		font-family: 'Poppins', sans-serif;
 	}
 	#BrandDesignFirstSection span{
 		background-color: black;
@@ -1724,7 +1794,8 @@ body{
 	}
 	#BrandDesignFirstSection p{
 		margin-top: 10px;
-		font-size: 18px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	
 	#BrandDesignSecondSection{
@@ -1734,11 +1805,10 @@ body{
 		width: 100%;
 	}
 	#BrandDesignThirdSection{
-		padding: 30px 10px 30px 10px;		
-		
+		padding: 30px 10px 30px 0px;		
 	}
 	#BrandDesignThirdSection h4{
-		font-size: 28px;
+		font-size: 22px;
 		font-weight: 700;
 		margin-bottom: 20px;	
 	}
@@ -1749,22 +1819,25 @@ body{
 	}
 	#BrandDesignThirdSection p{
 		margin-top: 10px;
-		font-size: 18px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	#BrandDesignThirdSection ul{
-		font-size: 18px;
+		font-size: 16px;
 	}
 	#BrandDesignThirdSection ul li{
 		margin-top: 10px;
+		font-family: 'Poppins', sans-serif;
 	}
 	#BrandDesignThirdSection ol{
-		font-size: 18px;
+		font-size: 16px;
 	}
 	#BrandDesignThirdSection ol li{
 		margin-top: 10px;
+		font-family: 'Poppins', sans-serif;
 	}
 	#MarketingFirstSection{
-		padding: 30px 10px 30px 10px;		
+		padding: 30px 10px 30px 0px;		
 	}
 	#MarketingFirstSection h1{
 		font-size: 32px;
@@ -1773,10 +1846,11 @@ body{
 	}
 	
 	#MarketingFirstSection ul{
-		font-size: 18px;
+		font-size: 16px;
 	}
 	#MarketingFirstSection ul li{
 		margin-top: 10px;
+		font-family: 'Poppins', sans-serif;
 	}
 	#MarketingFirstSection span{
 		background-color: black;
@@ -1784,8 +1858,9 @@ body{
 		padding: 5px;
 	}
 	#MarketingFirstSection p{
-		margin-top: 30px;
-		font-size: 18px;
+		margin-top: 10px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	
 	#MarketingSecondSection{
@@ -1795,26 +1870,28 @@ body{
 		width: 100%;
 	}
 	#MarketingThirdSection{
-		padding: 30px 10px 30px 10px;		
+		padding: 30px 10px 30px 0px;		
 	}
 	#MarketingThirdSection h4{
-		font-size: 30px;
+		font-size: 22px;
 		font-weight: 700;
 		margin-bottom: 20px;	
 	}
 	#MarketingThirdSection p{
 		margin-top: 10px;
-		font-size: 18px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	#MarketingThirdSection ul{
-		font-size: 18px;
+		font-size: 16px;
 	}
 	#MarketingThirdSection ul li{
 		margin-top: 10px;
+		font-family: 'Poppins', sans-serif;
 	}
 	
 	#VideoProductionFirstSection{
-		padding: 30px 10px 30px 10px;	
+		padding: 30px 10px 30px 0px;	
 	}
 	#VideoProductionFirstSection h1{
 		font-size: 32px;
@@ -1822,10 +1899,11 @@ body{
 		margin-bottom: 20px;	
 	}
 	#VideoProductionFirstSection ul{
-		font-size: 18px;
+		font-size: 16px;
 	}
 	#VideoProductionFirstSection ul li{
 		margin-top: 10px;
+		font-family: 'Poppins', sans-serif;
 	}
 	#VideoProductionFirstSection span{
 		background-color: black;
@@ -1833,8 +1911,9 @@ body{
 		padding: 5px;
 	}
 	#VideoProductionFirstSection p{
-		margin-top: 30px;
-		font-size: 18px;
+		margin-top: 10px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	
 	#VideoProductionSecondSection{
@@ -1844,28 +1923,31 @@ body{
 		width: 100%;
 	}
 	#VideoProductionThirdSection{
-		padding: 30px 10px 30px 10px;		
+		padding: 30px 10px 30px 0px;		
 	}
 	#VideoProductionThirdSection h4{
-		font-size: 28px;
+		font-size: 22px;
 		font-weight: 700;
 		margin-bottom: 20px;	
 	}
 	#VideoProductionThirdSection h5{
+		font-size: 22px;
 		font-weight: 700;
 	}
 	#VideoProductionThirdSection p{
 		margin-top: 10px;
-		font-size: 18px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	#VideoProductionThirdSection ul{
-		font-size: 18px;
+		font-size: 16px;
 	}
 	#VideoProductionThirdSection ul li{
 		margin-top: 10px;
+		font-family: 'Poppins', sans-serif;
 	}
 	#TechnologyFirstSection{
-		padding: 30px 10px 30px 10px;		
+		padding: 30px 10px 30px 0px;		
 	}
 	#TechnologyFirstSection h1{
 		font-size: 32px;
@@ -1873,10 +1955,11 @@ body{
 		margin-bottom: 20px;	
 	}
 	#TechnologyFirstSection ul{
-		font-size: 18px;
+		font-size: 16px;
 	}
 	#TechnologyFirstSection ul li{
 		margin-top: 10px;
+		font-family: 'Poppins', sans-serif;
 	}
 	#TechnologyFirstSection span{
 		background-color: black;
@@ -1885,14 +1968,15 @@ body{
 	}
 	#TechnologyFirstSection p{
 		margin-top: 10px;
-		font-size: 18px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	#TechnologySecondSection img{
 		width: 100%;
 	}
 	
 	#CustomSoftwareFirstSection{
-		padding: 30px 10px 30px 10px;		
+		padding: 30px 10px 30px 0px;		
 	}
 	#CustomSoftwareFirstSection h1{
 		font-size: 32px;
@@ -1901,10 +1985,11 @@ body{
 		margin-bottom: 20px;	
 	}
 	#CustomSoftwareFirstSection ul{
-		font-size: 18px;
+		font-size: 16px;
 	}
 	#CustomSoftwareFirstSection ul li{
 		margin-top: 10px;
+		font-family: 'Poppins', sans-serif;
 	}
 	#CustomSoftwareFirstSection span{
 		background-color: black;
@@ -1913,7 +1998,8 @@ body{
 	}
 	#CustomSoftwareFirstSection p{
 		margin-top: 10px;
-		font-size: 18px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	#CustomSoftwareSecondSection{
 		padding: 30px 10px 30px 10px;			
@@ -1925,7 +2011,7 @@ body{
 		padding: 30px 10px 30px 10px;		
 	}
 	#CustomSoftwareThirdSection h4{
-		font-size: 28px;
+		font-size: 22px;
 		font-weight: 700;
 		margin-bottom: 10px;	
 	}
@@ -1934,11 +2020,12 @@ body{
 	}
 	#CustomSoftwareThirdSection p{
 		margin-top: 10px;
-		font-size: 18px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	
 	#AppDevlopmentFirstSection{
-		padding: 30px 10px 30px 10px;		
+		padding: 30px 10px 30px 0px;		
 	}
 	#AppDevlopmentFirstSection h1{
 		font-size: 32px;
@@ -1946,10 +2033,11 @@ body{
 		margin-bottom: 20px;	
 	}
 	#AppDevlopmentFirstSection ul{
-		font-size: 18px;
+		font-size: 16px;
 	}
 	#AppDevlopmentFirstSection ul li{
 		margin-top: 10px;
+		font-family: 'Poppins', sans-serif;
 	}
 	#AppDevlopmentFirstSection span{
 		background-color: black;
@@ -1958,7 +2046,8 @@ body{
 	}
 	#AppDevlopmentFirstSection p{
 		margin-top: 10px;
-		font-size: 18px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	
 	#AppDevlopmentSecondSection{
@@ -1968,10 +2057,10 @@ body{
 		width: 100%;
 	}
 	#AppDevlopmentThirdSection{
-		padding: 30px 10px 30px 10px;		
+		padding: 30px 10px 30px 0px;		
 	}
 	#AppDevlopmentThirdSection h4{
-		font-size: 23px;
+		font-size: 22px;
 		font-weight: 700;
 		margin-bottom: 10px;	
 	}
@@ -1979,23 +2068,25 @@ body{
 		margin-top:10px;
 	}
 	#AppDevlopmentThirdSection ul{
-		font-style: 18px;
+		font-style: 16px;
 	}
 	#AppDevlopmentThirdSection ul li{
 		margin-top: 10px;
+		font-family: 'Poppins', sans-serif;
 	}
 	#AppDevlopmentThirdSection ol li{
 		margin-top: 10px;
-		font-size: 20px;
+		font-size: 16px;
 		font-weight: bold;
+		font-family: 'Poppins', sans-serif;
 	}
 	#AppDevlopmentThirdSection p{
-		margin-top: 10px;
-		font-size: 18px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
 	
 	#ProductDevelopmentFirstSection{
-		padding: 30px 10px 30px 10px;	
+		padding: 30px 10px 30px 0px;	
 	}
 	#ProductDevelopmentFirstSection h1{
 		font-size: 32px;
@@ -2003,10 +2094,11 @@ body{
 		margin-bottom: 20px;	
 	}
 	#ProductDevelopmentFirstSection ol{
-		font-size: 18px;
+		font-size: 16px;
 	}
 	#ProductDevelopmentFirstSection ol li{
 		margin-top: 10px;
+		font-family: 'Poppins', sans-serif;
 		font-weight: bold;
 	}
 	#ProductDevelopmentFirstSection span{
@@ -2016,7 +2108,7 @@ body{
 	}
 	#ProductDevelopmentFirstSection p{
 		margin-top: 10px;
-		font-size: 18px;
+		font-size: 16px;
 	}
 	
 	#ProductDevelopmentSecondSection{
@@ -2026,39 +2118,29 @@ body{
 		width: 100%;
 	}
 	#ProductDevelopmentThirdSection{
-		padding: 30px 10px 30px 10px;	
+		padding: 30px 10px 30px 0px;	
 	}
 	#ProductDevelopmentThirdSection h4{
-		font-size: 30px;
+		font-size: 22px;
 		font-weight: 700;
 		margin-bottom: 10px;	
 	}
 	#ProductDevelopmentThirdSection ol li{
 		margin-top: 10px;
-		font-size: 20px;
+		font-size: 16px;
+		font-family: 'Poppins', sans-serif;
 		font-weight: bold;
 	}
 	#ProductDevelopmentThirdSection p{
-		margin-top: 10px;
-		font-size: 18px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	
 	
 	#ServiceList{
-		padding: 20px 10px 20px 10px;
+		padding: 20px 0px 20px 0px;
 	}
 	#ServiceList .row{
 		margin-top: 40px;
@@ -2071,13 +2153,12 @@ body{
 	}
 	
 	#ServiceList h3{
-		font-family: 'Josefin Sans', sans-serif;
 		font-weight: 700;
-		font-size: 28px;
+		font-size: 22px;
 	}
 	#ServiceList p{
-		font-size: 18px;
-		line-height: 32px;
+		font-size: 16px;
+		line-height: 1.5em;
 	}	
 	
 	#ServiceList a{
@@ -2089,9 +2170,9 @@ body{
 		text-transform: uppercase;
 		font-weight: bolder;
 		font-size: 13px;
+		transition: all 0.5s;
 	}
 	#ServiceList a:hover{
-		transition: 0.5s ease-in-out;
 		color: #0F52BA;
 	}
 	
@@ -2103,13 +2184,12 @@ body{
 	#BottomPagination  h6{
 		font-size: 12px;
 		text-transform: uppercase;
-		font-family: 'Ubuntu', sans-serif;
 		font-weight: 600;
 		color: #6E7C7C;
+		min-height: 10px;
 	}
 	#BottomPagination h2{
-		font-family: 'Josefin Sans', sans-serif;
-		font-size: 18px;
+		font-size: 20px;
 		font-weight: 700;
 	}
 	#BottomPagination a{
@@ -2117,18 +2197,16 @@ body{
 		color: white;
 		font-size: 10px;
 		text-transform: uppercase;
-		font-family: 'Ubuntu', sans-serif;
 		font-weight: bolder;
+		font-family: 'Poppins', sans-serif;
 		border-bottom: 2px solid;
 		border-width: thin;
 		padding-bottom: 5px;
+		transition: all 0.5s;
 	}
 	#BottomPagination a:hover{
-		transition: 0.5s ease-in-out;
 		color: #0F52BA;
 	}
-	
-	
 	
 	
 	
@@ -2140,10 +2218,8 @@ body{
 		display: none;
 	}
 	.page-footer{
-		padding: 30px 10px 20px 5px;
+		padding: 30px 10px 20px 0px;
 	}
-	
-	
 	.page-footer hr{
 		width: 100%;
 	}
@@ -2158,16 +2234,16 @@ body{
 	.page-footer ul li{
 		margin-top: 5px;
 		padding: 5px 5px 5px 0px;
+		font-family: 'Poppins', sans-serif;
 	}
 	.page-footer ul a{
 		text-decoration: none;
 		color: black;
-		font-family: 'Ubuntu', sans-serif;
 		font-weight: bold;
 		font-size: 12px;
+		transition: all 0.5s;
 	}
 	.page-footer ul a:hover{
-		transition: 0.5s ease-in-out;
 		color: #2541B2;
 	}
 	.page-footer .Footer-image{
@@ -2179,12 +2255,11 @@ body{
 	}
 	.page-footer h6{
 		font-weight: bold;
-		font-size: 13px;
-		font-family: 'Ubuntu', sans-serif;
+		font-size: 15px;
 	}
 	.page-footer p{
-		font-family: 'Ubuntu', sans-serif;
-		font-size: 12px;
+		font-size: 16px;
+		line-height: 1.5em;
 		color: #6E7C7C;	
 	}
 	.page-footer h5{
@@ -2200,11 +2275,12 @@ body{
 	.social-media p{
 		text-transform: capitalize;
 		color: #6E7C7C;
-		font-size: 13px;
+		font-size: 16px;
 		text-align: justify;
 	}
 	.social-media ul li{
 		display: inline;
+		font-family: 'Poppins', sans-serif;
 	}
 	.social-media ul a{
 		padding: 10px;
@@ -2212,15 +2288,17 @@ body{
 		border-radius: 50%;
 		text-decoration: none;
 		color: black;
+		transition: all 0.5s;
 	}
 	.social-media ul a:hover{
-		transition: 1s ease-in-out;
 		border: 1.5px solid;
 		border-radius: 50%;
 		color: #2541B2;
 	}
 	.footer-copyright .col{
 		text-align: center;
+		font-size: 16px;
+		font-family: 'Poppins', sans-serif;
 	}
 	.page-footer form input{
 		width: 90%;
@@ -2230,9 +2308,11 @@ body{
 		padding: 5px;
 		border-bottom: 1px solid;
 		outline: none;
+		font-size: 16px;
+		font-family: 'Poppins', sans-serif;
 	}
 	.page-footer form button{
-		
+		transition: all 0.5s;		
 		padding: 5px;
 		margin-left: -10px;
 		background-color: transparent;
@@ -2240,7 +2320,6 @@ body{
 		border-bottom: 1px solid;
 	}
 	.page-footer form button:hover{
-		transition: 1s ease-in-out;
 		color: #2541B2;
 	}
 }
